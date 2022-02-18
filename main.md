@@ -83,6 +83,6 @@ Aum Amriteswaryai Namah
   - The **&lt;footer&gt;** tag
   - The **&lt;blockquote&gt;** tag
   - The **&lt;mark&gt;** tag
-* Color picker
 * Resources
   - [HTML Cheatsheet](https://htmlcheatsheet.com/)
+  - [Color picker](https://www.w3schools.com/colors/colors_picker.asp)
