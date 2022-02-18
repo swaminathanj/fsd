@@ -14,7 +14,7 @@ Aum Amriteswaryai Namah
   - The **body** tag
   - An example
 * 
-* Sectioning of HTML page (<a href='https://softcodeon.com/tutorials/10-alternatives-to-the-div-html-tag.htm />Reference</a>)
+* Sectioning of HTML page (('https://softcodeon.com/tutorials/10-alternatives-to-the-div-html-tag.htm)[Reference])
   - The **header** tag
   - The **nav** tag
   - The **article** tag
