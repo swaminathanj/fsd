@@ -60,8 +60,12 @@ Aum Amriteswaryai Namah
 * Audio
   - The **&lt;audio&gt;** tag
   - The **&lt;audio&gt;** tag with **src** and **controls** attributes
-  - The **&lt;source&gt;** tag inside audio tag
+  - The **&lt;source&gt;** tag inside audio tag with **src** and **type**
 * Video
+  - The **&lt;video&gt;** tag
+  - The **&lt;video&gt;** tag with **src**, **width**, **height** and **controls** attributes
+  - The **&lt;source&gt;** tag inside video tag with **src** and **type**
+  - The **autoplay** attributed
 * Tables
   - The **&lt;table&gt;** tag
   - The **&lt;thead&gt;** tag
