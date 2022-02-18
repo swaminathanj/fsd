@@ -7,27 +7,27 @@ Aum Amriteswaryai Namah
 * HTML5 Document Object Model (DOM) 
 * Editor: Atom / Code / SublimeText
 * Structure of a HTML page
-  - The **&lt;html** tag
-  - The **&lsaquo;head** tag
-  - The **&lsaquo;meta** tag
-  - The **&lsaquo;title** tag
-  - The **&lsaquo;body** tag
+  - The **&lt;html&gt;** tag
+  - The **&lt;head&gt;** tag
+  - The **&lt;meta&gt;** tag
+  - The **&lt;title&gt;** tag
+  - The **&lt;body&gt;** tag
   - An example
 * Headings
-  - The **&lt;h1** (Heading1) tag
-  - The **&lt;h2** tag
-  - The **&lt;h3** tag
-  - The **&lt;h4** tag
-  - The **&lt;h5** tag
+  - The **&lt;h1&gt;** (Heading1) tag
+  - The **&lt;h2&gt;** tag
+  - The **&lt;h3&gt;** tag
+  - The **&lt;h4&gt;** tag
+  - The **&lt;h5&gt;** tag
 * Paragraph
-  - The **&lt;p** (paragraph) tag
-  - The **&lt;strong** (bold) tag
-  - The **&lt;em** (emphasis) tag
-  - The **&lt;span** tag
-  - The **&lt;span** tag with underline attribute
-  - The **&lt;br** (line break) tag
-  - The **&lt;hr** (horizontal line) tag
-  - **&amp;nbsp;** - non breaking space
+  - The **&lt;p&gt;** (paragraph) tag
+  - The **&lt;strong&gt;** (bold) tag
+  - The **&lt;em&gt;** (emphasis) tag
+  - The **&lt;span&gt;** tag
+  - The **&lt;span&gt;** tag with underline attribute
+  - The **&lt;br&gt;** (line break) tag
+  - The **&lt;hr&gt;** (horizontal line) tag
+  - **&amp;nbsp;&gt;** - non breaking space
   - **&amp;#x20B9;** - Indian Rupee symbol
   - **&amp;quot;** - Double quote
   - **&amp;apos;** - Single quote
@@ -40,14 +40,14 @@ Aum Amriteswaryai Namah
   - **&amp;equals;** - equals symbol
   - **&amp;ne;** - not equals symbol
 * Sectioning of HTML page ([Reference](https://softcodeon.com/tutorials/10-alternatives-to-the-div-html-tag.htm))
-  - The **&lt;header** tag
-  - The **&lt;nav** tag
-  - The **&lt;article** tag
-  - The **&lt;section** tag
-  - The **&lt;figure** tag
-  - The **&lt;aside** tag
-  - The **&lt;div** tag
-  - The **&lt;footer** tag
-  - The **&lt;blockquote** tag
-  - The **&lt;mark** tag
+  - The **&lt;header&gt;** tag
+  - The **&lt;nav&gt;** tag
+  - The **&lt;article&gt;** tag
+  - The **&lt;section&gt;** tag
+  - The **&lt;figure&gt;** tag
+  - The **&lt;aside&gt;** tag
+  - The **&lt;div&gt;** tag
+  - The **&lt;footer&gt;** tag
+  - The **&lt;blockquote&gt;** tag
+  - The **&lt;mark&gt;** tag
 
