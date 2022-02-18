@@ -27,18 +27,18 @@ Aum Amriteswaryai Namah
   - The **span** tag with underline attribute
   - The **br** (line break) tag
   - The **hr** (horizontal line) tag
-  - **&nbsp;** - non breaking space
-  - **&#x20B9;** - Indian Rupee symbol
-  - **&quot;** - Double quote
-  - **&apos;** - Single quote
-  - **&check;** - Check mark
+  - **&amp;nbsp;** - non breaking space
+  - **&amp;#x20B9;** - Indian Rupee symbol
+  - **&amp;quot;** - Double quote
+  - **&amp;apos;** - Single quote
+  - **&amp;check;** - Check mark
 * Math Symbols
-  - **&plus;** - plus symbol
-  - **&minus;** - minus symbol
-  - **&times;** - multiplication symbol
-  - **&divide;** - division symbol
-  - **&equals;** - equals symbol
-  - **&ne;** - not equals symbol
+  - **&amp;plus;** - plus symbol
+  - **&amp;minus;** - minus symbol
+  - **&amp;times;** - multiplication symbol
+  - **&amp;divide;** - division symbol
+  - **&amp;equals;** - equals symbol
+  - **&amp;ne;** - not equals symbol
 * Sectioning of HTML page ([Reference](https://softcodeon.com/tutorials/10-alternatives-to-the-div-html-tag.htm))
   - The **header** tag
   - The **nav** tag
