@@ -87,3 +87,12 @@ Aum Amriteswaryai Namah
 * Resources
   - [HTML Cheatsheet](https://htmlcheatsheet.com/)
   - [Color picker](https://www.w3schools.com/colors/colors_picker.asp)
+
+```html
+<html>
+  <head>
+  </head>
+  <body>
+  </body>
+</html>
+```
