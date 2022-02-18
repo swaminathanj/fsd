@@ -27,7 +27,7 @@ Aum Amriteswaryai Namah
   - The **&lt;span&gt;** tag with underline attribute
   - The **&lt;br&gt;** (line break) tag
   - The **&lt;hr&gt;** (horizontal line) tag
-  - **&amp;nbsp;&gt;** - non breaking space
+  - **&amp;nbsp;** - non breaking space
   - **&amp;#x20B9;** - Indian Rupee symbol
   - **&amp;quot;** - Double quote
   - **&amp;apos;** - Single quote
