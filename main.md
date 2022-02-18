@@ -7,11 +7,11 @@ Aum Amriteswaryai Namah
 * HTML5 Document Object Model (DOM) 
 * Editor: Atom / Code / SublimeText
 * Structure of a HTML page
-  - The **html** tag
-  - The **head** tag
-  - The **meta** tag
-  - The **title** tag
-  - The **body** tag
+  - The **&lsaquo;html** tag
+  - The **&lsaquo;head** tag
+  - The **&lsaquo;meta** tag
+  - The **&lsaquo;title** tag
+  - The **&lsaquo;body** tag
   - An example
 * Headings
   - The **h1** (Heading1) tag
