@@ -4,8 +4,8 @@ Aum Amriteswaryai Namah
 
 ## HTML
 
-* HTML5 Document Object Model (DOM) 
-* Editor: Atom / Code / SublimeText
+* HTML5 and Document Object Model (DOM) 
+* Choice of Editor: Atom / Code / SublimeText
 * Structure of a HTML page
   - The **&lt;html&gt;** tag
   - The **&lt;head&gt;** tag
