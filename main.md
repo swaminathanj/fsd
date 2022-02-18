@@ -21,14 +21,14 @@ Aum Amriteswaryai Namah
   - The **&lt;h5&gt;** tag
 * Writing and formatting
   - The **&lt;p&gt;** (paragraph) tag
-  - The **&lt;p&gt;** tag with style attribute for alignment
+  - The **&lt;p&gt;** tag with **style** attribute for alignment
   - The **&lt;strong&gt;** (bold) tag
-  - The **&lt;em&gt;** (emphasis) tag
+  - The **&lt;em&gt;** (emphasis/italics) tag
   - The **&lt;span&gt;** tag
-  - The **&lt;span&gt;** tag with style text-decorator attribute for color
-  - The **&lt;span&gt;** tag with color attribute
+  - The **&lt;span&gt;** tag with **style** attribute **text-decoration** field for **underline**
+  - The **&lt;span&gt;** tag with **style** attribute for **color**
   - The **&lt;br&gt;** (line break) tag
-  - The **&lt;hr&gt;** (horizontal line) tag
+  - The **&lt;hr&gt;** (horizontal ruler) tag
   - The **&lt;ol&gt;** (ordered list) tag
   - The **&lt;ul&gt;** (unordered list) tag
   - The **&lt;li&gt;** (list item) tag
@@ -45,10 +45,29 @@ Aum Amriteswaryai Namah
   - **&amp;equals;** - equals symbol
   - **&amp;ne;** - not equals symbol
 * Hyperlinks
+  - The **&lt;a&gt;** tag
+  - The **href** attribute
+  - The **target** attribute
+  - The **rel** attribute
 * Image
+  - The **&lt;img&gt;** tag
+  - The **src** attribute
+  - The **alt** attribute
+  - The **height** attribute
+  - The **width** attribute
+  - The **&lt;figure&gt; tag
+  - The **&lt;figcaption&gt;** tag
 * Audio
+  - The **&lt;audio&gt;** tag
+  - The **&lt;audio&gt;** tag with **src** and **controls** attributes
+  - The **&lt;source&gt;** tag inside audio tag
 * Video
 * Tables
+  - The **&lt;table&gt;** tag
+  - The **&lt;thead&gt;** tag
+  - The **&lt;tr&gt;** tag
+  - The **&lt;td&gt;** tag
+  - The **&lt;tfoot&gt;** tag
 * Block tags ([Reference](https://softcodeon.com/tutorials/10-alternatives-to-the-div-html-tag.htm))
   - The **&lt;header&gt;** tag
   - The **&lt;nav&gt;** tag
