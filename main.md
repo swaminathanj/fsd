@@ -72,6 +72,7 @@ Aum Amriteswaryai Namah
   - The **&lt;tr&gt;** tag
   - The **&lt;td&gt;** tag
   - The **&lt;tfoot&gt;** tag
+  - The **&lt;caption&gt;** tag
 * Block tags ([Reference](https://softcodeon.com/tutorials/10-alternatives-to-the-div-html-tag.htm))
   - The **&lt;header&gt;** tag
   - The **&lt;nav&gt;** tag
