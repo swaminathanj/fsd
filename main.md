@@ -6,9 +6,9 @@ Aum Amriteswaryai Namah
 
 * HTML5 Document Object Model (DOM) 
 * Editor: Atom / Code / SublimeText
-* Creating a HTML page
-  - The <html> tag
-  - The <head> tag
-  - The <title> tag
-  - The <body> tag
+* Structure of a HTML page
+  - The **html** tag
+  - The **head** tag
+  - The **title** tag
+  - The **body** tag
 
