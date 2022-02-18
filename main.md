@@ -9,7 +9,11 @@ Aum Amriteswaryai Namah
 * Structure of a HTML page
   - The **html** tag
   - The **head** tag
+  - The **meta** tag
   - The **title** tag
   - The **body** tag
   - An example
+* Sectioning of HTML page
+  - The **header** tag
+  - The **nav** tag
 
