@@ -13,18 +13,20 @@ Aum Amriteswaryai Namah
   - The **&lt;title&gt;** tag
   - The **&lt;body&gt;** tag
   - An example
-* Headings
+* Heading tags
   - The **&lt;h1&gt;** (Heading1) tag
   - The **&lt;h2&gt;** tag
   - The **&lt;h3&gt;** tag
   - The **&lt;h4&gt;** tag
   - The **&lt;h5&gt;** tag
-* Paragraph
+* Writing and formatting
   - The **&lt;p&gt;** (paragraph) tag
+  - The **&lt;p&gt;** tag with style attribute for alignment
   - The **&lt;strong&gt;** (bold) tag
   - The **&lt;em&gt;** (emphasis) tag
   - The **&lt;span&gt;** tag
-  - The **&lt;span&gt;** tag with underline attribute
+  - The **&lt;span&gt;** tag with style text-decorator attribute for color
+  - The **&lt;span&gt;** tag with color attribute
   - The **&lt;br&gt;** (line break) tag
   - The **&lt;hr&gt;** (horizontal line) tag
   - The **&lt;ol&gt;** (ordered list) tag
@@ -42,7 +44,12 @@ Aum Amriteswaryai Namah
   - **&amp;divide;** - division symbol
   - **&amp;equals;** - equals symbol
   - **&amp;ne;** - not equals symbol
-* Sectioning of HTML page ([Reference](https://softcodeon.com/tutorials/10-alternatives-to-the-div-html-tag.htm))
+* Hyperlinks
+* Image
+* Audio
+* Video
+* Tables
+* Block tags ([Reference](https://softcodeon.com/tutorials/10-alternatives-to-the-div-html-tag.htm))
   - The **&lt;header&gt;** tag
   - The **&lt;nav&gt;** tag
   - The **&lt;article&gt;** tag
@@ -53,4 +60,4 @@ Aum Amriteswaryai Namah
   - The **&lt;footer&gt;** tag
   - The **&lt;blockquote&gt;** tag
   - The **&lt;mark&gt;** tag
-
+* Color picker
