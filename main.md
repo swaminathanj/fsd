@@ -12,14 +12,13 @@ Aum Amriteswaryai Namah
   - The **&lt;meta&gt;** tag
   - The **&lt;title&gt;** tag
   - The **&lt;body&gt;** tag
-  - An example
 * Heading tags
   - The **&lt;h1&gt;** (Heading1) tag
   - The **&lt;h2&gt;** tag
   - The **&lt;h3&gt;** tag
   - The **&lt;h4&gt;** tag
   - The **&lt;h5&gt;** tag
-* Writing and formatting
+* Writing and formatting text
   - The **&lt;p&gt;** (paragraph) tag
   - The **&lt;p&gt;** tag with **style** attribute for alignment
   - The **&lt;strong&gt;** (bold) tag
@@ -61,11 +60,12 @@ Aum Amriteswaryai Namah
   - The **&lt;audio&gt;** tag
   - The **&lt;audio&gt;** tag with **src** and **controls** attributes
   - The **&lt;source&gt;** tag inside audio tag with **src** and **type**
+  - The **autoplay** attribute
 * Video
   - The **&lt;video&gt;** tag
   - The **&lt;video&gt;** tag with **src**, **width**, **height** and **controls** attributes
   - The **&lt;source&gt;** tag inside video tag with **src** and **type**
-  - The **autoplay** attributed
+  - The **autoplay** attribute
 * Tables
   - The **&lt;table&gt;** tag
   - The **&lt;thead&gt;** tag
@@ -84,3 +84,5 @@ Aum Amriteswaryai Namah
   - The **&lt;blockquote&gt;** tag
   - The **&lt;mark&gt;** tag
 * Color picker
+* Resources
+  - [HTML Cheatsheet](https://htmlcheatsheet.com/)
