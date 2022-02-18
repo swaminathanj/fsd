@@ -13,7 +13,16 @@ Aum Amriteswaryai Namah
   - The **title** tag
   - The **body** tag
   - An example
-* Sectioning of HTML page
+* 
+* Sectioning of HTML page (<a href='https://softcodeon.com/tutorials/10-alternatives-to-the-div-html-tag.htm>Reference</a>)
   - The **header** tag
   - The **nav** tag
+  - The **article** tag
+  - The **section** tag
+  - The **figure** tag
+  - The **aside** tag
+  - The **div** tag
+  - The **footer** tag
+  - The **blockquote** tag
+  - The **mark** tag
 
