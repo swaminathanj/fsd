@@ -27,6 +27,8 @@ Aum Amriteswaryai Namah
   - The **&lt;span&gt;** tag
   - The **&lt;span&gt;** tag with **style** attribute **text-decoration** field for **underline**
   - The **&lt;span&gt;** tag with **style** attribute for **color**
+  - The **&lt;sup&gt;** tag (superscript)
+  - The **&lt;sub&gt;** tag (subscript)
   - The **&lt;br /&gt;** (line break) tag
   - The **&lt;hr /&gt;** (horizontal ruler) tag
   - The **&lt;ol&gt;** (ordered list) tag
@@ -92,6 +94,7 @@ Aum Amriteswaryai Namah
 * Resources
   - [HTML Cheatsheet](https://htmlcheatsheet.com/)
   - [Color picker](https://www.w3schools.com/colors/colors_picker.asp)
+  - [w3schools spaces](https://spaces.w3schools.com/)
 
 ```html
 <html>
