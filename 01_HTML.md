@@ -17,7 +17,7 @@
 
 ## Different levels of headings
 
-Heading tags appear inside &lt;body&gt; section.
+Heading tags are used inside &lt;body&gt; section.
 
 ```html
 <h1>First level heading</h1>
@@ -31,7 +31,7 @@ Heading tags appear inside &lt;body&gt; section.
 
 ## Writing text and formatting
 
-These appear within &lt;body&gt; section.
+These tags are used within &lt;body&gt; section.
 
 ```html
 <p>Free flowing paragraph text are enclosed within the paragraph tag. You use <br /> for line break. Adding bullets can be done using <ul> and <li> tags as shown below.</p>
