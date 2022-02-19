@@ -7,9 +7,10 @@ Aum Amriteswaryai Namah
 * HTML5 and Document Object Model (DOM) 
 * Choice of Editor: Atom / Code / SublimeText
 * Structure of a HTML page
+  - Set doctype
   - The **&lt;html&gt;** tag
   - The **&lt;head&gt;** tag
-  - The **&lt;meta&gt;** tag
+  - The **&lt;meta&gt;** tag with **charset** attribute
   - The **&lt;title&gt;** tag
   - The **&lt;body&gt;** tag
 * Heading tags
@@ -36,6 +37,7 @@ Aum Amriteswaryai Namah
   - **&amp;quot;** - Double quote
   - **&amp;apos;** - Single quote
   - **&amp;check;** - Check mark &check;
+  - The **&lt;details&gt;** and **&lt;summary&gt;** tags - To hide/show text
 * Math Symbols
   - **&amp;plus;** - plus symbol
   - **&amp;minus;** - minus symbol
