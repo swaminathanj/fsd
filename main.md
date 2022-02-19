@@ -26,8 +26,8 @@ Aum Amriteswaryai Namah
   - The **&lt;span&gt;** tag
   - The **&lt;span&gt;** tag with **style** attribute **text-decoration** field for **underline**
   - The **&lt;span&gt;** tag with **style** attribute for **color**
-  - The **&lt;br&gt;** (line break) tag
-  - The **&lt;hr&gt;** (horizontal ruler) tag
+  - The **&lt;br /&gt;** (line break) tag
+  - The **&lt;hr /&gt;** (horizontal ruler) tag
   - The **&lt;ol&gt;** (ordered list) tag
   - The **&lt;ul&gt;** (unordered list) tag
   - The **&lt;li&gt;** (list item) tag
@@ -43,8 +43,9 @@ Aum Amriteswaryai Namah
   - **&amp;divide;** - division symbol
   - **&amp;equals;** - equals symbol
   - **&amp;ne;** - not equals symbol
-  - **&lte;** - less than or equal to symbol
-  - **&gte;** - greater than or equal to symbol
+  - **&amp;frac12;** - &frac12; symbol
+  - **&amp;frac14;** - &frac14; symbol
+  - **&amp;frac34;** - &frac34; symbol
 * Hyperlinks
   - The **&lt;a&gt;** tag
   - The **href** attribute
