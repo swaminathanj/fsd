@@ -41,7 +41,7 @@ These tags are used within &lt;body&gt; section.
   <li>The underlining is not so simple.</li>
 </ul>
 
-<p style="color:red">Any part of the text <span style="color:blue">text can be made blue</span> by enclosing them within span tag and using the style attribute.<br />
+<p style="color:red">Any part of the <span style="color:blue">text can be made blue</span> by enclosing them within span tag and using the style attribute.<br />
 In fact, the entire paragraph can be set to red color by using style attribute of the paragraph tag.<br>
 You can also <span style="text-decoration: underline";>underline text</span> using style tag.</p>
 
@@ -57,6 +57,9 @@ You can also <span style="text-decoration: underline";>underline text</span> usi
     </ul>
   </li>
 </ol>
+
+<p>This is how text can be converted to <sup>superscript</sup> and <sub>subscript</sub>. <br /> 
+The equation of a circle can be written as x<sup>2</sub> + y<sub>2</sub> = r<sup>2</sub>.
 ```
 
 
