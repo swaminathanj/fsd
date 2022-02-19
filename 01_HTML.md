@@ -17,7 +17,7 @@
 
 ## Different levels of headings
 
-Heading tags appear inside <body> section.
+Heading tags appear inside &lt;body&gt; section.
 
 ```html
 <h1>First level heading</h1>
@@ -28,3 +28,13 @@ Heading tags appear inside <body> section.
 
 <h4>Fourth level heading</h4>
 ```
+
+## Writing text and formatting
+
+These appear within &lt;body&gt; section.
+
+```html
+<p>Free flowing paragraph text are enclosed with the paragraph tag. This is how you make the <strong>text bold</strong>. This is how you make the <emph>text italic</emph>.
+```
+
+
