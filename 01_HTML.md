@@ -22,11 +22,9 @@ Heading tags appear inside <body> section.
 ```html
 <h1>First level heading</h1>
 
-<h2>First level heading</h2>
+<h2>Second level heading</h2>
 
-<h3>First level heading</h3>
+<h3>Third level heading</h3>
 
-<h4>First level heading</h4>
-
-<h5>First level heading</h5>
+<h4>Fourth level heading</h4>
 ```
