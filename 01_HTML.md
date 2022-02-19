@@ -41,11 +41,11 @@ These tags are used within &lt;body&gt; section.
   <li>The underlining is not so simple.</li>
 </ul>
 
-<p style="color:red">Any part of the <span style="color:blue">text can be made blue</span> by enclosing them within span tag and using the style attribute.<br />
-In fact, the entire paragraph can be set to red color by using style attribute of the paragraph tag.<br>
+<p style="color:red">Any part of the <span style="color:blue">text can be made blue</span> by enclosing them within span tag and using the style attribute.
+In fact, the entire paragraph can be set to red color by using style attribute of the paragraph tag.
 You can also <span style="text-decoration: underline";>underline text</span> using style tag.</p>
 
-<p>You can also create numbered bullets by using <ol> and <li> tags.</p>
+<p>You can also create numbered bullets by using ol and li tags.</p>
 <ol>
   <li>ol refers to ordered list</li>
   <li>li refers to list item</li>
@@ -53,7 +53,7 @@ You can also <span style="text-decoration: underline";>underline text</span> usi
   <li>You can also have nested lists.
     <ul>
       <li>This is first sub-item of the fourth item</li>
-      <li style="color: cyan">The subitem can be colored.</li>
+      <li style="color: cyan">The subitem can be colored in a similar way.</li>
     </ul>
   </li>
 </ol>
