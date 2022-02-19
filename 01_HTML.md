@@ -44,6 +44,19 @@ These appear within &lt;body&gt; section.
 <p style="color:red">Any part of the text <span style="color:blue">text can be made blue</span> by enclosing them within span tag and using the style attribute.<br />
 In fact, the entire paragraph can be set to red color by using style attribute of the paragraph tag.<br>
 You can also <span style="text-decoration: underline";>underline text</span> using style tag.</p>
+
+<p>You can also create numbered bullets by using <ol> and <li> tags.</p>
+<ol>
+  <li>ol refers to ordered list</li>
+  <li>li refers to list item</li>
+  <li>ul refers to unordered list</li>
+  <li>You can also have nested lists.
+    <ul>
+      <li>This is first sub-item of the fourth item</li>
+      <li style="color: cyan">The subitem can be colored.</li>
+    </ul>
+  </li>
+</ol>
 ```
 
 
