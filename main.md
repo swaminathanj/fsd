@@ -35,7 +35,7 @@ Aum Amriteswaryai Namah
   - **&amp;#x20B9;** - Indian Rupee symbol
   - **&amp;quot;** - Double quote
   - **&amp;apos;** - Single quote
-  - **&amp;check;** - Check mark
+  - **&amp;check;** - Check mark &check;
 * Math Symbols
   - **&amp;plus;** - plus symbol
   - **&amp;minus;** - minus symbol
@@ -45,7 +45,7 @@ Aum Amriteswaryai Namah
   - **&amp;ne;** - not equals symbol
   - **&amp;frac12;** - &frac12; symbol
   - **&amp;frac14;** - &frac14; symbol
-  - **&amp;frac34;** - &frac34; symbol
+  - **&amp;frac23;** - &frac34; symbol
 * Hyperlinks
   - The **&lt;a&gt;** tag
   - The **href** attribute
