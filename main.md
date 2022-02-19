@@ -59,7 +59,7 @@ Aum Amriteswaryai Namah
   - The **alt** attribute
   - The **height** attribute
   - The **width** attribute
-  - The **&lt;figure&gt; tag
+  - The **&lt;figure&gt;** tag
   - The **&lt;figcaption&gt;** tag
 * Audio
   - The **&lt;audio&gt;** tag
