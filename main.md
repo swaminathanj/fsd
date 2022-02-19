@@ -43,6 +43,8 @@ Aum Amriteswaryai Namah
   - **&amp;divide;** - division symbol
   - **&amp;equals;** - equals symbol
   - **&amp;ne;** - not equals symbol
+  - **&lte;** - less than or equal to symbol
+  - **&gte;** - greater than or equal to symbol
 * Hyperlinks
   - The **&lt;a&gt;** tag
   - The **href** attribute
