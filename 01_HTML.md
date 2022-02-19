@@ -40,8 +40,9 @@ These appear within &lt;body&gt; section.
   <li>This is how you make the <emph>text italic</emph>.</li>
 </ul>
 
-<p style: color=red>Any part of the text <span style:color=blue>text can be made blue</span> by enclosing them within span tag and using the style attribute.<br />
-In fact, the entire paragraph can be set to red color by using style attribute of the paragraph tag.</p>
+<p style="color:red">Any part of the text <span style="color:blue">text can be made blue</span> by enclosing them within span tag and using the style attribute.<br />
+In fact, the entire paragraph can be set to red color by using style attribute of the paragraph tag.<br>
+You can also <span style="text-decoration: underline";>underline text</span> using style tag.</p>
 ```
 
 
