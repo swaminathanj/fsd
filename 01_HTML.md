@@ -27,7 +27,6 @@
 
 Heading tags are used inside &lt;body&gt; section.
 
-* Heading tags
   - The **&lt;h1&gt;** tag
   - The **&lt;h2&gt;** tag
   - The **&lt;h3&gt;** tag
