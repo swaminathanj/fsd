@@ -62,4 +62,24 @@ You can also <span style="text-decoration: underline";>underline text</span> usi
 The equation of a circle can be written as x<sup>2</sup> + y<sup>2</sup> = r<sup>2</sup>.
 ```
 
+## User Interface
+
+These tags are used within &lt;body&gt; section.
+
+```html
+<label>Label</label>
+<input type="text">
+<input type="password">
+<button>Button</button>
+<select> </select>
+<select>
+  <option>Value 1</option>
+  <option>Value 2</option>
+</select>
+<br />
+<input type="radio">
+<label>option 1</label>
+<input type="checkbox">
+<label>option 1</label>
+```
 
