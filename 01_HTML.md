@@ -100,7 +100,7 @@ Symbols are used in the &lt;body&gt; tag. A list of commonly used symbols are pr
 - **&amp;nbsp;** - non breaking space (&nbsp;)
 - **&amp;#x20B9;** - Indian Rupee symbol &#x20B9;
 - **&amp;quot;** - Double quote &quot;
-- **&amp;apos;** - Single quote &apos
+- **&amp;apos;** - Single quote &apos;
 - **&amp;check;** - Check mark &check;
 - **&amp;plus;** - plus symbol &plus;
 - **&amp;minus;** - minus symbol &minus;
@@ -108,9 +108,9 @@ Symbols are used in the &lt;body&gt; tag. A list of commonly used symbols are pr
 - **&amp;divide;** - division symbol &divide;
 - **&amp;equals;** - equals symbol &equals;
 - **&amp;ne;** - not equals symbol &ne;
-- **&amp;frac12;** - &frac12; symbol &frac12
-- **&amp;frac14;** - &frac14; symbol &frac14
-- **&amp;frac23;** - &frac34; symbol &frac23
+- **&amp;frac12;** - &frac12; symbol &frac12;
+- **&amp;frac14;** - &frac14; symbol &frac14;
+- **&amp;frac23;** - &frac34; symbol &frac23;
 
 ```html
 
@@ -124,10 +124,11 @@ Symbols are used in the &lt;body&gt; tag. A list of commonly used symbols are pr
   - The **&lt;a&gt;** tag
   - The **href** attribute
   - The **target** attribute with **"_blank"** value
-  - The **rel** attribute
  
  ```html
- 
+<a href="https://www.google.co.in">Google</a> (in this tab)
+<a href="https://www.google.co.in" target="_blank">Google</a> (in a new tab)
+<a href="https://www.google.co.in" target="_self">Google</a> (in this tab - explicitly stated)
  ```
 
 ## Image
