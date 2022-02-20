@@ -108,5 +108,6 @@ Aum Amriteswaryai Namah
   - [HTML Cheatsheet](https://htmlcheatsheet.com/)
   - [Color picker](https://www.w3schools.com/colors/colors_picker.asp)
   - [w3schools spaces](https://spaces.w3schools.com/)
+  - [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
 
