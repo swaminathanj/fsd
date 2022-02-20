@@ -132,7 +132,7 @@ Symbols are used in the &lt;body&gt; tag. A list of commonly used symbols are pr
  
  ```
 
-## Image tags
+## Image
 
 * Image
   - The **&lt;img&gt;** tag
@@ -142,6 +142,61 @@ Symbols are used in the &lt;body&gt; tag. A list of commonly used symbols are pr
   - The **width** attribute
   - The **&lt;figure&gt;** tag
   - The **&lt;figcaption&gt;** tag
+
+```html
+
+```
+
+## Audio and Video
+
+* Audio
+  - The **&lt;audio&gt;** tag
+  - The **&lt;audio&gt;** tag with **src** and **controls** attributes
+  - The **&lt;source&gt;** tag inside audio tag with **src** and **type**
+  - The **autoplay** attribute
+* Video
+  - The **&lt;video&gt;** tag
+  - The **&lt;video&gt;** tag with **src**, **width**, **height** and **controls** attributes
+  - The **&lt;source&gt;** tag inside video tag with **src** and **type**
+  - The **autoplay** attribute
+
+```html
+
+```
+
+## Table
+
+* Tables
+  - The **&lt;table&gt;** tag
+  - The **&lt;thead&gt;** tag
+  - The **&lt;tr&gt;** tag
+  - The **&lt;td&gt;** tag
+  - The **&lt;tfoot&gt;** tag
+  - The **&lt;caption&gt;** tag
+
+```html
+
+```
+
+## Block tags
+
+These tags are used within the &lt;body&gt; section. 
+
+* Block tags ([Reference](https://softcodeon.com/tutorials/10-alternatives-to-the-div-html-tag.htm))
+  - The **&lt;header&gt;** tag
+  - The **&lt;nav&gt;** tag
+  - The **&lt;article&gt;** tag
+  - The **&lt;section&gt;** tag
+  - The **&lt;figure&gt;** tag
+  - The **&lt;aside&gt;** tag
+  - The **&lt;div&gt;** tag
+  - The **&lt;footer&gt;** tag
+  - The **&lt;blockquote&gt;** tag
+  - The **&lt;mark&gt;** tag
+
+```html
+
+```
 
 ## User Interface
 
