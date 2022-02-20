@@ -50,7 +50,7 @@ These tags are used within &lt;body&gt; section.
 
 * Writing and formatting text
   - The **&lt;p&gt;** (paragraph) tag
-  - The **&lt;p&gt;** tag with **style** attribute for alignment
+  - The **&lt;p&gt;** tag with **align** attribute set to "right" or "center"
   - The **&lt;strong&gt;** (bold) tag
   - The **&lt;em&gt;** (emphasis/italics) tag
   - The **&lt;span&gt;** tag
