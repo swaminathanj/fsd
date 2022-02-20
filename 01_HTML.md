@@ -27,6 +27,13 @@
 
 Heading tags are used inside &lt;body&gt; section.
 
+* Heading tags
+  - The **&lt;h1&gt;** tag
+  - The **&lt;h2&gt;** tag
+  - The **&lt;h3&gt;** tag
+  - The **&lt;h4&gt;** tag
+  - The **&lt;h5&gt;** tag
+
 ```html
 <h1>First level heading</h1>
 
