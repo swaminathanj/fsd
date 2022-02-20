@@ -21,7 +21,7 @@ Aum Amriteswaryai Namah
   - The **&lt;h5&gt;** tag
 * Writing and formatting text
   - The **&lt;p&gt;** (paragraph) tag
-  - The **&lt;p&gt;** tag with **style** attribute for alignment
+  - The **&lt;p&gt;** tag with **align** attribute set to "right" or "center"
   - The **&lt;strong&gt;** (bold) tag
   - The **&lt;em&gt;** (emphasis/italics) tag
   - The **&lt;span&gt;** tag
