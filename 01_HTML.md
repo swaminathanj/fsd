@@ -2,6 +2,14 @@
 
 ## A basic bare-bones HTML page
 
+* Structure of a HTML page
+  - Set doctype
+  - The **&lt;html&gt;** tag
+  - The **&lt;head&gt;** tag
+  - The **&lt;meta&gt;** tag with **charset** attribute
+  - The **&lt;title&gt;** tag
+  - The **&lt;body&gt;** tag
+
 ```html
 <!DOCTYPE html>
 <html lang="en-US">
