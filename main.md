@@ -53,7 +53,7 @@ Aum Amriteswaryai Namah
 * Hyperlinks
   - The **&lt;a&gt;** tag
   - The **href** attribute
-  - The **target** attribute
+  - The **target** attribute with **"_blank"** value
   - The **rel** attribute
 * Image
   - The **&lt;img&gt;** tag
