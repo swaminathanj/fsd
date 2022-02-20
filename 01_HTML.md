@@ -94,6 +94,45 @@ You can also <span style="text-decoration: underline";>underline text</span> usi
   For example, the equation of a circle can be written as x<sup>2</sup> + y<sup>2</sup> = r<sup>2</sup>.</details>
 ```
 
+## Symbols
+
+Symbols are used in the &lt;body&gt; tag. A list of commonly used symbols are provide below. This is only a small subet of the overall set of symbols.
+
+* Symbols
+  - **&amp;nbsp;** - non breaking space
+  - **&amp;#x20B9;** - Indian Rupee symbol
+  - **&amp;quot;** - Double quote
+  - **&amp;apos;** - Single quote
+  - **&amp;check;** - Check mark &check;
+  - **&amp;plus;** - plus symbol
+  - **&amp;minus;** - minus symbol
+  - **&amp;times;** - multiplication symbol
+  - **&amp;divide;** - division symbol
+  - **&amp;equals;** - equals symbol
+  - **&amp;ne;** - not equals symbol
+  - **&amp;frac12;** - &frac12; symbol
+  - **&amp;frac14;** - &frac14; symbol
+  - **&amp;frac23;** - &frac34; symbol
+
+```html
+
+```
+
+## Hyperlinks
+
+<p>Hyperlinks are used in every part of the page. Both in the &lt;head&gt; and &lt;body&gt; sections.</p>
+
+* Hyperlinks
+  - The **&lt;a&gt;** tag
+  - The **href** attribute
+  - The **target** attribute with **"_blank"** value
+  - The **rel** attribute
+ 
+ ```html
+ 
+ ```
+
+
 ## User Interface
 
 These tags are used within &lt;body&gt; section.
