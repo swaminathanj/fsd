@@ -34,13 +34,13 @@ Aum Amriteswaryai Namah
   - The **&lt;ol&gt;** (ordered list) tag
   - The **&lt;ul&gt;** (unordered list) tag
   - The **&lt;li&gt;** (list item) tag
+  - The **&lt;details&gt;** and **&lt;summary&gt;** tags - To hide/show text
+* Symbols
   - **&amp;nbsp;** - non breaking space
   - **&amp;#x20B9;** - Indian Rupee symbol
   - **&amp;quot;** - Double quote
   - **&amp;apos;** - Single quote
   - **&amp;check;** - Check mark &check;
-  - The **&lt;details&gt;** and **&lt;summary&gt;** tags - To hide/show text
-* Math Symbols
   - **&amp;plus;** - plus symbol
   - **&amp;minus;** - minus symbol
   - **&amp;times;** - multiplication symbol
