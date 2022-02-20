@@ -48,6 +48,23 @@ Heading tags are used inside &lt;body&gt; section.
 
 These tags are used within &lt;body&gt; section.
 
+* Writing and formatting text
+  - The **&lt;p&gt;** (paragraph) tag
+  - The **&lt;p&gt;** tag with **style** attribute for alignment
+  - The **&lt;strong&gt;** (bold) tag
+  - The **&lt;em&gt;** (emphasis/italics) tag
+  - The **&lt;span&gt;** tag
+  - The **&lt;span&gt;** tag with **style** attribute **text-decoration** field for **underline**
+  - The **&lt;span&gt;** tag with **style** attribute for **color**
+  - The **&lt;sup&gt;** tag (superscript)
+  - The **&lt;sub&gt;** tag (subscript)
+  - The **&lt;br /&gt;** (line break) tag
+  - The **&lt;hr /&gt;** (horizontal ruler) tag
+  - The **&lt;ol&gt;** (ordered list) tag
+  - The **&lt;ul&gt;** (unordered list) tag
+  - The **&lt;li&gt;** (list item) tag
+  - The **&lt;details&gt;** and **&lt;summary&gt;** tags - To hide/show text
+
 ```html
 <p>Free flowing paragraph text are enclosed within the paragraph tag. You use <br /> for line break. Adding bullets can be done using <ul> and <li> tags as shown below.</p>
 <ul>
@@ -73,8 +90,8 @@ You can also <span style="text-decoration: underline";>underline text</span> usi
   </li>
 </ol>
 
-<p>This is how text can be converted to <sup>superscript</sup> and <sub>subscript</sub>. <br /> 
-The equation of a circle can be written as x<sup>2</sup> + y<sup>2</sup> = r<sup>2</sup>.
+<details><summary>This is how text can be converted to <sup>superscript</sup> and <sub>subscript</sub>.</summary> 
+  The equation of a circle can be written as x<sup>2</sup> + y<sup>2</sup> = r<sup>2</sup>.</details>
 ```
 
 ## User Interface
