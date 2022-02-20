@@ -2,13 +2,14 @@
 
 ## A basic bare-bones HTML page
 
-* Structure of a HTML page
-  - Set doctype
-  - The **&lt;html&gt;** tag
-  - The **&lt;head&gt;** tag
-  - The **&lt;meta&gt;** tag with **charset** attribute
-  - The **&lt;title&gt;** tag
-  - The **&lt;body&gt;** tag
+The following tags are part of every HTML page and define the structure of the page.
+
+- Set doctype
+- The **&lt;html&gt;** tag
+- The **&lt;head&gt;** tag
+- The **&lt;meta&gt;** tag with **charset** attribute
+- The **&lt;title&gt;** tag
+- The **&lt;body&gt;** tag
 
 ```html
 <!DOCTYPE html>
@@ -27,11 +28,11 @@
 
 Heading tags are used inside &lt;body&gt; section.
 
-  - The **&lt;h1&gt;** tag
-  - The **&lt;h2&gt;** tag
-  - The **&lt;h3&gt;** tag
-  - The **&lt;h4&gt;** tag
-  - The **&lt;h5&gt;** tag
+- The **&lt;h1&gt;** tag
+- The **&lt;h2&gt;** tag
+- The **&lt;h3&gt;** tag
+- The **&lt;h4&gt;** tag
+- The **&lt;h5&gt;** tag
 
 ```html
 <h1>First level heading</h1>
@@ -45,24 +46,23 @@ Heading tags are used inside &lt;body&gt; section.
 
 ## Writing text and formatting
 
-These tags are used within &lt;body&gt; section.
+These tags are used within &lt;body&gt; section. These tags are commonly used for the content.
 
-* Writing and formatting text
-  - The **&lt;p&gt;** (paragraph) tag
-  - The **&lt;p&gt;** tag with **align** attribute set to "right" or "center"
-  - The **&lt;strong&gt;** (bold) tag
-  - The **&lt;em&gt;** (emphasis/italics) tag
-  - The **&lt;span&gt;** tag
-  - The **&lt;span&gt;** tag with **style** attribute **text-decoration** field for **underline**
-  - The **&lt;span&gt;** tag with **style** attribute for **color**
-  - The **&lt;sup&gt;** tag (superscript)
-  - The **&lt;sub&gt;** tag (subscript)
-  - The **&lt;br /&gt;** (line break) tag
-  - The **&lt;hr /&gt;** (horizontal ruler) tag
-  - The **&lt;ol&gt;** (ordered list) tag
-  - The **&lt;ul&gt;** (unordered list) tag
-  - The **&lt;li&gt;** (list item) tag
-  - The **&lt;details&gt;** and **&lt;summary&gt;** tags - To hide/show text
+- The **&lt;p&gt;** (paragraph) tag
+- The **&lt;p&gt;** tag with **align** attribute set to "right" or "center"
+- The **&lt;strong&gt;** (bold) tag
+- The **&lt;em&gt;** (emphasis/italics) tag
+- The **&lt;span&gt;** tag
+- The **&lt;span&gt;** tag with **style** attribute **text-decoration** field for **underline**
+- The **&lt;span&gt;** tag with **style** attribute for **color**
+- The **&lt;sup&gt;** tag (superscript)
+- The **&lt;sub&gt;** tag (subscript)
+- The **&lt;br /&gt;** (line break) tag
+- The **&lt;hr /&gt;** (horizontal ruler) tag
+- The **&lt;ol&gt;** (ordered list) tag
+- The **&lt;ul&gt;** (unordered list) tag
+- The **&lt;li&gt;** (list item) tag
+- The **&lt;details&gt;** and **&lt;summary&gt;** tags - To hide/show text
 
 ```html
 <p>Free flowing paragraph text are enclosed within the paragraph tag. You use <br /> for line break. Adding bullets can be done using <ul> and <li> tags as shown below.</p>
@@ -97,21 +97,20 @@ You can also <span style="text-decoration: underline";>underline text</span> usi
 
 Symbols are used in the &lt;body&gt; tag. A list of commonly used symbols are provide below. This is only a small subet of the overall set of symbols.
 
-* Symbols
-  - **&amp;nbsp;** - non breaking space
-  - **&amp;#x20B9;** - Indian Rupee symbol
-  - **&amp;quot;** - Double quote
-  - **&amp;apos;** - Single quote
-  - **&amp;check;** - Check mark &check;
-  - **&amp;plus;** - plus symbol
-  - **&amp;minus;** - minus symbol
-  - **&amp;times;** - multiplication symbol
-  - **&amp;divide;** - division symbol
-  - **&amp;equals;** - equals symbol
-  - **&amp;ne;** - not equals symbol
-  - **&amp;frac12;** - &frac12; symbol
-  - **&amp;frac14;** - &frac14; symbol
-  - **&amp;frac23;** - &frac34; symbol
+- **&amp;nbsp;** - non breaking space (&nbsp;)
+- **&amp;#x20B9;** - Indian Rupee symbol &#x20B9;
+- **&amp;quot;** - Double quote &quot;
+- **&amp;apos;** - Single quote &apos
+- **&amp;check;** - Check mark &check;
+- **&amp;plus;** - plus symbol &plus;
+- **&amp;minus;** - minus symbol &minus;
+- **&amp;times;** - multiplication symbol &times;
+- **&amp;divide;** - division symbol &divide;
+- **&amp;equals;** - equals symbol &equals;
+- **&amp;ne;** - not equals symbol &ne;
+- **&amp;frac12;** - &frac12; symbol &frac12
+- **&amp;frac14;** - &frac14; symbol &frac14
+- **&amp;frac23;** - &frac34; symbol &frac23
 
 ```html
 
