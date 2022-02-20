@@ -91,7 +91,7 @@ You can also <span style="text-decoration: underline";>underline text</span> usi
 </ol>
 
 <details><summary>This is how text can be converted to <sup>superscript</sup> and <sub>subscript</sub>.</summary> 
-  The equation of a circle can be written as x<sup>2</sup> + y<sup>2</sup> = r<sup>2</sup>.</details>
+  For example, the equation of a circle can be written as x<sup>2</sup> + y<sup>2</sup> = r<sup>2</sup>.</details>
 ```
 
 ## User Interface
