@@ -132,6 +132,16 @@ Symbols are used in the &lt;body&gt; tag. A list of commonly used symbols are pr
  
  ```
 
+## Image tags
+
+* Image
+  - The **&lt;img&gt;** tag
+  - The **src** attribute
+  - The **alt** attribute
+  - The **height** attribute
+  - The **width** attribute
+  - The **&lt;figure&gt;** tag
+  - The **&lt;figcaption&gt;** tag
 
 ## User Interface
 
