@@ -95,7 +95,7 @@ You can also <span style="text-decoration: underline";>underline text</span> usi
 
 ## Symbols
 
-Symbols are used in the &lt;body&gt; tag. A list of commonly used symbols are provide below. This is only a small subet of the overall set of symbols.
+Symbols are used in the &lt;body&gt; section. A list of commonly used symbols are provide below. This is only a small subet of the overall set of symbols.
 
 - **&amp;nbsp;** - non breaking space (&nbsp;)
 - **&amp;#x20B9;** - Indian Rupee symbol &#x20B9;
@@ -143,10 +143,15 @@ Symbols are used in the &lt;body&gt; tag. A list of commonly used symbols are pr
   - The **&lt;figcaption&gt;** tag
 
 ```html
-
+<figure>
+		<img src="photo.jpg" width="10%" alt="A beautiful garden">
+		<figcaption>Scenary</figcaption>
+</figure>
 ```
 
 ## Audio and Video
+
+Symbols are used in the &lt;body&gt; section. Audio and video tags are specified and work in a similar way.
 
 * Audio
   - The **&lt;audio&gt;** tag
@@ -160,7 +165,19 @@ Symbols are used in the &lt;body&gt; tag. A list of commonly used symbols are pr
   - The **autoplay** attribute
 
 ```html
+<audio src="audio.mp3" controls>Sample Audio</audio>
+<audio controls>Play list
+  <source src="audio.mp3" type="audio/mp3">
+  <source src="audio.ogg" type="audio/ogg">
+  <p>Cannot play! Your browser doesn't support the audio formats.</p>
+</audio>
 
+<video src="video.mp4" width="400" controls>Sample Video</audio>
+<video controls>Play list
+  <source src="video.mp4" width="400" type="video/mp4">
+  <source src="video.webm" width="400" type="video/webm">
+  <p>Cannot play! Your browser doesn't support the video formats.</p>
+</video>
 ```
 
 ## Table
@@ -174,7 +191,13 @@ Symbols are used in the &lt;body&gt; tag. A list of commonly used symbols are pr
   - The **&lt;caption&gt;** tag
 
 ```html
-
+<table border="1">
+		<tr><th>Column1</th><th>Column2</th><th>Column3</th></tr>
+		<tr><td>one</td><td colspan="2">two and three</td></tr>
+		<tr><td rowspan="2">four and seven</td><td>five</td><td>six</td></tr>
+		<tr><td>eight</td><td>nine</td></tr>
+		<caption>A table demonstration</caption>
+	</table>
 ```
 
 ## Block tags
