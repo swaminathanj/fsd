@@ -200,7 +200,21 @@ These tags are used within the &lt;body&gt; section.
 
 ## User Interface
 
-These tags are used within &lt;body&gt; section.
+These tags are used within &lt;body&gt; section. They need additional work towards handling user events and inputs which will be dealt later when Java Script is introduced.
+
+* UI tags
+  - The **&lt;button&gt;** tag
+  - The **&lt;label&gt;** tag
+  - The **&lt;input&gt;** tag with **type** attribute set to **"text"** (text box)
+  - The **&lt;input&gt;** tag with **type** attribute set to **"password"** (password)
+  - The **&lt;input&gt;** tag with **type** attribute set to **"radio"** (radiobutton) - to be followed by a label
+    - Bunch of radiobuttons are grouped by **name** attribute
+  - The **&lt;input&gt;** tag with **type** attribute set to **"checkbox"** (checkbox) - to be followed by a label
+    - Bunch of radiobuttons are grouped by **name** attribute
+  - The **&lt;select&gt;** tag 
+  - The **&lt;option&gt;** tag enclosed within **&lt;select&gt;** tag
+  - The **&lt;meter&gt;** tag with **value**, **min** and **max** attributes
+  - The **&lt;progress&gt;** tag with **value** and **max** attributes
 
 ```html
 <label>Label</label>
