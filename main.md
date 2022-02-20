@@ -91,16 +91,13 @@ Aum Amriteswaryai Namah
   - The **&lt;footer&gt;** tag
   - The **&lt;blockquote&gt;** tag
   - The **&lt;mark&gt;** tag
+* UI tags
+  - **&lt;button&gt;** tag
+  - **&lt;meter&gt;** tag with **value**, **min** and **max** attributes
+  - **&lt;progress&gt;** tag with **value** and **max** attributes
 * Resources
   - [HTML Cheatsheet](https://htmlcheatsheet.com/)
   - [Color picker](https://www.w3schools.com/colors/colors_picker.asp)
   - [w3schools spaces](https://spaces.w3schools.com/)
 
-```html
-<html>
-  <head>
-  </head>
-  <body>
-  </body>
-</html>
-```
+
