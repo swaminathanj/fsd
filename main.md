@@ -8,11 +8,11 @@ Aum Amriteswaryai Namah
 * Document Object Model (DOM) 
 * Choice of Editor: Atom / Code / SublimeText
 * <details><summary>Structure of a HTML page</summary>
-  - Set doctype
-  - The **&lt;html&gt;** tag
-  - The **&lt;head&gt;** tag
-  - The **&lt;meta&gt;** tag with **charset** attribute
-  - The **&lt;title&gt;** tag
+  - Set doctype <br />
+  - The **&lt;html&gt;** tag <br />
+  - The **&lt;head&gt;** tag <br />
+  - The **&lt;meta&gt;** tag with **charset** attribute <br />
+  - The **&lt;title&gt;** tag <br />
   - The **&lt;body&gt;** tag
   </details>
 * Heading tags
