@@ -16,10 +16,10 @@ Aum Amriteswaryai Namah
   - The &lt;body&gt; tag
   </details>
 * <details><summary> Heading tags</summary>
-  - The &lt;h1&gt; tag
-  - The &lt;h2&gt; tag
-  - The &lt;h3&gt; tag
-  - The &lt;h4&gt; tag
+  - The &lt;h1&gt; tag <br />
+  - The &lt;h2&gt; tag <br />
+  - The &lt;h3&gt; tag <br />
+  - The &lt;h4&gt; tag <br />
   - The &lt;h5&gt; tag
   </details>
 * Writing and formatting text
