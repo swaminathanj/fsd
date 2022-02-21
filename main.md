@@ -15,12 +15,13 @@ Aum Amriteswaryai Namah
   - The &lt;title&gt; tag <br />
   - The &lt;body&gt; tag
   </details>
-* Heading tags
-  - The **&lt;h1&gt;** (Heading1) tag
-  - The **&lt;h2&gt;** tag
-  - The **&lt;h3&gt;** tag
-  - The **&lt;h4&gt;** tag
-  - The **&lt;h5&gt;** tag
+* <details><summary> Heading tags</summary>
+  - The &lt;h1&gt; tag
+  - The &lt;h2&gt; tag
+  - The &lt;h3&gt; tag
+  - The &lt;h4&gt; tag
+  - The &lt;h5&gt; tag
+  </details>
 * Writing and formatting text
   - The **&lt;p&gt;** (paragraph) tag
   - The **&lt;p&gt;** tag with **align** attribute set to "right" or "center"
