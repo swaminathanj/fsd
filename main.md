@@ -2,17 +2,19 @@ Aum Amriteswaryai Namah
 
 # Full Stack Development
 
-## HTML
+## HTML - Hyper Text Markup Language
 
-* HTML5 and Document Object Model (DOM) 
+* HTML5
+* Document Object Model (DOM) 
 * Choice of Editor: Atom / Code / SublimeText
-* Structure of a HTML page
+* <details><summary>Structure of a HTML page</summary>
   - Set doctype
   - The **&lt;html&gt;** tag
   - The **&lt;head&gt;** tag
   - The **&lt;meta&gt;** tag with **charset** attribute
   - The **&lt;title&gt;** tag
   - The **&lt;body&gt;** tag
+  </details>
 * Heading tags
   - The **&lt;h1&gt;** (Heading1) tag
   - The **&lt;h2&gt;** tag
