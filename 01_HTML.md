@@ -10,6 +10,9 @@ The following tags are part of every HTML page and define the structure of the p
 - The **&lt;meta&gt;** tag with **charset** attribute
 - The **&lt;title&gt;** tag
 - The **&lt;body&gt;** tag
+- **&lt;!-- --&gt;**
+
+Here is the basic bare-bones html page which does or displays almost nothing.
 
 ```html
 <!DOCTYPE html>
@@ -19,7 +22,7 @@ The following tags are part of every HTML page and define the structure of the p
     <title>My First Page</title>
   </head>
   <body>
-    
+    <!-- This is a comment -->
   </body>
 </html>
 ```
@@ -46,7 +49,7 @@ Heading tags are used inside &lt;body&gt; section.
 
 ## Writing text and formatting
 
-These tags are used within &lt;body&gt; section. These tags are commonly used for the content.
+These tags are used within &lt;body&gt; section. These are the frequenctly used elements of the content.
 
 - The **&lt;p&gt;** (paragraph) tag
 - The **&lt;p&gt;** tag with **align** attribute set to "right" or "center"
@@ -97,7 +100,7 @@ You can also <span style="text-decoration: underline";>underline text</span> usi
 
 Symbols are used in the &lt;body&gt; section. A list of commonly used symbols are provide below. This is only a small subet of the overall set of symbols.
 
-- **&amp;nbsp;** - non breaking space (&nbsp;)
+- **&amp;nbsp;** - non breaking space (&nbsp;)   Note: Parenthesis are used to show the effect of the tag
 - **&amp;#x20B9;** - Indian Rupee symbol &#x20B9;
 - **&amp;quot;** - Double quote &quot;
 - **&amp;apos;** - Single quote &apos;
@@ -112,46 +115,43 @@ Symbols are used in the &lt;body&gt; section. A list of commonly used symbols ar
 - **&amp;frac14;** - &frac14; symbol &frac14;
 - **&amp;frac23;** - &frac34; symbol &frac23;
 
-```html
-
-```
-
 ## Hyperlinks
 
-<p>Hyperlinks are used in every part of the page. Both in the &lt;head&gt; and &lt;body&gt; sections.</p>
+Hyperlinks are used in every part of the page. They take you to another related page. They appear in &lt;body&gt; section and can appear in &lt;head&gt; too.
 
-* Hyperlinks
-  - The **&lt;a&gt;** tag
-  - The **href** attribute
-  - The **target** attribute with **"_blank"** value
+- The **&lt;a&gt;** tag
+- The **href** attribute
+- The **target** attribute with **"_blank"** value
  
  ```html
-<a href="https://www.google.co.in">Google</a> (in this tab)
-<a href="https://www.google.co.in" target="_blank">Google</a> (in a new tab)
-<a href="https://www.google.co.in" target="_self">Google</a> (in this tab - explicitly stated)
+<a>Google</a> (not hyperlinked)
+<a href="https://www.google.co.in">Google</a> (hyperlinked and when clicked, opens in this tab)
+<a href="https://www.google.co.in" target="_blank">Google</a> (hyperlinked and when clicked, opens in a new tab)
+<a href="https://www.google.co.in" target="_self">Google</a> (opens in this tab - explicitly stated)
  ```
 
 ## Image
 
-* Image
-  - The **&lt;img&gt;** tag
-  - The **src** attribute
-  - The **alt** attribute
-  - The **height** attribute
-  - The **width** attribute
-  - The **&lt;figure&gt;** tag
-  - The **&lt;figcaption&gt;** tag
+Image tag is used to display an image. It can be wrapped inside figure block and provide caption. Image tags appear in both &lt;body&gt; and &lt;head&gt; sections.
+
+- The **&lt;img&gt;** tag
+- The **src** attribute
+- The **alt** attribute
+- The **height** attribute
+- The **width** attribute
+- The **&lt;figure&gt;** tag
+- The **&lt;figcaption&gt;** tag
 
 ```html
 <figure>
-		<img src="photo.jpg" width="10%" alt="A beautiful garden">
-		<figcaption>Scenary</figcaption>
+  <img src="photo.jpg" width="10%" alt="A beautiful garden">
+  <figcaption>Scenary</figcaption>
 </figure>
 ```
 
 ## Audio and Video
 
-Symbols are used in the &lt;body&gt; section. Audio and video tags are specified and work in a similar way.
+Audio and video tags are specified are used to show audio and video respectively. They are typically used in &lt;body&gt; section. For these tags to really play audio/video, necessary software must be installed and supported in the system and browser.
 
 * Audio
   - The **&lt;audio&gt;** tag
@@ -182,27 +182,42 @@ Symbols are used in the &lt;body&gt; section. Audio and video tags are specified
 
 ## Table
 
-* Tables
-  - The **&lt;table&gt;** tag
-  - The **&lt;thead&gt;** tag
-  - The **&lt;tr&gt;** tag
-  - The **&lt;td&gt;** tag
-  - The **&lt;tfoot&gt;** tag
-  - The **&lt;caption&gt;** tag
+Table tags are used to display data in a tabular format. Usually appears in &lt;body&gt; section. The tags also provides attributes that allows cells to span multiple rows and columns.
+
+- The **&lt;table&gt;** tag
+- The **&lt;th&gt;** tag
+- The **&lt;tr&gt;** tag
+- The **&lt;td&gt;** tag
+- The **&lt;td&gt;** tag with **colspan** and **rowspan** attributes.
+- The **&lt;caption&gt;** tag
 
 ```html
 <table border="1">
-		<tr><th>Column1</th><th>Column2</th><th>Column3</th></tr>
-		<tr><td>one</td><td colspan="2">two and three</td></tr>
-		<tr><td rowspan="2">four and seven</td><td>five</td><td>six</td></tr>
-		<tr><td>eight</td><td>nine</td></tr>
-		<caption>A table demonstration</caption>
-	</table>
+  <tr>
+    <th>Column1</th>
+    <th>Column2</th>
+    <th>Column3</th>
+  </tr>
+  <tr>
+    <td>one</td>
+    <td colspan="2">two and three</td>
+  </tr>
+  <tr>
+    <td rowspan="2">four and seven</td>
+    <td>five</td>
+    <td>six</td>
+  </tr>
+  <tr>
+    <td>eight</td>
+    <td>nine</td>
+  </tr>
+  <caption>A table demonstration</caption>
+</table>
 ```
 
 ## Block tags
 
-These tags are used within the &lt;body&gt; section. 
+These tags are used within the &lt;body&gt; section for dividing the page into separate sections. 
 
 * Block tags ([Reference](https://softcodeon.com/tutorials/10-alternatives-to-the-div-html-tag.htm))
   - The **&lt;header&gt;** tag
@@ -218,6 +233,39 @@ These tags are used within the &lt;body&gt; section.
 
 ```html
 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HTML5</title>
+  </head>
+  <body>
+    <header>
+      <h1>HTML 5</h1>
+    </header>
+    <nav>
+      <ul>
+        <li>Topic 1</li>
+        <li>Topic 2</li>
+        <li>Topic 3</li>
+      </ul>
+    </nav>
+    <section>
+      <h2>Section</h2>
+      <article>
+        <h2>Article 1</h2>
+        <p>This is article 1</p>
+      </article>
+      <article>
+        <h2>Article 2</h2>
+        <p>This is article 2</p>
+      </article>
+    </section>
+    <footer>
+      <p>For any queries please mail me</p>
+    </footer>
+  </body>
+</html>
 ```
 
 ## User Interface
