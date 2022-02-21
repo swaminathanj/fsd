@@ -9,11 +9,11 @@ Aum Amriteswaryai Namah
 * Choice of Editor: Atom / Code / SublimeText
 * <details><summary>Structure of a HTML page</summary>
   - Set doctype <br />
-  - The **&lt;html&gt;** tag <br />
-  - The **&lt;head&gt;** tag <br />
-  - The **&lt;meta&gt;** tag with **charset** attribute <br />
-  - The **&lt;title&gt;** tag <br />
-  - The **&lt;body&gt;** tag
+  - The &lt;html&gt; tag <br />
+  - The &lt;head&gt; tag <br />
+  - The &lt;meta&gt; tag with charset attribute <br />
+  - The &lt;title&gt; tag <br />
+  - The &lt;body&gt; tag
   </details>
 * Heading tags
   - The **&lt;h1&gt;** (Heading1) tag
