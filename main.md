@@ -120,6 +120,7 @@ Aum Amriteswaryai Namah
   - The &lt;meter&gt; tag with value, min and max attributes <br />
   - The &lt;progress&gt; tag with value and max attributes <br />
   </details>
+* [Examples](01_HTML.md)
 * Resources
   - [HTML Cheatsheet](https://htmlcheatsheet.com/)
   - [Mozilla Developer Network HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
