@@ -89,7 +89,7 @@ Aum Amriteswaryai Namah
   - The **&lt;tfoot&gt;** tag <br />
   - The **&lt;caption&gt;** tag <br />
   </details>
-* <details><summary>Block tags ([Reference](https://softcodeon.com/tutorials/10-alternatives-to-the-div-html-tag.htm))</summary>
+* <details><summary>Block tags</summary>
   - The **&lt;header&gt;** tag <br />
   - The **&lt;nav&gt;** tag <br />
   - The **&lt;article&gt;** tag <br />
@@ -117,8 +117,9 @@ Aum Amriteswaryai Namah
   </details>
 * Resources
   - [HTML Cheatsheet](https://htmlcheatsheet.com/)
-  - [Color picker](https://www.w3schools.com/colors/colors_picker.asp)
-  - [w3schools spaces](https://spaces.w3schools.com/)
   - [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  - [w3schools spaces](https://spaces.w3schools.com/)
+  - [Color picker](https://www.w3schools.com/colors/colors_picker.asp)
+  - [Block tags](https://softcodeon.com/tutorials/10-alternatives-to-the-div-html-tag.htm)
 
 
