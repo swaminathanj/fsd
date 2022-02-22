@@ -7,7 +7,7 @@ Aum Amriteswaryai Namah
 * HTML5
 * Document Object Model (DOM) 
 * Choice of Editor: Atom / Code / SublimeText
-* <details><summary>Structure of a HTML page</summary>
+<details><summary>Structure of a HTML page</summary>
   - Set doctype <br />
   - The &lt;html&gt; tag <br />
   - The &lt;head&gt; tag <br />
