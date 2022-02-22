@@ -117,7 +117,7 @@ Aum Amriteswaryai Namah
   </details>
 * Resources
   - [HTML Cheatsheet](https://htmlcheatsheet.com/)
-  - [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML)
+  - [Mozilla Developer Network HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
   - [w3schools spaces](https://spaces.w3schools.com/)
   - [Color picker](https://www.w3schools.com/colors/colors_picker.asp)
   - [Block tags](https://softcodeon.com/tutorials/10-alternatives-to-the-div-html-tag.htm)
