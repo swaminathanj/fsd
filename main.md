@@ -7,7 +7,7 @@ Aum Amriteswaryai Namah
 * HTML5
 * Document Object Model (DOM) 
 * Choice of Editor: Atom / Code / SublimeText
-<details><summary>Structure of a HTML page</summary>
+* <details><summary>Structure of a HTML page</summary>
   - Set doctype <br />
   - The &lt;html&gt; tag <br />
   - The &lt;head&gt; tag <br />
@@ -22,7 +22,7 @@ Aum Amriteswaryai Namah
   - The &lt;h4&gt; tag <br />
   - The &lt;h5&gt; tag
   </details>
-* Writing and formatting text
+* <details><summary>Writing and formatting text</summary>
   - The **&lt;p&gt;** (paragraph) tag
   - The **&lt;p&gt;** tag with **align** attribute set to "right" or "center"
   - The **&lt;strong&gt;** (bold) tag
@@ -38,7 +38,8 @@ Aum Amriteswaryai Namah
   - The **&lt;ul&gt;** (unordered list) tag
   - The **&lt;li&gt;** (list item) tag
   - The **&lt;details&gt;** and **&lt;summary&gt;** tags - To hide/show text
-* Symbols
+  </details>
+* <details><summary>Symbols</summary>
   - **&amp;nbsp;** - non breaking space
   - **&amp;#x20B9;** - Indian Rupee symbol
   - **&amp;quot;** - Double quote
@@ -53,12 +54,14 @@ Aum Amriteswaryai Namah
   - **&amp;frac12;** - &frac12; symbol
   - **&amp;frac14;** - &frac14; symbol
   - **&amp;frac23;** - &frac34; symbol
-* Hyperlinks
+  </details>
+* <details><summary>Hyperlinks</summary>
   - The **&lt;a&gt;** tag
   - The **href** attribute
   - The **target** attribute with **"_blank"** value
   - The **rel** attribute
-* Image
+  </details>
+* <details><summary>Image</summary>
   - The **&lt;img&gt;** tag
   - The **src** attribute
   - The **alt** attribute
@@ -66,24 +69,28 @@ Aum Amriteswaryai Namah
   - The **width** attribute
   - The **&lt;figure&gt;** tag
   - The **&lt;figcaption&gt;** tag
-* Audio
+  </details>
+* <details><summary>Audio</summary>
   - The **&lt;audio&gt;** tag
   - The **&lt;audio&gt;** tag with **src** and **controls** attributes
   - The **&lt;source&gt;** tag inside audio tag with **src** and **type**
   - The **autoplay** attribute
-* Video
+  </details>
+* <details><summary>Video</summary>
   - The **&lt;video&gt;** tag
   - The **&lt;video&gt;** tag with **src**, **width**, **height** and **controls** attributes
   - The **&lt;source&gt;** tag inside video tag with **src** and **type**
   - The **autoplay** attribute
-* Tables
+  </details>
+* <details><summary>Tables</summary>
   - The **&lt;table&gt;** tag
   - The **&lt;thead&gt;** tag
   - The **&lt;tr&gt;** tag
   - The **&lt;td&gt;** tag
   - The **&lt;tfoot&gt;** tag
   - The **&lt;caption&gt;** tag
-* Block tags ([Reference](https://softcodeon.com/tutorials/10-alternatives-to-the-div-html-tag.htm))
+  </details>
+* <details><summary>Block tags ([Reference](https://softcodeon.com/tutorials/10-alternatives-to-the-div-html-tag.htm))</summary>
   - The **&lt;header&gt;** tag
   - The **&lt;nav&gt;** tag
   - The **&lt;article&gt;** tag
@@ -94,7 +101,8 @@ Aum Amriteswaryai Namah
   - The **&lt;footer&gt;** tag
   - The **&lt;blockquote&gt;** tag
   - The **&lt;mark&gt;** tag
-* UI tags
+  </details>
+* <details><summary>UI tags</summary>
   - The **&lt;button&gt;** tag
   - The **&lt;label&gt;** tag
   - The **&lt;input&gt;** tag with **type** attribute set to **"text"** (text box)
@@ -107,6 +115,7 @@ Aum Amriteswaryai Namah
   - The **&lt;option&gt;** tag enclosed within **&lt;select&gt;** tag
   - The **&lt;meter&gt;** tag with **value**, **min** and **max** attributes
   - The **&lt;progress&gt;** tag with **value** and **max** attributes
+  </details>
 * Resources
   - [HTML Cheatsheet](https://htmlcheatsheet.com/)
   - [Color picker](https://www.w3schools.com/colors/colors_picker.asp)
