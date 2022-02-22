@@ -22,7 +22,7 @@ Aum Amriteswaryai Namah
   - The &lt;h4&gt; tag <br />
   - The &lt;h5&gt; tag
   </details>
-* <details><summary>Writing and formatting text</summary>
+* <details><summary>Text and formatting</summary>
   - The &lt;p&gt; (paragraph) tag <br />
   - The &lt;p&gt; tag with align attribute set to "right" or "center" <br />
   - The &lt;strong&gt; (bold) tag <br />
