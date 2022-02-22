@@ -4,9 +4,14 @@ Aum Amriteswaryai Namah
 
 ## HTML - Hyper Text Markup Language
 
-* HTML5
-* Document Object Model (DOM) 
-* Choice of Editor: Atom / Code / SublimeText
+* <details><summary>Introduction</summary>
+  - HTML5 <br />
+  - Document Object Model (DOM) <br />
+  </details>
+* <details><summary>Choice of Editor</summary>
+  - Atom / VS Code / SublimeText <br />
+  - w3schools / codepen <br />
+  </details
 * <details><summary>Structure of a HTML page</summary>
   - Set doctype <br />
   - The &lt;html&gt; tag <br />
