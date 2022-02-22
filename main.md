@@ -5,9 +5,9 @@ Aum Amriteswaryai Namah
 ## HTML - Hyper Text Markup Language
 
 * <details><summary>Introduction</summary>
-  - World Wide Web
-  - Web 1.0, Web 2.0, Web 3.0
-  - HTML, CSS, JavaScript
+  - World Wide Web <br />
+  - Web 1.0, Web 2.0, Web 3.0 <br />
+  - HTML, CSS, JavaScript <br />
   - HTML5 <br />
   - Document Object Model (DOM) <br />
   </details>
