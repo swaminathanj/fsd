@@ -7,6 +7,7 @@ Aum Amriteswaryai Namah
 * <details><summary>Introduction</summary>
   - World Wide Web <br />
   - Web 1.0, Web 2.0, Web 3.0 <br />
+  - Model View Controller (MVC) architecture <br />
   - HTML, CSS, JavaScript <br />
   - HTML5 <br />
   - Document Object Model (DOM) <br />
