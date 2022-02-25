@@ -131,5 +131,7 @@ Aum Amriteswaryai Namah
   - [w3schools spaces](https://spaces.w3schools.com/)
   - [Color picker](https://www.w3schools.com/colors/colors_picker.asp)
   - [Block tags](https://softcodeon.com/tutorials/10-alternatives-to-the-div-html-tag.htm)
-
+* FSD Lab - Assignment 1
+  - Please get familiar with the basic HTML constructs from https://github.com/swaminathanj/fsd/blob/main/01_HTML.md
+  - Prepare a profile page for yourself - as attractively and creatively as possible - using the constructs learnt. Submit the HTML page.
 
