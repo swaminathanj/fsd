@@ -14,6 +14,7 @@
 * The **element** selector
   - p { color: blue; text-align: center; }
   - Selecting body tag impacts the entire page
+  - body { background-color: gray; }
 * The **id** selector
   - &lt;p id="first"&gt; This is used to demonstrate id selector.&lt;/p&gt;
   - #first { text-align: right; }
@@ -33,3 +34,14 @@
   - &star; { text-align: center; color=blue; }
 * Grouping multiple selectors
   - h1, p, li { color: blue; text-align: center; }
+
+```css
+body { background-color: gray; }
+
+div {
+  background-color: blue;
+  border-color: red;
+  border-width: thick;  /* 2px */
+  border-style: dotted;
+}
+```
