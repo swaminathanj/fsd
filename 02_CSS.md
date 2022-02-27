@@ -22,3 +22,6 @@
   - <p class="first second">This is used to demonstrate class selector.</p>
   - .first { color: blue; }
   - .second { text-align: center; }
+* The * selector (universal selector)
+  - Applies to all elements of the HTML page
+  - * { text-align: center; color=blue; }
