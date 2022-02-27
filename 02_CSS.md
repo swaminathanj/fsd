@@ -11,15 +11,15 @@
 * The **element** selector
   - p { color: blue; text-align: center; }
 * The **id** selector
-  - &lt;p id="first"&rt; This is used to demonstrate id selector.</p>
+  - &lt;p id="first"&gt; This is used to demonstrate id selector.</p>
   - #first { text-align: right; }
 *  The **class** selector
-  - &lt;p class="group"&rt; This is used to demonstrate class selector.</p>
-  - &lt;p class="group"&rt; Unlike id, same class name can be used to select multiple elements.</p>
+  - &lt;p class="group"&gt; This is used to demonstrate class selector.</p>
+  - &lt;p class="group"&gt; Unlike id, same class name can be used to select multiple elements.</p>
   - .group { color: blue; }
 * Multi class selector
   - Same html element can be part of multiple classes
-  - &lt;p class="first second"&rt;This is used to demonstrate class selector.</p>
+  - &lt;p class="first second"&gt;This is used to demonstrate class selector.</p>
   - .first { color: blue; }
   - .second { text-align: center; }
 * The * selector (universal selector)
