@@ -13,6 +13,7 @@
 ## CSS Selectors
 * The **element** selector
   - p { color: blue; text-align: center; }
+  - Selecting body tag impacts the entire page
 * The **id** selector
   - &lt;p id="first"&gt; This is used to demonstrate id selector.&lt;/p&gt;
   - #first { text-align: right; }
