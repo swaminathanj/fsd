@@ -2,10 +2,13 @@
 
 ## Introduction
 * Why CSS?
-* External, Internal, Inline
 * Syntax
   - Selector { property1: value; property2: value; }
   - Example: p { color: blue; text-align: center; }
+* External, Internal, Inline
+  - Styles are specified in separate file (eg. **style.css**)
+  - The file is included in the head section of html page using **link** tag
+  - &lt;link rel="stylesheet" type="text/css" href="style.css"&gt;
   
 ## CSS Selectors
 * The **element** selector
