@@ -36,12 +36,22 @@
   - h1, p, li { color: blue; text-align: center; }
 
 ```css
-body { background-color: gray; }
+body { 
+  /* background-color: gray; */
+  background: url(https://i.itworldcanada.com/wp-content/uploads/2020/04/f3ff9r3ie2w-768x609.png)
+}
 
 div {
   background-color: blue;
   border-color: red;
   border-width: thick;  /* 2px */
   border-style: dotted;
+}
+
+p { color: yellow; }
+
+span {
+  background-color: red;
+  color: black;
 }
 ```
