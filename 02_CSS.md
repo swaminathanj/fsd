@@ -53,6 +53,6 @@ p { color: yellow; }
 span {
   background-color: red;
   color: black;
-  text-decoration: underline; /* overline, strikethrough, etc. */
+  text-decoration: underline; /* overline, linethrough, etc. */
 }
 ```
