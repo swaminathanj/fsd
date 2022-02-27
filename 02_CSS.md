@@ -31,9 +31,12 @@
   - p.intro { color: blue; text-align: center; }
 * The * selector (universal selector)
   - Applies to all elements of the HTML page
+  - Doesn't override id's though
   - &star; { text-align: center; color=blue; }
 * Grouping multiple selectors
   - h1, p, li { color: blue; text-align: center; }
+* Adjacent siblings
+  - h3 + ul { border: 4px dotted purple; }
 
 ```css
 body { 
@@ -55,4 +58,6 @@ span {
   color: black;
   text-decoration: underline; /* overline, linethrough, etc. */
 }
+
+h3 + ul { border: 4px dotted purple; } // Apply to ul next to h3
 ```
