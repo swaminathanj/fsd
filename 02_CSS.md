@@ -13,7 +13,7 @@
 * The **id** selector
   - &lt;p id="first"&gt; This is used to demonstrate id selector.&lt;/p&gt;
   - #first { text-align: right; }
-*  The **class** selector
+* The **class** selector
   - &lt;p class="group"&gt; This is used to demonstrate class selector.&lt;/p&gt;
   - &lt;p class="group"&gt; Unlike id, same class name can be used to select multiple elements.&lt;/p&gt;
   - .group { color: blue; }
