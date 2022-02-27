@@ -29,6 +29,6 @@
   - p.intro { color: blue; text-align: center; }
 * The * selector (universal selector)
   - Applies to all elements of the HTML page
-  - * { text-align: center; color=blue; }
+  - &star; { text-align: center; color=blue; }
 * Grouping multiple selectors
   - h1, p, li { color: blue; text-align: center; }
