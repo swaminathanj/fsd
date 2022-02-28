@@ -60,4 +60,11 @@ span {
 }
 
 h3 + ul { border: 4px dotted purple; } // Apply to ul next to h3
+
+li a { color: red; }
+
+li a[href="https://www.google.co.in"] { 
+  color: blue; 
+  border: 5px solid orange;
+}
 ```
