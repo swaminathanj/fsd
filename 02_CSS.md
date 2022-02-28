@@ -68,3 +68,27 @@ li a[href="https://www.google.co.in"] {
   border: 5px solid orange;
 }
 ```
+
+## Specificity
+Defines the hierarchy of CSS styling and what type of tags overrule the others.
+
+```html
+<ul>
+  <li class="topitems">First</li>
+  <li id="two" class="topitems">Second</li>
+  <li>Third</li>
+  <li>Fourth</li>
+</ul>
+```
+
+```css
+li { color:red; }
+
+.topitems {color:blue; }
+
+#two { border:3px solid black; }
+```
+
+## Resources
+* [MDN CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* Google Inspector
