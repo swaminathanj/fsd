@@ -91,4 +91,4 @@ li { color:red; }
 
 ## Resources
 * [MDN CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* Google Inspector
+* Google Chrome Inspector
