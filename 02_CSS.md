@@ -120,6 +120,31 @@ Refer to [Google fonts](https://developers.google.com/fonts/docs/getting_started
 p { font-family: "Barrio", cursive; }
 ```
 
+## Box model
+Margin - Border - Padding - Content
+
+```html
+<h2 id="top">Top</h2>
+
+<h2 id="bottom">Bottom</h2>
+```
+
+```css
+#top {
+  border: 4px solid blue;
+  width: 25%;
+  text-align: center; /* Centered relative to the border */
+  margin: 10px 20px; /* top right bottom left */
+}
+
+#bottom {
+  border: 4px solid red;
+  width: 25%;
+  padding: 200px;
+  text-align: center;
+}
+```
+
 ## Resources
 * [MDN CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * Google Chrome Inspector
