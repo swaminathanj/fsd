@@ -121,7 +121,9 @@ p { font-family: "Barrio", cursive; }
 ```
 
 ## Box model
-Margin - Border - Padding - Content
+CSS Box model allows us to precisely dictate how we want HTML elements to look like. 
+* Margin - Border - Padding - Content
+* Top - Right - Bottom - Right
 
 ```html
 <h2 id="top">Top</h2>
