@@ -96,12 +96,19 @@ h1 { font-family="Arial"; }
 
 p { font-family=monospace; }
 
-body { 
-  font-size=20px;  /* 1em = 16px */
+body { font-size=20px; } /* First this has to be set - default for the body */
+
+#two { font-size=2.0em; }  /* Now #two font size set to 30px (relative to set default) */
+
+p {
+  font-style:italic;
+  font-weight:bold;
 }
 
+h1 { text-align: center; }
 ```
 
 ## Resources
 * [MDN CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * Google Chrome Inspector
+* [CSS Font Stack](https://www.cssfontstack.com/)
