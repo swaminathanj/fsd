@@ -91,6 +91,8 @@ li { color:red; }
 
 ## Fonts
 
+Choose Web Safe fonts for default font type of the page. For Web Safe fonts, please check [CSS Font stack](https://www.cssfontstack.com/).
+
 ```css
 h1 { font-family="Arial"; }
 
@@ -106,6 +108,16 @@ p {
 }
 
 h1 { text-align: center; }
+```
+
+If a particular font is not supported, you can link it to the site. It can also be downloaded and linked. 
+Refer to [Google fonts](https://developers.google.com/fonts/docs/getting_started#specifying_font_families_and_styles_in_a_stylesheet_url)c click the font to get the style to be included in the CSS file.
+
+```html
+ <link href="https://fonts.googleapis.com/css?family=Inconsolata"
+```
+```css
+p { font-family: "Barrio", cursive; }
 ```
 
 ## Resources
