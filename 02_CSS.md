@@ -67,6 +67,12 @@ li a[href="https://www.google.co.in"] {
   color: blue; 
   border: 5px solid orange;
 }
+
+td {
+  background-color: gray;
+  height: 200px;
+  width: 100px;
+}
 ```
 
 ## Specificity
