@@ -157,3 +157,16 @@ CSS Box model allows us to precisely dictate how we want HTML elements to look l
 * [MDN CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * Google Chrome Inspector
 * [CSS Font Stack](https://www.cssfontstack.com/)
+
+# Bootstrap
+
+A very common framework for front-end web development. The most important thing to learn is: how to reference the documentation. You don't have to memorize.
+
+A framework has the following features.
+* You code goes inside the framework (inversion of control). Unlike library where you the library code comes into your code.
+* By default, some features are implemented. Even if you didn't add anything, something will show-up.
+* You can add your code to the framework in a pre-determined points as required for your application.
+* But the framework code in itself is not modifiable.
+
+
+
