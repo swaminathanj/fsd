@@ -170,3 +170,8 @@ A framework has the following features.
 
 Bootstrap V3 / V4 / V5. V4 is a major re-write of V3.
 
+[Get Bootstrap](https://getbootstrap.com/)
+Two ways to work with Bootstrap.
+1. Content Delivery Network (CDN) - Copy the CDN Link to the HTML file. [Getting Started](https://getbootstrap.com/docs/5.1/getting-started/introduction/) has the link to be included in the HTML page.
+2. Download to local machine, save the on a folder and link to that. Do this only if you don't have access to the internet.
+
