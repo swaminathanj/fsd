@@ -89,6 +89,19 @@ li { color:red; }
 #two { border:3px solid black; }
 ```
 
+## Fonts
+
+```css
+h1 { font-family="Arial"; }
+
+p { font-family=monospace; }
+
+body { 
+  font-size=20px;  /* 1em = 16px */
+}
+
+```
+
 ## Resources
 * [MDN CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * Google Chrome Inspector
