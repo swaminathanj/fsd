@@ -21,5 +21,18 @@ Two ways to work with Bootstrap.
 1. Content Delivery Network (CDN) - Copy the CDN Link to the HTML file. [Getting Started](https://getbootstrap.com/docs/5.1/getting-started/introduction/) has the link to be included in the HTML page.
 2. Download to local machine, save the on a folder and link to that. Do this only if you don't have access to the internet.
 
-* Start with the starter template
+## Start with the starter template
+* The template and the associated explanation is available in the [Getting Started](https://getbootstrap.com/docs/5.1/getting-started/introduction/) page.
+* Note that the default font for Bootstrap is Sans Serif (as evident from Hello World) and not the browser default Times New Roman. 
 
+## Display class
+The **display** class is used for headings. Note that the class changes the way each element looks even though it is h1 tag for all.
+
+```html
+<h1 class="display-1">Display 1 heading</h1>
+<h1 class="display-2">Display 2 heading</h1>
+<h1 class="display-5">Display 5 heading</h1>
+<p class="display-6">Display 5 heading</p>
+```
+
+###
