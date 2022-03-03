@@ -138,7 +138,7 @@ Aum Amriteswaryai Namah
 ## CSS
 * Why CSS?
 * Syntax
-* Ways to include CSS styles to HTML
+* Including CSS styles
 * Selectors
 * Specificity
 * Fonts
