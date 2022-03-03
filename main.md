@@ -135,3 +135,16 @@ Aum Amriteswaryai Namah
   - Please get familiar with the basic HTML constructs from https://github.com/swaminathanj/fsd/blob/main/01_HTML.md
   - Prepare a profile page for yourself - as attractively and creatively as possible - using the constructs learnt. Submit the HTML page.
 
+## CSS
+* Why CSS?
+* Syntax
+* Ways to include CSS styles to HTML
+* Selectors
+* Specificity
+* Fonts
+* Box model
+* [Practice Examples](02_CSS.md)
+* Resources
+* Assignment
+
+## Bootstrap
