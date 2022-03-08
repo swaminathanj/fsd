@@ -35,4 +35,15 @@ The **display** class is used for headings. Note that the class changes the way 
 <p class="display-6">Display 5 heading</p>
 ```
 
-###
+### Responsive Web Design
+
+```html
+<div class="container">
+  <div class="row">
+    <div class="col-3- col-6- boxy">ONE</div>
+    <div class="col-3- col-6- boxy">TWO</div>
+    <div class="col-3- col-6- boxy">THREE</div>
+    <div class="col-3- col-6- boxy">FOUR</div>
+  </div>
+</div>
+```
