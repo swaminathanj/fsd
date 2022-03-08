@@ -40,10 +40,10 @@ The **display** class is used for headings. Note that the class changes the way 
 ```html
 <div class="container">
   <div class="row">
-    <div class="col-3- col-6- boxy">ONE</div>
-    <div class="col-3- col-6- boxy">TWO</div>
-    <div class="col-3- col-6- boxy">THREE</div>
-    <div class="col-3- col-6- boxy">FOUR</div>
+    <div class="col-md-3  col-lg-6 boxy">ONE</div>
+    <div class="col-md-3  col-lg-6 boxy">TWO</div>
+    <div class="col-md-3  col-lg-6 boxy">THREE</div>
+    <div class="col-md-3  col-lg-6 boxy">FOUR</div>
   </div>
-</div>
+</div>  
 ```
