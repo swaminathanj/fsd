@@ -28,3 +28,6 @@ Browser (any page)
 - document.getElementsByTagName() - Returns the list of all elements with the tag
 - document.querySelector() - returns the first object matching the CSS style selector
 - document.querySelectorAll() - returns all object matching the CSS style selector
+
+
+Note: For querySelector() and querySelectorAll() you have to give # for id selector (#myid), . for class selector (.myclass).
