@@ -38,4 +38,23 @@ Note: For querySelector() and querySelectorAll() you have to give # for id selec
 > myheader.style.color = 'red'
 
 
+### Random color changer in JS
 
+```html
+function getRandomColor() {
+  var letters = "0123456789ABCDEF";
+  var color = "#";
+  for (var i=0; i<6; i++) {
+    color += letters[Math.floor(Math.random()*16)];
+  }
+  return color;
+}
+
+function changeHeaderColor() {
+  colorInput = getRandomColor();
+  header.style.color = colorInput;  
+}
+
+// Now perform the action over intervals (milliseconds)
+setInterval("changeHeaderColor()",500)
+```
