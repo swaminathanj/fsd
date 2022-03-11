@@ -17,18 +17,25 @@ Browser (any page)
 
 ### Important document attributes
 
-- document.URL
-- document.body
-- document.head
-- document.links
+> document.URL
+> document.body
+> document.head
+> document.links
 
 ### Methods for grabbing elements of DOM
-- document.getElementById() - Returns the element with the id
-- document.getElementByClassName() - Returns the list of all elements belonging to a class
-- document.getElementsByTagName() - Returns the list of all elements with the tag
-- document.querySelector() - returns the first object matching the CSS style selector
-- document.querySelectorAll() - returns all object matching the CSS style selector
+> document.getElementById() - Returns the element with the id
+> document.getElementByClassName() - Returns the list of all elements belonging to a class
+> document.getElementsByTagName() - Returns the list of all elements with the tag
+> document.querySelector() - returns the first object matching the CSS style selector
+> document.querySelectorAll() - returns all object matching the CSS style selector
 
 Note: For querySelector() and querySelectorAll() you have to give # for id selector (#myid), . for class selector (.myclass).
 
 ## How to interact and affect DOM objects using JS?
+
+> var myheader = document.querySelector("h1")
+> myheader
+> myheader.style.color = 'red'
+
+
+
