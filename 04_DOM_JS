@@ -2,7 +2,11 @@
 
 ## Viewing DOM
 
-Browser 
+Browser (any page)
 * Inspect
   - Console
     > clear()
+    > document   // Can see the DOM
+    > console.dir(document)  // Can see as Java Script objects - properties and their values
+    
+## How to affect DOM using JS?
