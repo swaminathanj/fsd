@@ -3,10 +3,28 @@
 ## Viewing DOM
 
 Browser (any page)
-* Inspect
-  - Console
-    > clear()
-    > document   // Can see the DOM
-    > console.dir(document)  // Can see as Java Script objects - properties and their values
+* Right-click 
+  - Inspect
+    - Console
+      > clear()
+      > document   // Can see the DOM
+      > console.dir(document)  // Can see as Java Script objects - properties and their values
     
-## How to affect DOM using JS?
+## Interacting with DOM using JS
+
+- Grabbing large groups of elements (eg. head, body)
+- Grabbing specific HTML elements (eg. id, class)
+
+### Important document attributes
+
+- document.URL
+- document.body
+- document.head
+- document.links
+
+### Methods for grabbing elements of DOM
+- document.getElementById() - Returns the element with the id
+- document.getElementByClassName() - Returns the list of all elements belonging to a class
+- document.getElementsByTagName() - Returns the list of all elements with the tag
+- document.querySelector() - returns the first object matching the CSS style selector
+- document.querySelectorAll() - returns all object matching the CSS style selector
