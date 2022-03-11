@@ -2,7 +2,7 @@
 
 ## Viewing DOM
 
-Browser
+Browser 
 * Inspect
   - Console
-    * clear()
+    > clear()
