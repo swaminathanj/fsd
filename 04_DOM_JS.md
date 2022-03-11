@@ -23,11 +23,11 @@ Browser (any page)
 > document.links
 
 ### Methods for grabbing elements of DOM
-> document.getElementById() - Returns the element with the id
-> document.getElementByClassName() - Returns the list of all elements belonging to a class
-> document.getElementsByTagName() - Returns the list of all elements with the tag
-> document.querySelector() - returns the first object matching the CSS style selector
-> document.querySelectorAll() - returns all object matching the CSS style selector
+> document.getElementById() - Returns the element with the id <br>
+> document.getElementByClassName() - Returns the list of all elements belonging to a class <br>
+> document.getElementsByTagName() - Returns the list of all elements with the tag <br>
+> document.querySelector() - returns the first object matching the CSS style selector <br>
+> document.querySelectorAll() - returns all object matching the CSS style selector <br>
 
 Note: For querySelector() and querySelectorAll() you have to give # for id selector (#myid), . for class selector (.myclass).
 
