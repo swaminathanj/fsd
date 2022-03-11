@@ -33,8 +33,8 @@ Note: For querySelector() and querySelectorAll() you have to give # for id selec
 
 ## How to interact and affect DOM objects using JS?
 
-> var myheader = document.querySelector("h1")
-> myheader
+> var myheader = document.querySelector("h1") <br>
+> myheader <br>
 > myheader.style.color = 'red'
 
 
