@@ -6,8 +6,8 @@ Browser (any page)
 * Right-click 
   - Inspect
     - Console
-      > clear()
-      > document   // Can see the DOM
+      > clear() <br>
+      > document   // Can see the DOM <br>
       > console.dir(document)  // Can see as Java Script objects - properties and their values
     
 ## How to grab the objects in DOM?
