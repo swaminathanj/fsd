@@ -58,3 +58,18 @@ function changeHeaderColor() {
 // Now perform the action over intervals (milliseconds)
 setInterval("changeHeaderColor()",500)
 ```
+
+## Changing Text, HTML content and Attributes with DOM
+
+> myvar.textContent - This returns the text <br>
+> myvar.innerHTML - This returns the actual HTML <br>
+> myvar.getAttribute() - Returns the original attributed <br>
+> myvar.setAttribute() - Allows to set an attribute
+
+```html
+var p = document.querySelector('p')
+
+```
+
+
+
