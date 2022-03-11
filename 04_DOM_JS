@@ -10,7 +10,7 @@ Browser (any page)
       > document   // Can see the DOM
       > console.dir(document)  // Can see as Java Script objects - properties and their values
     
-## Interacting with DOM using JS
+## How to grab the objects in DOM?
 
 - Grabbing large groups of elements (eg. head, body)
 - Grabbing specific HTML elements (eg. id, class)
@@ -29,5 +29,6 @@ Browser (any page)
 - document.querySelector() - returns the first object matching the CSS style selector
 - document.querySelectorAll() - returns all object matching the CSS style selector
 
-
 Note: For querySelector() and querySelectorAll() you have to give # for id selector (#myid), . for class selector (.myclass).
+
+## How to interact and affect DOM objects using JS?
