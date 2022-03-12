@@ -74,7 +74,7 @@ setInterval("changeHeaderColor()",500)
 > specialA  // Returns the html element with anchor tag <br>
 > specialA.getAttribute("href") <br>
 > specialA.setAttribute("href", "https://www.amazon.com")
-```
+
 
 ## DOM Events
   - The above show how to specify the interaction with DOM beforehand. Sometimes we only want to interact with DOM when events happen 
