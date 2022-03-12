@@ -66,8 +66,14 @@ setInterval("changeHeaderColor()",500)
 > myvar.getAttribute() - Returns the original attributed <br>
 > myvar.setAttribute() - Allows to set an attribute
 
-```html
-var p = document.querySelector('p')
+// special refers to an id for an element. You have to refer to html to know this
+
+> var special = document.querySelector("#special") <br>
+> special  // Returns the html element with special id <br>
+> var specialA = special.querySelector("a") <br>
+> specialA  // Returns the html element with anchor tag <br>
+> specialA.getAttribute("href") <br>
+> specialA.setAttribute("href", "https://www.amazon.com")
 
 ```
 
