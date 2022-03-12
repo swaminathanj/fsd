@@ -77,5 +77,51 @@ setInterval("changeHeaderColor()",500)
 
 ```
 
+## DOM Events
 
+* The above show how to specify the interaction with DOM beforehand. Sometimes we only want to interact with DOM when events happen 
+* There are many events such as hover, click, drag, double click, etc. Check Mozilla Developer Network for exhaustive list.
+* Achieved by adding an Event Listener. The javascript will be listening for event to occur and execute a function if that happens.
+* An example
+
+```js
+var head = document.querySelector('h1')
+head.addEventListener("click", changeColor)
+```
+
+```html
+<body>
+  <h1 id="one">Hover over me</h1>
+  <h1 id="two">Click me</h1>
+  <h1 id="three">Double click me</h1>
+</body>
+<script src="script.js">
+```
+
+```js
+var headOne = document.querySelector("#one")
+var headTwo = document.querySelector("#two")
+var headThree = document.querySelector("#three")
+
+console.log("Connected")  // Can remove this statement after checking in browser
+headOne.addEventListener('mouseover', function(){
+  headOne.textCpntent = "Mouse currently over";
+  headOne.style.colr = 'red';
+})
+
+headOne.addEventListener('mouseout', function(){
+  headOne.textCpntent = "Hover over me";
+  headOne.style.colr = 'black';
+})
+
+headTwo.addEventListener('click', function(){
+  headTwo.textCpntent = "I was clicked";
+  headTwo.style.colr = 'blue';
+})
+
+headThree.addEventListener('dblclick', function(){
+  headThree.textCpntent = "I was double clicked";
+  headThree.style.colr = 'green';
+})
+```
 
