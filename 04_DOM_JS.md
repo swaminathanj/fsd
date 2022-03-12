@@ -74,14 +74,13 @@ setInterval("changeHeaderColor()",500)
 > specialA  // Returns the html element with anchor tag <br>
 > specialA.getAttribute("href") <br>
 > specialA.setAttribute("href", "https://www.amazon.com")
-
 ```
 
 ## DOM Events
-  * The above show how to specify the interaction with DOM beforehand. Sometimes we only want to interact with DOM when events happen 
-  * There are many events such as hover, click, drag, double click, etc. Check Mozilla Developer Network for exhaustive list.
-  * Achieved by adding an Event Listener. The javascript will be listening for event to occur and execute a function if that happens.
-  * An example
+  - The above show how to specify the interaction with DOM beforehand. Sometimes we only want to interact with DOM when events happen 
+  - There are many events such as hover, click, drag, double click, etc. Check Mozilla Developer Network for exhaustive list.
+  - Achieved by adding an Event Listener. The javascript will be listening for event to occur and execute a function if that happens.
+  - An example
 
 ```js
 var head = document.querySelector('h1')
