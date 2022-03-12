@@ -84,7 +84,7 @@ setInterval("changeHeaderColor()",500)
 * Achieved by adding an Event Listener. The javascript will be listening for event to occur and execute a function if that happens.
 * An example
 
-```js
+```javascript
 var head = document.querySelector('h1')
 head.addEventListener("click", changeColor)
 ```
