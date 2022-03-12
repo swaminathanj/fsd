@@ -1,5 +1,18 @@
 # Document Object Model (DOM)
 
+HTML DOM is constructed as a tree of objects.
+
+* document
+  * html
+    * head
+      * title
+    * body
+      * h1
+      * p
+      * ul
+        * li
+        * li
+
 ## Viewing DOM
 
 Browser (any page)
