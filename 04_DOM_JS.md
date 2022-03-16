@@ -30,10 +30,10 @@ Browser (any page)
 
 ### Important document attributes
 
-> document.URL
-> document.body
-> document.head
-> document.links
+> document.URL <br>
+> document.body <br>
+> document.head <br>
+> document.links <br>
 
 ### Methods for grabbing elements of DOM
 > document.getElementById() - Returns the element with the id <br>
