@@ -6,17 +6,17 @@ document
 * html
   * head
     * title
-      * "My First Page"
+      - "My First Page"
   * body
     * h1
-      * "Section 1"
+      - "Section 1"
     * p
-      * "This is a paragraph."
+      - "This is a paragraph."
     * ul
       * li
-        * "First item"
+        - "First item"
       * li
-        * "Second item"
+        - "Second item"
 
 ## Viewing DOM
 
@@ -42,7 +42,7 @@ Browser (any page)
 
 ### Methods for grabbing elements of DOM
 > document.getElementById() - Returns the element with the id <br>
-> document.getElementByClassName() - Returns the list of all elements belonging to a class <br>
+> document.getElementsByClassName() - Returns the list of all elements belonging to a class <br>
 > document.getElementsByTagName() - Returns the list of all elements with the tag <br>
 > document.querySelector() - returns the first object matching the CSS style selector <br>
 > document.querySelectorAll() - returns all object matching the CSS style selector <br>
