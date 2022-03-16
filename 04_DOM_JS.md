@@ -2,16 +2,21 @@
 
 HTML DOM is constructed as a tree of objects.
 
-* document
-  * html
-    * head
-      * title
-    * body
-      * h1
-      * p
-      * ul
-        * li
-        * li
+document
+* html
+  * head
+    * title
+      * "My First Page"
+  * body
+    * h1
+      * "Section 1"
+    * p
+      * "This is a paragraph."
+    * ul
+      * li
+        * "First item"
+      * li
+        * "Second item"
 
 ## Viewing DOM
 
