@@ -121,23 +121,33 @@ var headThree = document.querySelector("#three")
 
 console.log("Connected")  // Can remove this statement after checking in browser
 headOne.addEventListener('mouseover', function(){
-  headOne.textCpntent = "Mouse currently over";
-  headOne.style.colr = 'red';
+  headOne.textContent = "Mouse currently over";
+  headOne.style.color = 'red';
 })
 
 headOne.addEventListener('mouseout', function(){
-  headOne.textCpntent = "Hover over me";
-  headOne.style.colr = 'black';
+  headOne.textContent = "Hover over me";
+  headOne.style.color = 'black';
 })
 
 headTwo.addEventListener('click', function(){
-  headTwo.textCpntent = "I was clicked";
-  headTwo.style.colr = 'blue';
+  headTwo.textContent = "I was clicked";
+  headTwo.style.color = 'blue';
 })
 
 headThree.addEventListener('dblclick', function(){
-  headThree.textCpntent = "I was double clicked";
-  headThree.style.colr = 'green';
+  headThree.textContent = "I was double clicked";
+  headThree.style.color = 'green';
 })
+```
+
+## Adding new element to DOM
+
+You can add new element to DOM by using document.createElement() and append
+
+```javascript
+var a = document.createElement("h1")
+a.textContent="A new heading one element"
+document.body.appendChild(a)
 ```
 
