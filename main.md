@@ -150,6 +150,13 @@ Aum Amriteswaryai Namah
 ## Bootstrap
 This topic introduces how to develop nice web pages using Bootstrap framework in a quick manner which would otherwise take . The key point to note is that the programmer should focus on getting familiar with Bootstrap through examples from getbootstrap and then use it to speedup website development.
 
+### Topics
+* Working with Bootstrap (CDN vs. Download)
+* https://getbootstrap.com -> Getting Started
+* Starter template
+* Try examples from Get Bootstrap
+* Tweak the code and understand its working
+
 ### Resources
 * [Practice examples](03_Bootstrap.md)
 * [Get Bootstrap](https://getbootstrap.com/) - No. 1 resource
