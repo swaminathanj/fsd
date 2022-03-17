@@ -148,3 +148,19 @@ Aum Amriteswaryai Namah
 * Assignment
 
 ## Bootstrap
+This topic introduces how to develop nice web pages using Bootstrap framework in a quick manner which would otherwise take . The key point to note is that the programmer should focus on getting familiar with Bootstrap through examples from getbootstrap and then use it to speedup website development.
+
+### Resources
+* [Practice examples](03_Bootstrap.md)
+* [Get Bootstrap](https://getbootstrap.com/) - No. 1 resource
+* [A 15 min video on Bootstrap](https://www.youtube.com/watch?v=dtTWD0ystG0) - A quick video resource
+* [w3schools](https://www.w3schools.com/bootstrap5/index.php)
+
+
+## Java Script and DOM
+This topic focuses on Java Script to manipulate the DOM. Essentially how to grab the elements, how to modify the elements and content, how to add event listeners to the elements and trigger an action when the event happens, how to add new elements. 
+
+### Resources
+* [Practice examples](04_DOM_JS.md)
+* [A good blog with many examples](https://www.toolsqa.com/javascript/dom-in-javascript/)
+* [w3schools](https://www.w3schools.com/js/js_htmldom.asp)
