@@ -42,7 +42,7 @@ You can workout on the console too.
 * var y = { <br>
     'color': 'blue', <br>
     'background' : 'yellow', <br>
-    'border' : ' 20px solid red'
+    'border' : ' 20px solid red' <br>
   }
 * y
 * x.css(y)
@@ -51,6 +51,19 @@ You can workout on the console too.
 * z.css('color', 'blue')  // Changes all list items to blue
 * z.eq(0).css('color', 'red')  // Applies to first list item
 * z.eq(-1).css('color', 'orange')  // Applies to last list item
+* $('h1').text()  // Displays the heading 1 text - equivalent to .textContent
+* $('h1').text("New text")  // Changes the heading 1 text 
+* $('h1').html()  // Displays the html of h1
+* $('h1').html("<strong>New text<strong>")  // Makes the heading 1 bold
+* $('input').eq(1).attr('type','checkbox')  // Changes button to checkbox
+* $('input').eq(0).val('New text')  // Changes the text box value to 'New text'
+* $('h1').addClass('first')  // adds h1 item to first class, first is a class in CSS file
+* $('h1').removeClass('first')  // removes h1 item from first class, first is a class in CSS file
+* $('h1').toggleClass('first')  // adds and removes first class alternately when called
+* $('h1').click(function(){ alert('h1 was clicked') })
+* $('h1').click(function(){ console.log('An li was clicked') })
+* $('h1').click(function(){ $('this').text('Heading 1 changed') })
+
 
 
 
