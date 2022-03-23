@@ -8,8 +8,9 @@ It used $ sign for method name. JS allows $ in variable/function/method names. H
 
 ## Getting jQuery
 
-1. CDN option by including the link
-2. Download .js file of jQuery from official site and use it
+1. CDN option by including the link from https://code.jquery.com and cut and paste the link in the html file
+   * <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+3. Download .js file of jQuery from official site
 
 ## Examples of differences between vanilla java script and jQuery
 
@@ -28,3 +29,18 @@ x.style.padding = '20px';  // vanilla
 
 $(x).css('padding', '20px');  // jQuery
 ```
+
+## Interacting with DOM using jQuery
+
+You can workout on the console too.
+
+* $('h1')
+* $('li')
+* var x = $('h1')
+* x.css('color', 'red')
+
+
+
+
+
+
