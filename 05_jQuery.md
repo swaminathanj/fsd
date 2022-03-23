@@ -63,6 +63,14 @@ You can workout on the console too.
 * $('h1').click(function(){ alert('h1 was clicked') })
 * $('h1').click(function(){ console.log('An li was clicked') })
 * $('h1').click(function(){ $('this').text('Heading 1 changed') })
+* $('input').eq(0).keypress(function() { $('h3').toggleClass('first') } )
+* $('input').eq(0).keypress(function(event) { console.log(event) } )
+* $('input').eq(0).keypress(function(event) { if (event.which === 13) { $('h3').toggleClass('first') } } )
+* $(h1).on('dblclick', function() { $this.toggleClass('first') } )
+* $(h1).on('mouseenter', function() { $this.toggleClass('first') } )
+* $('input').eq(1).on('click', function(event) { $('.container').fadeOut(3000) } } )
+* $('input').eq(1).on('click', function(event) { $('.container').slideUp(3000) } } )
+
 
 
 
