@@ -38,6 +38,14 @@ You can workout on the console too.
 * $('li')
 * var x = $('h1')
 * x.css('color', 'red')
+* x.css('background', 'blue')
+* var y = { <br>
+    'color': 'blue', <br>
+    'background' : 'yellow', <br>
+    'border' : ' 20px solid red'
+  }
+* y
+* x.css(y)
 
 
 
