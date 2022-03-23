@@ -54,7 +54,7 @@ You can workout on the console too.
 * $('h1').text()  // Displays the heading 1 text - equivalent to .textContent
 * $('h1').text("New text")  // Changes the heading 1 text 
 * $('h1').html()  // Displays the html of h1
-* $('h1').html("<strong>New text<strong>")  // Makes the heading 1 bold
+* $('h1').html("&langle;strong&rangle;New text&langle;/strong&rangle;")  // Makes the heading 1 bold
 * $('input').eq(1).attr('type','checkbox')  // Changes button to checkbox
 * $('input').eq(0).val('New text')  // Changes the text box value to 'New text'
 * $('h1').addClass('first')  // adds h1 item to first class, first is a class in CSS file
