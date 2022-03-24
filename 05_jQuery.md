@@ -60,9 +60,9 @@ Let's take a sample html code to play with.
 
 #### Grab the element with h1 tag
 ```javascript
-> var x = $('h1')  // jQuery way
+var x = $('h1')  // jQuery way
 
-> var x = document.getElementsByTagName('h1') / document.querySelector('h1')   // Vanilla JS way
+var x = document.getElementsByTagName('h1') / document.querySelector('h1')   // Vanilla JS way
 ```
 
 #### Grab all elements with li tag
@@ -74,30 +74,30 @@ var y = document.getElementsByTagName('li') / document.querySelectorAll('li')  /
 
 #### Grab the first element with li tag
 ```javascript
-> var yFirst = $('li').eq(0)   // jQuery way
+var yFirst = $('li').eq(0)   // jQuery way
 
-> var yFirst = document.getElementsByTagName('li')[0] / document.querySelector('li')  // Vanilla JS way
+var yFirst = document.getElementsByTagName('li')[0] / document.querySelector('li')  // Vanilla JS way
 ```
 
 #### Grab the last element with li tag
 ```javascript
-> var yLast = $('li').eq(-1)    // jQuery way
+var yLast = $('li').eq(-1)    // jQuery way
 
-> var yLast = document.getElementsByTagName('li')[4]  // Vanilla JS way
+var yLast = document.getElementsByTagName('li')[4]  // Vanilla JS way
 ```
 
 #### Grab the element by id 'para1'
 ```javascript
-> var z = $('#para1').eq(-1)   // jQuery way
+var z = $('#para1').eq(-1)   // jQuery way
 
-> var z = document.getElementsById('para1') / document.querySelector('#para1')  // Vanilla JS way
+var z = document.getElementsById('para1') / document.querySelector('#para1')  // Vanilla JS way
 ```
 
 #### Grab the element with class 'imp'
 ```javascript
-> var w = $('.imp').eq(-1)   // jQuery way
+var w = $('.imp').eq(-1)   // jQuery way
 
-> var w = document.getElementsByClassName('imp') / document.querySelector('.imp')  // Vanilla JS way
+var w = document.getElementsByClassName('imp') / document.querySelector('.imp')  // Vanilla JS way
 ```
 
 ### 2. Methods to view and update the content
@@ -138,6 +138,23 @@ $('#para1').before('<h2>A sub-heading added before the paragraph</h2>')  // jQue
 #### Add after an element
 ``` javascript
 $('#para2').after('<h2>A sub-heading added after the paragraph.</h2>')  // jQuery way
+```
+
+### Applying styles
+
+#### Applying a single style to an element
+``` javascript
+$('h1').css('color','blue')
+```
+
+#### Applying multiple styles to an element
+``` javascript
+var sty = {
+  'color' : 'red',
+  'background' : 'yellow',
+  'border' : '20px solid blue'
+}
+$('h1').css(sty)
 ```
 
 * $('h1')
