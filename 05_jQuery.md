@@ -203,7 +203,7 @@ $('h1').dblclick(function() {
 
 #### Double-click event using on function
 ```javascript
-$('h1').on('click', function() {
+$('h1').on('dblclick', function() {
   alert("Heading 1 double clicked")
 })
 ```
@@ -224,15 +224,15 @@ $('#para1').on('mouseenter', function() {
 
 #### Mouse-out event using mouseout function
 ```javascript
-$('#para2').mouseout(function() {
-  alert("Mouse out of paragraph 2")
+$('#para1').mouseout(function() {
+  alert("Mouse out of paragraph 1")
 })
 ```
 
-#### Mouse-enter event using on function
+#### Mouse-out event using on function
 ```javascript
-$('#para2').on('mouseout', function() {
-  alert("Mouse out of paragraph 2")
+$('#para1').on('mouseout', function() {
+  alert("Mouse out of paragraph 1")
 })
 ```
 
@@ -284,7 +284,7 @@ $('input').eq(0).keypress(function() {
 #### Keypress event (Enter key pressed)
 ```javascript
 $('input').eq(0).keypress(function(event) { 
-  if (event.which === 13) { 
+  if (event.which === 13) {    // ASCII value of Enter key is 13
     $('li').eq(0).toggleClass('first') 
   } 
 })
@@ -317,6 +317,8 @@ $('input').eq(1).on('click', function(event) {
   $('.container').slideUp(3000) 
 })
 ```
+
+### Miscellaneous
 
 * $('h1')
 * $('li')
@@ -354,11 +356,3 @@ $('input').eq(1).on('click', function(event) {
 * $(h1).on('mouseenter', function() { $this.toggleClass('first') } )
 * $('input').eq(1).on('click', function(event) { $('.container').fadeOut(3000) } } )
 * $('input').eq(1).on('click', function(event) { $('.container').slideUp(3000) } } )
-
-
-
-
-
-
-
-
