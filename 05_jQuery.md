@@ -48,7 +48,7 @@ Let's take a sample html code to play with.
       <li class='imp'>Open this html page in browser</li>
       <li class='imp'>Right click and select Inspect</li>
       <li class='imp'>Move to console tab</li>
-      <li>Clear up the contents by using clear() method</li>
+      <li> Clear up the contents by using clear() method</li>
       <li class='imp'>Start trying out the following code one-by-one and see their effects.</li>
     </ul>
     <p id='para2'>Note that almost all browsers support jQuery. jQuery code can be written in Java Script file and browsers can run./<p>
@@ -56,7 +56,7 @@ Let's take a sample html code to play with.
 </html>
 ```
 
-### Grabbing by selector 
+### 1. Grabbing by selector 
 
 #### Grab the element with h1 tag
 ```javascript
@@ -98,6 +98,45 @@ var y = document.getElementsByTagName('li') / document.querySelectorAll('li')  /
 > var w = $('.imp').eq(-1)   // jQuery way
 
 > var w = document.getElementsByClassName('imp') / document.querySelector('.imp')  // Vanilla JS way
+```
+
+### 2. Methods to view and update the content
+
+#### Print the text content
+``` javascript
+$('h1').text()  // jQuery way
+
+var x = document.getElementByTagName('h1').textContent  // Vanilla JS way
+```
+
+#### Change the text content
+$('h1').text('Heading  Changed')  // jQuery way
+
+document.getElementByTagName('h1').textContent = 'Heading Changed'  // Vanilla JS way
+```
+
+#### Print the html content
+``` javascript
+$('h1').html()  // jQuery way
+
+var x = document.getElementByTagName('h1').innerHTML  // Vanilla JS way
+```
+
+#### Change the html
+``` javascript
+$('h1').html('<em>Italicized Heading</em>')  // jQuery way
+
+var x = document.getElementByTagName('h1').innerHTML = '<em>Italicized Heading</em>' // Vanilla JS way
+```
+
+#### Add before an element
+``` javascript
+$('#para1').before('<h2>A sub-heading added before the paragraph</h2>')  // jQuery way
+```
+
+#### Add after an element
+``` javascript
+$('#para2').after('<h2>A sub-heading added after the paragraph.</h2>')  // jQuery way
 ```
 
 * $('h1')
