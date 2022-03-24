@@ -194,11 +194,47 @@ $('h1').on('click', function() {
 })
 ```
 
-#### Double-click event
+#### Double-click event using dblclick function
+```javascript
+$('h1').dblclick(function() {
+  alert("Heading 1 double clicked")
+})
+```
 
-#### Mouse-enter event
+#### Double-click event using on function
+```javascript
+$('h1').on('click', function() {
+  alert("Heading 1 double clicked")
+})
+```
 
-#### Mouse-out event
+#### Mouse-enter event using mouseevent function
+```javascript
+$('#para1').mouseenter(function() {
+  alert("Mouse hovering over paragraph 1")
+})
+```
+
+#### Mouse-enter event using on function
+```javascript
+$('#para1').on('mouseenter', function() {
+  alert("Mouse hovering over paragraph 1")
+})
+```
+
+#### Mouse-out event using mouseout function
+```javascript
+$('#para2').mouseout(function() {
+  alert("Mouse out of paragraph 2")
+})
+```
+
+#### Mouse-enter event using on function
+```javascript
+$('#para2').on('mouseout', function() {
+  alert("Mouse out of paragraph 2")
+})
+```
 
 #### Keypress event
 
