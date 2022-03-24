@@ -52,6 +52,11 @@ Let's take a sample html code to play with.
       <li class='imp'>Start trying out the following code one-by-one and see their effects.</li>
     </ul>
     <p id='para2'>Note that almost all browsers support jQuery. jQuery code can be written in Java Script file and browsers can run./<p>
+    
+    <h2>Add a text box and a submit button</h2>
+    Note that both the text box and the submit button are constructed from input tag.
+    <input type="text">
+    <input type="submit">
   </body>
 </html>
 ```
@@ -106,7 +111,7 @@ var w = document.getElementsByClassName('imp') / document.querySelector('.imp') 
 ``` javascript
 $('h1').text()  // jQuery way
 
-var x = document.getElementByTagName('h1').textContent  // Vanilla JS way
+document.getElementByTagName('h1').textContent  // Vanilla JS way
 ```
 
 #### Change the text content
@@ -171,6 +176,22 @@ $('h1').css(sty)
 $('h1').attr('id','hdng1')  // Set the attribute
 $('h1')attr('id')           // Check whether it is set correctly
 $('#hdng1').text()          // Check if the id attribute can be used to access the content
+```
+
+#### Adding a class
+
+Let's define a class and set a style.
+
+```css
+.first {
+  'color' : 'blue',
+  'background' : 'red'
+}
+```
+
+Let's now add this class to an element
+``` javascript
+$('h1').addClass('first')
 ```
 
 * $('h1')
