@@ -46,7 +46,7 @@ You can workout on the console too.
   }
 * y
 * x.css(y)
-* var p = $('li')
+* var z = $('li')
 * z
 * z.css('color', 'blue')  // Changes all list items to blue
 * z.eq(0).css('color', 'red')  // Applies to first list item
