@@ -57,23 +57,30 @@ Let's take a sample html code to play with.
 ```
 
 ### Grab h1 tag
-> var x = $('h1')  // jQuery
+```javascript
+> var x = $('h1')  // jQuery <br>
 > var x = document.getElementsByTagName('h1') / document.querySelector('h1')   // Vanilla JS
+```
 
 ### Grab all li tags
-> var y = $('li')   // jQuery
-> var x = document.getElementsByTagName('li') / document.querySelectorAll('li')  // Vanilla JS
+> var y = $('li')
+> var y = document.getElementsByTagName('li') / document.querySelectorAll('li')  // Vanilla JS
 
 ### Grab the first li tag
-> var y = $('li').eq(0)  //  var x = document.getElementsByTagName('li')[0]
+> var y = $('li').eq(0)   // jQuery <br>
+> var y = document.getElementsByTagName('li')[0]  // Vanilla JS
 
 ### Grab the last li tag
-> var y = $('li').eq(-1)  //  var y = document.getElementsByTagName('li')[4]
+> var y = $('li').eq(-1)    // jQuery <br>
+> var y = document.getElementsByTagName('li')[4]  // Vanilla JS
 
 ### Grab the element by  id 'para1'
-> var z = $('#para1')  // var y = document.getElementsById('para1') / document.querySelector('#para1')
+> var z = $('li').eq(-1)   // jQuery <br>
+> var z = document.getElementsById('para1') / document.querySelector('#para1')  // Vanilla JS
 
-
+### Grab the element by  id 'para1'
+> var z = $('li').eq(-1)   // jQuery <br>
+> var z = document.getElementsById('para1') / document.querySelector('#para1')  // Vanilla JS
 
 * $('h1')
 * $('li')
