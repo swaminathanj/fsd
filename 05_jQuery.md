@@ -71,7 +71,7 @@ Let's take a sample html code to play with.
 ### Grab the first li tag
 ```javascript
 > var yFirst = $('li').eq(0)   // jQuery way
-> var yFirst = document.getElementsByTagName('li')[0]  // Vanilla JS
+> var yFirst = document.getElementsByTagName('li')[0] / document.querySelector('li')  // Vanilla JS
 ```
 
 ### Grab the last li tag
