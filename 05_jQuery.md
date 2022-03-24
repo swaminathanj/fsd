@@ -57,10 +57,12 @@ Let's take a sample html code to play with.
 ```
 
 ### Grab h1 tag
-> var x = $('h1')  //  var x = document.getElementsByTagName('h1') / document.querySelector('h1')
+> var x = $('h1')  // jQuery
+> var x = document.getElementsByTagName('h1') / document.querySelector('h1')   // Vanilla JS
 
 ### Grab all li tags
-> var y = $('li')  //  var x = document.getElementsByTagName('li') / document.querySelectorAll('li')
+> var y = $('li')   // jQuery
+> var x = document.getElementsByTagName('li') / document.querySelectorAll('li')  // Vanilla JS
 
 ### Grab the first li tag
 > var y = $('li').eq(0)  //  var x = document.getElementsByTagName('li')[0]
