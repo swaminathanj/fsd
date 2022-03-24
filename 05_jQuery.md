@@ -178,9 +178,21 @@ $('h1')attr('id')           // Check whether it is set correctly
 $('#hdng1').text()          // Check if the id attribute can be used to access the content
 ```
 
-### 5. Event Listener
+### 5. Handling Events
 
-#### Click event
+#### Click event using click function
+```javascript
+$('h1').click(function() {
+  alert("Heading 1 clicked")
+})
+```
+
+#### Click event using on function
+```javascript
+$('h1').on('click', function() {
+  alert("Heading 1 clicked")
+})
+```
 
 #### Double-click event
 
@@ -208,7 +220,7 @@ Let's define a two classes *first* and *second* and set the respective styles. T
 }
 ```
 
-Let's now define two functions that will apply the *first* and *second* classes to h1 element when h1 element is clicked and double-clicked respectively. Note the applying the class implies applying the styles defined above. These are within different functions which can be called when respective buttons are clicked.
+Let's now define two functions that will apply the *first* and *second* classes to h1 element when h1 element is clicked and double-clicked respectively. Note the applying the class implies applying the styles defined above.
 
 ``` javascript
 function firstClass() {
