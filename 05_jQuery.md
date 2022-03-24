@@ -180,18 +180,35 @@ $('#hdng1').text()          // Check if the id attribute can be used to access t
 
 #### Adding a class
 
-Let's define a class and set a style.
+Let's define a two classes *first* and *second* and set the respective styles. This should be done in css file.
 
 ```css
 .first {
   'color' : 'blue',
   'background' : 'red'
 }
+
+.second {
+  'color' : 'red',
+  'background' : 'blue'
+}
 ```
 
-Let's now add this class to an element
+Let's now define two functions that will apply the *first* and *second* classes to h1 element when h1 element is clicked and double-clicked respectively. Note the applying the class implies applying the styles defined above. These are within different functions which can be called when respective buttons are clicked.
+
 ``` javascript
-$('h1').addClass('first')
+function firstClass() {
+  $('h1').removeClass('second')
+  $('h1').addClass('first')
+}
+
+function secondClass() {
+  $('h1').removeClass('first')
+  $('h1').addClass('second')
+}
+
+$('h1').on('click', firstClass)
+$('h1').on('dblclick', secondClass)
 ```
 
 * $('h1')
