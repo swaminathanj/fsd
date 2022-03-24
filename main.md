@@ -171,3 +171,10 @@ This topic focuses on Java Script to manipulate the DOM. Essentially how to grab
 * [Practice examples](04_DOM_JS.md)
 * [A good blog with many examples](https://www.toolsqa.com/javascript/dom-in-javascript/)
 * [w3schools](https://www.w3schools.com/js/js_htmldom.asp)
+
+## jQuery
+* [Practice examples](05_jQuery.md)
+* [jQuery releases](https://releases.jquery.com)
+* [jQuery APIs](https://api.jquery.com)
+* [w3schools](https://www.w3schools.com/jquery/default.asp)
+* [A good video tutorial from Edureka](https://youtu.be/2OMzGhlIZpg)
