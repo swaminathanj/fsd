@@ -110,6 +110,7 @@ var x = document.getElementByTagName('h1').textContent  // Vanilla JS way
 ```
 
 #### Change the text content
+``` javascript
 $('h1').text('Heading  Changed')  // jQuery way
 
 document.getElementByTagName('h1').textContent = 'Heading Changed'  // Vanilla JS way
