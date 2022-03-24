@@ -178,7 +178,7 @@ $('h1')attr('id')           // Check whether it is set correctly
 $('#hdng1').text()          // Check if the id attribute can be used to access the content
 ```
 
-### 5. Handling Events
+### 5. Handling Mouse Events
 
 #### Click event using click function
 ```javascript
@@ -236,8 +236,6 @@ $('#para2').on('mouseout', function() {
 })
 ```
 
-#### Keypress event
-
 ### 6. Toggling classes
 
 #### Adding two classes to an element
@@ -271,6 +269,53 @@ function secondClass() {
 
 $('h1').on('click', firstClass)
 $('h1').on('dblclick', secondClass)
+```
+
+### 7. Handling Keyboard events
+
+#### Keypress event (Any key pressed)
+```javascript
+$('input').eq(0).keypress(function() { 
+  $('h1').toggleClass('first') 
+})
+```
+* $('input').eq(0).keypress(function(event) { console.log(event) } )
+
+#### Keypress event (Enter key pressed)
+```javascript
+$('input').eq(0).keypress(function(event) { 
+  if (event.which === 13) { 
+    $('li').eq(0).toggleClass('first') 
+  } 
+})
+```
+
+### 8. Getting and Setting values to textbox
+
+### Setting value to textbox
+```javascript
+$('input').eq(0).val('New text')  // Changes the text box value to 'New text'
+```
+
+### Printing value in textbox
+```javascript
+alert( $('input').eq(0).val() )   // Print the text box value using alert box
+```
+
+### 9. Special effects on textbox
+
+#### Fade out the content
+```javascript
+$('input').eq(1).on('click', function(event) { 
+  $('.container').fadeOut(3000) 
+})
+```
+
+#### Slide the content upwards
+```javascript
+$('input').eq(1).on('click', function(event) { 
+  $('.container').slideUp(3000) 
+})
 ```
 
 * $('h1')
