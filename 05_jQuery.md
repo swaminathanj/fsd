@@ -51,7 +51,7 @@ Let's take a sample html code to play with.
       <li>Clear up the contents by using clear() method</li>
       <li class='imp'>Start trying out the following code one-by-one and see their effects.</li>
     </ul>
-    <p>Note that almost all browsers support jQuery. jQuery code can be written in Java Script file and browsers can run./<p>
+    <p id='para2'>Note that almost all browsers support jQuery. jQuery code can be written in Java Script file and browsers can run./<p>
   </body>
 </html>
 ```
