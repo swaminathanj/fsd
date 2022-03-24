@@ -145,6 +145,12 @@ $('#para2').after('<h2>A sub-heading added after the paragraph.</h2>')  // jQuer
 #### Applying a single style to an element
 ``` javascript
 $('h1').css('color','blue')
+$('li').eq(2).css('color','blue')
+```
+
+#### Applying a single style to many element
+``` javascript
+$('.imp').css('color','red')
 ```
 
 #### Applying multiple styles to an element
@@ -155,6 +161,16 @@ var sty = {
   'border' : '20px solid blue'
 }
 $('h1').css(sty)
+```
+
+### Changing attributes
+
+#### Set id of an element
+
+``` javascript
+$('h1').attr('id','hdng1')  // Set the attribute
+$('h1')attr('id')           // Check whether it is set correctly
+$('#hdng1').text()          // Check if the id attribute can be used to access the content
 ```
 
 * $('h1')
