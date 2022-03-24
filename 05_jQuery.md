@@ -32,7 +32,22 @@ $(x).css('padding', '20px');  // jQuery
 
 ## Interacting with DOM using jQuery
 
-You can workout on the console too.
+You can workout on the console to see the effect. It will be easy to learn. Later you can write the code in separte file.
+
+Let's take a sample html code to play with.
+
+``` html
+<html>
+  <head>
+    <title>Playing with jQuery</title>
+  </head>
+  <body>
+    <h1>Playing with jQuery in console</h1>
+    <p>Open this html page in browser and right click and select Inspect. Move to console tab. Clear up the contents by using clear() method.</p>
+    
+  
+</html>
+```
 
 * $('h1')
 * $('li')
