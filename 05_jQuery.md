@@ -56,37 +56,39 @@ Let's take a sample html code to play with.
 </html>
 ```
 
-### Grab h1 tag
+### Grabbing by selector 
+
+#### Grab h1 tag
 ```javascript
 > var x = $('h1')  // jQuery way
 > var x = document.getElementsByTagName('h1') / document.querySelector('h1')   // Vanilla JS way
 ```
 
-### Grab all li tags
+#### Grab all li tags
 ```javascript
 > var y = $('li') // jQuery way
 > var y = document.getElementsByTagName('li') / document.querySelectorAll('li')  // Vanilla JS way
 ```
 
-### Grab the first li tag
+#### Grab the first li tag
 ```javascript
 > var yFirst = $('li').eq(0)   // jQuery way
 > var yFirst = document.getElementsByTagName('li')[0] / document.querySelector('li')  // Vanilla JS
 ```
 
-### Grab the last li tag
+#### Grab the last li tag
 ```javascript
 > var yLast = $('li').eq(-1)    // jQuery way
 > var yLast = document.getElementsByTagName('li')[4]  // Vanilla JS way
 ```
 
-### Grab the element by  id 'para1'
+#### Grab the element by  id 'para1'
 ```javascript
 > var z = $('#para1').eq(-1)   // jQuery way
 > var z = document.getElementsById('para1') / document.querySelector('#para1')  // Vanilla JS way
 ```
 
-### Grab the element by  class 'imp'
+#### Grab the element by  class 'imp'
 ```javascript
 > var z = $('.imp').eq(-1)   // jQuery way
 > var z = document.getElementsByClassName('imp') / document.querySelector('.imp')  // Vanilla JS way
