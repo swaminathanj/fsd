@@ -66,14 +66,15 @@ Let's take a sample html code to play with.
 
 #### Grab all elements with li tag
 ```javascript
-> var y = $('li') // jQuery way
-> var y = document.getElementsByTagName('li') / document.querySelectorAll('li')  // Vanilla JS way
+var y = $('li') // jQuery way
+
+var y = document.getElementsByTagName('li') / document.querySelectorAll('li')  // Vanilla JS way
 ```
 
 #### Grab the first element with li tag
 ```javascript
 > var yFirst = $('li').eq(0)   // jQuery way
-> var yFirst = document.getElementsByTagName('li')[0] / document.querySelector('li')  // Vanilla JS
+> var yFirst = document.getElementsByTagName('li')[0] / document.querySelector('li')  // Vanilla JS way
 ```
 
 #### Grab the last element with li tag
@@ -82,7 +83,7 @@ Let's take a sample html code to play with.
 > var yLast = document.getElementsByTagName('li')[4]  // Vanilla JS way
 ```
 
-#### Grab the element by  id 'para1'
+#### Grab the element by id 'para1'
 ```javascript
 > var z = $('#para1').eq(-1)   // jQuery way
 > var z = document.getElementsById('para1') / document.querySelector('#para1')  // Vanilla JS way
