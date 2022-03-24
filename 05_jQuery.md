@@ -299,7 +299,7 @@ $('input').eq(0).val('New text')  // Changes the text box value to 'New text'
 
 ### Printing value in textbox
 ```javascript
-alert( $('input').eq(0).val() )   // Print the text box value using alert box
+alert( $('input').eq(0).val() )   // Display the text box value using alert box
 ```
 
 ### 9. Special effects on textbox
