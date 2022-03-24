@@ -140,7 +140,7 @@ $('#para1').before('<h2>A sub-heading added before the paragraph</h2>')  // jQue
 $('#para2').after('<h2>A sub-heading added after the paragraph.</h2>')  // jQuery way
 ```
 
-### Applying styles
+### 3. Applying styles
 
 #### Applying a single style to an element
 ``` javascript
@@ -163,7 +163,7 @@ var sty = {
 $('h1').css(sty)
 ```
 
-### Changing attributes
+### 4. Changing attributes
 
 #### Set id of an element
 
