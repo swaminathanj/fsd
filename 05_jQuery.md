@@ -43,15 +43,15 @@ Let's take a sample html code to play with.
   </head>
   <body>
     <h1>Playing with jQuery in console</h1>
-    <p>First try these commands in console to see the immediate effect. You can write the script in separate file after grasping the working of jQuery.</p>
+    <p id='para1'>First try these commands in console to see the immediate effect. Once you get the grasp, you can write the script in separate file according to the requirement.</p>
     <ul>
-      <li>Open this html page in browser</li>
-      <li>Right click and select Inspect</li>
-      <li>Move to console tab</li>
+      <li class='imp'>Open this html page in browser</li>
+      <li class='imp'>Right click and select Inspect</li>
+      <li class='imp'>Move to console tab</li>
       <li>Clear up the contents by using clear() method</li>
-      <li>Start trying out the following code one-by-one</li>
+      <li class='imp'>Start trying out the following code one-by-one and see their effects.</li>
     </ul>
-    
+    <p>Note that almost all browsers support jQuery. jQuery code can be written in Java Script file and browsers can run./<p>
   </body>
 </html>
 ```
