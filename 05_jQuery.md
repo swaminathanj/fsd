@@ -10,7 +10,7 @@ It used $ sign for method name. JS allows $ in variable/function/method names. H
 
 1. CDN option by including the link from https://releases.jquery.com and cut and paste the link in the html file
    * <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-3. Download .js file of jQuery from official site
+2. Download .js file of jQuery from official site
 
 ## Examples of differences between vanilla java script and jQuery
 
@@ -178,7 +178,21 @@ $('h1')attr('id')           // Check whether it is set correctly
 $('#hdng1').text()          // Check if the id attribute can be used to access the content
 ```
 
-#### Adding a class
+### 5. Event Listener
+
+#### Click event
+
+#### Double-click event
+
+#### Mouse-enter event
+
+#### Mouse-out event
+
+#### Keypress event
+
+### 6. Toggling classes
+
+#### Adding two classes to an element
 
 Let's define a two classes *first* and *second* and set the respective styles. This should be done in css file.
 
