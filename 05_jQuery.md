@@ -65,6 +65,12 @@ Let's take a sample html code to play with.
 ### Grab the first li tag
 > var y = $('li').eq(0)  //  var x = document.getElementsByTagName('li')[0]
 
+### Grab the last li tag
+> var y = $('li').eq(-1)  //  var y = document.getElementsByTagName('li')[4]
+
+### Grab the element by  id 'para1'
+> var z = $('#para1')  // var y = document.getElementsById('para1') / document.querySelector('#para1')
+
 
 
 * $('h1')
