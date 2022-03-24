@@ -43,9 +43,15 @@ Let's take a sample html code to play with.
   </head>
   <body>
     <h1>Playing with jQuery in console</h1>
-    <p>Open this html page in browser and right click and select Inspect. Move to console tab. Clear up the contents by using clear() method.</p>
+    <p>First try these commands in console to see the immediate effect. You can write the script in separate file after grasping the working of jQuery.</p>
+    <ul>
+      <li>Open this html page in browser</li>
+      <li>Right click and select Inspect</li>
+      <li>Move to console tab</li>
+      <li>Clear up the contents by using clear() method</li>
+    </ul>
     
-  
+  </body>
 </html>
 ```
 
