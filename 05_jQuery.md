@@ -56,11 +56,14 @@ Let's take a sample html code to play with.
 </html>
 ```
 
-* Grab h1 tag
+### Grab h1 tag
 > var x = $('h1')  //  var x = document.getElementsByTagName('h1') / document.querySelector('h1')
 
-* Grab all li tags
+### Grab all li tags
 > var y = $('li')  //  var x = document.getElementsByTagName('li') / document.querySelectorAll('li')
+
+### Grab the first li tag
+> var y = $('li').eq(0)  //  var x = document.getElementsByTagName('li')[0]
 
 
 
