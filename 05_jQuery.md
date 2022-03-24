@@ -318,6 +318,26 @@ $('input').eq(1).on('click', function(event) {
 })
 ```
 
+### 10. The importance of document ready function
+
+First try this. Refresh the html page. Observe what is displayed in the alert box and whether heading changed.
+```javascript
+  var x = $('h1')
+  alert(x.text())
+  x.text("Changed heading")
+```
+
+Then try this. Refresh the html page. Observe what is displayed in the alert box and whether heading changed.
+```javascript
+$(document).ready(function() {
+  var x = $('h1')
+  alert(x.text())
+  x.text("Changed heading")
+})
+```
+
+What difference do you find? Does this clarify the use of *document ready* function?
+
 ### Miscellaneous
 
 * $('h1')
