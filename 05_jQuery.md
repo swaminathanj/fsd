@@ -49,6 +49,7 @@ Let's take a sample html code to play with.
       <li>Right click and select Inspect</li>
       <li>Move to console tab</li>
       <li>Clear up the contents by using clear() method</li>
+      <li>Start trying out the following code one-by-one</li>
     </ul>
     
   </body>
