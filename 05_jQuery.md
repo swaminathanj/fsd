@@ -90,8 +90,8 @@ Let's take a sample html code to play with.
 
 #### Grab the element with class 'imp'
 ```javascript
-> var z = $('.imp').eq(-1)   // jQuery way
-> var z = document.getElementsByClassName('imp') / document.querySelector('.imp')  // Vanilla JS way
+> var w = $('.imp').eq(-1)   // jQuery way
+> var w = document.getElementsByClassName('imp') / document.querySelector('.imp')  // Vanilla JS way
 ```
 
 * $('h1')
