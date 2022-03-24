@@ -8,7 +8,7 @@ It used $ sign for method name. JS allows $ in variable/function/method names. H
 
 ## Getting jQuery
 
-1. CDN option by including the link from https://code.jquery.com and cut and paste the link in the html file
+1. CDN option by including the link from https://releases.jquery.com and cut and paste the link in the html file
    * <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 3. Download .js file of jQuery from official site
 
