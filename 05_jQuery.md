@@ -93,42 +93,42 @@ var yLast = document.getElementsByTagName('li')[4]  // Vanilla JS way
 
 #### Grab the element by id 'para1'
 ```javascript
-var z = $('#para1').eq(-1)   // jQuery way
+var z = $('#para1')   // jQuery way
 
 var z = document.getElementsById('para1') / document.querySelector('#para1')  // Vanilla JS way
 ```
 
-#### Grab the element with class 'imp'
+#### Grab the elements with class 'imp'
 ```javascript
-var w = $('.imp').eq(-1)   // jQuery way
+var w = $('.imp')   // jQuery way
 
-var w = document.getElementsByClassName('imp') / document.querySelector('.imp')  // Vanilla JS way
+var w = document.getElementsByClassName('imp') / document.querySelectorAll('.imp')  // Vanilla JS way
 ```
 
 ### 2. Methods to view and update the content
 
-#### Print the text content
+#### Get the text content
 ``` javascript
 $('h1').text()  // jQuery way
 
 document.getElementByTagName('h1').textContent  // Vanilla JS way
 ```
 
-#### Change the text content
+#### Set/Change the text content
 ``` javascript
 $('h1').text('Heading  Changed')  // jQuery way
 
 document.getElementByTagName('h1').textContent = 'Heading Changed'  // Vanilla JS way
 ```
 
-#### Print the html content
+#### Get the html content
 ``` javascript
 $('h1').html()  // jQuery way
 
 var x = document.getElementByTagName('h1').innerHTML  // Vanilla JS way
 ```
 
-#### Change the html
+#### Set/Change the html content
 ``` javascript
 $('h1').html('<em>Italicized Heading</em>')  // jQuery way
 
@@ -153,7 +153,7 @@ $('h1').css('color','blue')
 $('li').eq(2).css('color','blue')
 ```
 
-#### Applying a single style to many element
+#### Applying a single style to many elements
 ``` javascript
 $('.imp').css('color','red')
 ```
@@ -238,6 +238,8 @@ $('#para1').on('mouseout', function() {
 
 ### 6. Toggling classes
 
+DOESN'T SEEM TO BE WORKING FOR SOME REASON
+
 #### Adding two classes to an element
 
 Let's define a two classes *first* and *second* and set the respective styles. This should be done in css file.
@@ -276,7 +278,7 @@ $('h1').on('dblclick', secondClass)
 #### Keypress event (Any key pressed)
 ```javascript
 $('input').eq(0).keypress(function() { 
-  $('h1').toggleClass('first') 
+  $('h1').css('color', 'blue') 
 })
 ```
 * $('input').eq(0).keypress(function(event) { console.log(event) } )
@@ -285,7 +287,7 @@ $('input').eq(0).keypress(function() {
 ```javascript
 $('input').eq(0).keypress(function(event) { 
   if (event.which === 13) {    // ASCII value of Enter key is 13
-    $('li').eq(0).toggleClass('first') 
+    $('li').eq(0).color('color', 'red')) 
   } 
 })
 ```
@@ -297,12 +299,14 @@ $('input').eq(0).keypress(function(event) {
 $('input').eq(0).val('New text')  // Changes the text box value to 'New text'
 ```
 
-### Printing value in textbox
+### Display value in textbox
 ```javascript
 alert( $('input').eq(0).val() )   // Display the text box value using alert box
 ```
 
 ### 9. Special effects on textbox
+
+DOESN'T SEEM TO BE WORKING FOR SOME REASON
 
 #### Fade out the content
 ```javascript
@@ -338,7 +342,7 @@ $(document).ready(function() {
 
 What difference do you find? Does this clarify the use of *document ready* function?
 
-### Miscellaneous
+### Rough work
 
 * $('h1')
 * $('li')
