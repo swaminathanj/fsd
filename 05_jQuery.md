@@ -222,16 +222,16 @@ $('#para1').on('mouseenter', function() {
 })
 ```
 
-#### Mouse-out event using mouseout function
+#### Mouse-leave event using mouseout function
 ```javascript
-$('#para1').mouseout(function() {
+$('#para1').mouseleave(function() {
   alert("Mouse out of paragraph 1")
 })
 ```
 
-#### Mouse-out event using on function
+#### Mouse-leave event using on function
 ```javascript
-$('#para1').on('mouseout', function() {
+$('#para1').on('mouseleave', function() {
   alert("Mouse out of paragraph 1")
 })
 ```
