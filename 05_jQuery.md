@@ -236,6 +236,20 @@ $('#para1').on('mouseleave', function() {
 })
 ```
 
+#### Mouse-down event using mousedown function
+```javascript
+$('#para1').mousedown(function() {
+  alert("Mouse out of paragraph 1")
+})
+```
+
+#### Mouse-leave event using on function
+```javascript
+$('#para1').mouseup(function() {
+  alert("Mouse out of paragraph 1")
+})
+```
+
 ### 6. Toggling classes
 
 DOESN'T SEEM TO BE WORKING FOR SOME REASON
