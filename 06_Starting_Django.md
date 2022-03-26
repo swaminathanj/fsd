@@ -77,6 +77,20 @@ A Django application is a part of your web application which does a particular f
 ``` python
 from django.http import HttpResponse
 
-def index(request) :
+def index(request) :    # 'request' name is convention. It can be some other name too.
     return HttpResponse("Hello World")
+```
+* Note: Each view must return an HttpResponse object
+* Now, map this view to the urls.py file in project folder
+* Open urls.py
+* Add the following statement above urlpatterns list
+```python
+from first_app import views
+```
+* Add the following to urlpatterns list (it uses regexp)
+```
+urlpatterns = [
+    path(r'^$', views.index, name='index'),
+    path('admin/', admin.site.urls),
+]
 ```
