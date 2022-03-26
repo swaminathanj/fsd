@@ -87,10 +87,10 @@ def index(request) :    # 'request' name is convention. It can be some other nam
 ```python
 from first_app import views
 ```
-* Add the following to urlpatterns list (it uses regexp)
-```
+* Add the following to urlpatterns list
+```python
 urlpatterns = [
-    path(r'^$', views.index, name='index'),
+    path('', views.index, name='index'),
     path('admin/', admin.site.urls),
 ]
 ```
