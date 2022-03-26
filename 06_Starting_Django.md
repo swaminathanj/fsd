@@ -62,5 +62,13 @@ A Django application is a part of your web application which does a particular f
     * views.py  - Functions to handle requests and return responses 
     * _ _init_ _.py  - Same purpose. This directory can be treated as a package
   * first_project/
-
-
+* Open settings.py in the project folder (first_project)
+* Scroll down to INSTALLED_APPS list
+* Add first_app to the list
+* Start the project again
+* Run the project
+  > python manage.py runserver <br>
+* Check the working of the project
+  * Open the browser
+  * Type the url http://127.0.0.1:8000/ 
+* Stop the server
