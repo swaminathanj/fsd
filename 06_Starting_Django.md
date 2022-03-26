@@ -27,3 +27,17 @@ To install on Windows, go to https://docs.djangoproject.com/en/4.0/howto/windows
   > python -m pip install Django <br>
 - Verify you Django installation
   > django-admin --version <br>
+- Start a new project
+  > django-admin startproject first_project <br>
+- Check the contents of the first_project
+  * first_project
+    * first_project
+      * asgi.py
+      * settings.py
+      * urls.py
+      * wsgi.py
+      * __init__.py
+    * manage.py
+- Run the project
+  * cd first_project
+  * python manage.py runserver
