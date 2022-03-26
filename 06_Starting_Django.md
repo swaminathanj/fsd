@@ -54,13 +54,13 @@ A Django application is a part of your web application which does a particular f
 * The folder structure looks as follows
   * db.sqlite3
   * first_app/
-    * admin.py
-    * apps.py
-    * migrations/
-    * models.py
-    * tests.py
-    * views.py
-    * _ _init_ _.py
+    * admin.py  - To register your models here. Django will then use the models with admin interface
+    * apps.py  - To specify app configurations
+    * migrations/  - To store database related information 
+    * models.py  - To store app's data models
+    * tests.py  - Functions to test your code
+    * views.py  - Functions to handle requests and return responses 
+    * _ _init_ _.py  - Same purpose. This directory can be treated as a package
   * first_project/
 
 
