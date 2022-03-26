@@ -9,6 +9,7 @@ To install on Windows, go to https://docs.djangoproject.com/en/4.0/howto/windows
 - Upgrade pip
   > python -m pip install --upgrade pip <br>
 - Navigate to a folder where you want to create a project
+  > cd D:\Swaminathan\django <br>
 - Create a virtual environment
   > python -m venv myenv <br>
 - Change directory to the virtual environment and examine the contents
