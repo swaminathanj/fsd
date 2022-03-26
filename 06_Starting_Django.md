@@ -45,4 +45,22 @@ To install on Windows, go to https://docs.djangoproject.com/en/4.0/howto/windows
   * Open the browser
   * Type the url http://127.0.0.1:8000/
 
+# Creating a Django Application
+
+A Django application is a part of your web application which does a particular functionality. A django app can be reused by plugging into another django project.
+
+* Navigate to first_project directory (top folder of the django project)
+  > python manage.py startapp first_app
+* The folder structure looks as follows
+  * db.sqlite3
+  * first_app/
+    * admin.py
+    * apps.py
+    * migrations/
+    * models.py
+    * tests.py
+    * views.py
+    * _ _init_ _.py
+  * first_project/
+
 
