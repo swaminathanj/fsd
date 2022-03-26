@@ -36,8 +36,13 @@ To install on Windows, go to https://docs.djangoproject.com/en/4.0/howto/windows
       * settings.py
       * urls.py
       * wsgi.py
-      * __init__.py
+      * __ init __.py
     * manage.py
 - Run the project
-  * cd first_project
-  * python manage.py runserver
+  > cd first_project <br>
+  > python manage.py runserver <br>
+- Check the working of the project
+  * Open the browser
+  * Type the url http://127.0.0.1:8000/
+
+
