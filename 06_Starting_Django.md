@@ -72,3 +72,11 @@ A Django application is a part of your web application which does a particular f
   * Open the browser
   * Type the url http://127.0.0.1:8000/ 
 * Stop the server
+* Open views.py in the first_app folder
+* Add the following code below the existing code and save
+``` python
+from django.http import HttpResponse
+
+def index(request) :
+    return HttpResponse("Hello World")
+```
