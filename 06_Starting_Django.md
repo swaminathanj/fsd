@@ -33,11 +33,11 @@ To install on Windows, go to https://docs.djangoproject.com/en/4.0/howto/windows
   * first_project
     * first_project
       * asgi.py
-      * settings.py
-      * urls.py
-      * wsgi.py
-      * __ init __.py
-    * manage.py
+      * settings.py  - To store all project settings
+      * urls.py  - To store all url patters for the project (basically different pages of the web app - use regexp)
+      * wsgi.py - Acts as the Web Server Gateway Interface to deploy the web app to production
+      * _ _init_ _.py  - Lets Python know this directory can be treated as a package
+    * manage.py  - Associated with many of the things that we do with the project
 - Run the project
   > cd first_project <br>
   > python manage.py runserver <br>
