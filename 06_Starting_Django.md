@@ -19,8 +19,10 @@ To install on Windows, go to https://docs.djangoproject.com/en/4.0/howto/windows
   * pyveng.cfg
   * Scripts
 - Activate the virtual environment
-  > python -m venv myenv <br>
+  > myenv\Scripts\activate <br>
+- Once activated, the venv name should show up in the prompt. i.e. (myenv) 
+  > Eg. (myenv) D:\Swaminathan\Learn\django> <br>
 - Install Django
-  > python -m pip install Django
+  > python -m pip install Django <br>
 - Verify you Django installation
-  > django-admin --version
+  > django-admin --version <br>
