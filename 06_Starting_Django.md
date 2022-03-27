@@ -80,7 +80,7 @@ A Django application is a part of your web application which does a particular f
 
 ## Creating HelloWorld code
 
-* Open views.py in the first_app folder
+* Open **views.py** in the first_app folder
 * Add the following code below the existing code and save
 ``` python
 from django.http import HttpResponse
@@ -89,8 +89,8 @@ def index(request) :    # 'request' name is convention. It can be some other nam
     return HttpResponse("Hello World")
 ```
 * Note: Each view must return an HttpResponse object
-* Now, map this view to the urls.py file in project folder
-* Open urls.py
+* Now, map this view to the urls.py file in project folder (first_project)
+* Open **urls.py**
 * Add the following statement above urlpatterns list
 ```python
 from first_app import views
@@ -107,16 +107,16 @@ urlpatterns = [
 
 Template contains the static part of the html page. Template tags allow you to inject html content dynamically. Django apps will produce this dynamic content.
 
-* First create templates directory as <project dir>/templates/<app name>
+* First create **templates** directory as <project dir>/templates/<app name>
   * first_project/templates/first_app
-* Let django know of the templates by editing the DIR key inside the TEMPLATES dictionary in settings.py<br>
+* Let django know of the templates by editing the DIR key inside the TEMPLATES dictionary in **settings.py** <br>
   Use Python's os module to specify the path without hardcoding.
   1. import os  - Include this in the beginning     # to be added at the top 
   2. TEMPLATE_DIR = os.path.join(BASE_DIR, "templates")  # to be added after BASE_DIR
   3. 'DIRS': [TEMPLATE_DIR]   # to be inserted inside TEMPLATES under 'DIRS' key 
-* Create index.html inside the  <project dir>/templates directory
+* Create **index.html** inside the  <project dir>/templates directory
   * first_project/templates/index.html
-* In views.py, instead of return HttpResponse(), use render function
+* In **views.py**, instead of return HttpResponse(), use render function
   * return render(request, 'index.html')
 * Start the server
   * python manage.py runserver
@@ -124,9 +124,9 @@ Template contains the static part of the html page. Template tags allow you to i
   * The page should be displayed
 
 ## Injecting code using template tags
-Let's introduce a variable inject_var in index.html and inject its value through views.py.
+Let's introduce a variable **inject_var** in **index.html** and inject its value through **views.py**.
   
-* In index.html
+* In **index.html**
 ```html
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -142,32 +142,31 @@ Let's introduce a variable inject_var in index.html and inject its value through
 </html>
 ```
   
- * In views.py 
-  ```python
+* In **views.py**
+```python
 from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request) :
     my_dict = { 'inject_var' : "This code is injected"}
     return render(request,'index.html',context=my_dict)
+```
 
-  ```
+## Exercise 1: Counting the number of page visits
+  
+Now let's use the template tags to count the number of page visits.
+  
+* In **views.py**, define a global variable 'clicked' and initialize it to 0.
+* Inside the index() function, increment 'clicked'.
+* Insert the 'clicked' value into the inject_var string
+  
+* Run the server and check out its working
 
-  ## Example: Counting the number of page visits
-  
-  Now let's use the template tags to count the number of page visits.
-  
-  * In views.py, define a global variable 'clicked' and initialize it to 0.
-  * Inside the index() function, increment 'clicked'.
-  * Insert the click value to the inject_var string.
-  
-  ```python
-clicked = 0
-def index(request) :
-    global clicked
-    clicked += 1
-    msg = "This page is visited " + str(clicked) + " times."
-    my_dict = { 'inject_var' : msg}
-    return render(request,'index.html',context=my_dict)
+## Exercise 2: Add a new page
 
-  ```
+* Add a help page (help.html)
+* Provide a hyperlink in index.html which when clicked will take you to help.html
+* Try and do all that is necessary to implment this functionality
+
+After implementing exercises 1 and 2, your pages should look similar to the below.
+![Exercises 1 & 2 combined](exercises-1-2.png)
