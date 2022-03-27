@@ -111,9 +111,44 @@ Template contains the static part of the html page. Template tags allow you to i
   * first_project/templates/first_app
 * Let django know of the templates by editing the DIR key inside the TEMPLATES dictionary in settings.py<br>
   Use Python's os module to specify the path without hardcoding.
-  * import os  - Include this in the beginning
-  * _ _file_ _   - Gives the file name
-  * os.path.dirname(_ _file_ _)   - Gives the filename with full path
-* Create index.html inside the  <project dir>/templates/<app name> directory
-  * first_project/templates/first_app
+  1. import os  - Include this in the beginning     # to be added at the top 
+  2. TEMPLATE_DIR = os.path.join(BASE_DIR, "templates")  # to be added after BASE_DIR
+  3. 'DIRS': [TEMPLATE_DIR]   # to be inserted inside TEMPLATES under 'DIRS' key 
+* Create index.html inside the  <project dir>/templates directory
+  * first_project/templates/index.html
+* In views.py, instead of return HttpResponse(), use render function
+  * return render(request, 'index.html')
+* Start the server
+  * python manage.py runserver
+* Open the browser and navigate to https://127.0.0.1:8000
+  * The page should be displayed
 
+## Injecting code using template tags
+Let's introduce a variable inject_var in index.html and inject its value through views.py.
+  
+* In index.html
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>First App</title>
+  </head>
+  <body>
+    <h1>This is index.html</h1>
+
+    <h2>{{ inject_var }}</h2>
+  </body>
+</html>
+```
+  
+ * In views.py 
+  ```python
+from django.shortcuts import render
+from django.http import HttpResponse
+
+def index(request) :
+    my_dict = { 'inject_var' : "This code is injected"}
+    return render(request,'index.html',context=my_dict)
+
+  ```
