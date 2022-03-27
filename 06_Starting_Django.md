@@ -127,6 +127,7 @@ Template contains the static part of the html page. Template tags allow you to i
 Let's introduce a variable **inject_var** in **index.html** and inject its value through **views.py**.
   
 * In **index.html**
+  
 ```html
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
