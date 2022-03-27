@@ -114,5 +114,5 @@ urlpatterns = [
   Use Python's os module to specify the path without hardcoding.
   * import os  - Include this in the beginning
   * _ _file_ _   - Gives the file name
-  * os.path.dirname(__file__)   - Gives the filename with full path
+  * os.path.dirname(_ _file_ _)   - Gives the filename with full path
 
