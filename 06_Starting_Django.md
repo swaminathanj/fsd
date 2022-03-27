@@ -161,7 +161,7 @@ Now let's use the template tags to count the number of page visits.
 * Inside the index() function, increment 'clicked'.
 * Insert the 'clicked' value into the inject_var string
   
-* Run the server and check out its working
+* Run the server and check out its working. Everytime you refresh the page, the clicked count will be incremented.
 
 ## Exercise 2: Add a new page
 
