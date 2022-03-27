@@ -1,15 +1,17 @@
 Aum Amma
 
-## Installing Django
+# Getting started with Django
 
 Please ensure python3 and pip are installed, if not already installed.
+
+## Installing Django
 
 To install on Windows, go to https://docs.djangoproject.com/en/4.0/howto/windows/
 - Open Command prompt
 - Upgrade pip
   > python -m pip install --upgrade pip <br>
 - Navigate to a folder where you want to create a project
-  > cd D:\Swaminathan\django <br>
+  > cd D:\Swaminathan\FSD\django <br>
 - Create a virtual environment
   > python -m venv myenv <br>
 - Change directory to the virtual environment and examine the contents
@@ -27,6 +29,9 @@ To install on Windows, go to https://docs.djangoproject.com/en/4.0/howto/windows
   > python -m pip install Django <br>
 - Verify you Django installation
   > django-admin --version <br>
+
+## Starting a new project
+
 - Start a new project
   > django-admin startproject first_project <br>
 - Check the contents of the first_project
@@ -45,7 +50,7 @@ To install on Windows, go to https://docs.djangoproject.com/en/4.0/howto/windows
   * Open the browser
   * Type the url http://127.0.0.1:8000/
 
-# Creating a Django Application
+## Creating a Django Application
 
 A Django application is a part of your web application which does a particular functionality. A django app can be reused by plugging into another django project.
 
@@ -72,6 +77,9 @@ A Django application is a part of your web application which does a particular f
   * Open the browser
   * Type the url http://127.0.0.1:8000/ 
 * Stop the server
+
+## Creating HelloWorld code
+
 * Open views.py in the first_app folder
 * Add the following code below the existing code and save
 ``` python
