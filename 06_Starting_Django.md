@@ -105,8 +105,7 @@ urlpatterns = [
 
 ## Template and Template tags
 
-- Template contains the static part of the html page. 
-- Template tags allow you to inject html content dynamically. Django apps will produce this dynamic content.
+Template contains the static part of the html page. Template tags allow you to inject html content dynamically. Django apps will produce this dynamic content.
 
 * First create templates directory as <project dir>/templates/<app name>
   * first_project/templates/first_app
@@ -115,4 +114,6 @@ urlpatterns = [
   * import os  - Include this in the beginning
   * _ _file_ _   - Gives the file name
   * os.path.dirname(_ _file_ _)   - Gives the filename with full path
+* Create index.html inside the  <project dir>/templates/<app name> directory
+  * first_project/templates/first_app
 
