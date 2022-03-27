@@ -113,6 +113,6 @@ urlpatterns = [
 * Let django know of the templates by editing the DIR key inside the TEMPLATES dictionary in settings.py<br>
   Use Python's os module to specify the path without hardcoding.
   * import os  - Include this in the beginning
-  * __file__   - Gives the file name
+  * _ _file_ _   - Gives the file name
   * os.path.dirname(__file__)   - Gives the filename with full path
 
