@@ -169,5 +169,5 @@ Now let's use the template tags to count the number of page visits.
 * Provide a hyperlink in index.html which when clicked will take you to help.html
 * Try and do all that is necessary to implment this functionality
 
-After implementing exercises 1 and 2, your pages should look similar to the below.
+After implementing exercises 1 and 2, your pages should look similar to the below.<br><br>
 ![Exercises 1 & 2 combined](exercises-1-2.png)
