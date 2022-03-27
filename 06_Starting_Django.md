@@ -102,3 +102,17 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 ]
 ```
+
+## Template and Template tags
+
+- Template contains the static part of the html page. 
+- Template tags allow you to inject html content dynamically. Django apps will produce this dynamic content.
+
+* First create templates directory as <project dir>/templates/<app name>
+  * first_project/templates/first_app
+* Let django know of the templates by editing the DIR key inside the TEMPLATES dictionary in settings.py<br>
+  Use Python's os module to specify the path without hardcoding.
+  * import os  - Include this in the beginning
+  * __file__   - Gives the file name
+  * os.path.dirname(__file__)   - Gives the filename with full path
+
