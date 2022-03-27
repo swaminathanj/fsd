@@ -30,7 +30,7 @@ To install on Windows, go to https://docs.djangoproject.com/en/4.0/howto/windows
 - Verify you Django installation
   > django-admin --version <br>
 
-## Starting a new project
+## Creating a new project
 
 - Start a new project
   > django-admin startproject first_project <br>
