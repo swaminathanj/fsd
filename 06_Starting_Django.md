@@ -152,3 +152,22 @@ def index(request) :
     return render(request,'index.html',context=my_dict)
 
   ```
+
+  ## Example: Counting the number of page visits
+  
+  Now let's use the template tags to count the number of page visits.
+  
+  * In views.py, define a global variable 'clicked' and initialize it to 0.
+  * Inside the index() function, increment 'clicked'.
+  * Insert the click value to the inject_var string.
+  
+  ```python
+clicked = 0
+def index(request) :
+    global clicked
+    clicked += 1
+    msg = "This page is visited " + str(clicked) + " times."
+    my_dict = { 'inject_var' : msg}
+    return render(request,'index.html',context=my_dict)
+
+  ```
