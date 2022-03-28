@@ -103,7 +103,7 @@ urlpatterns = [
 ]
 ```
 
-## Step 4: Using Template (render) 
+## Step 4: Using Template (render a html) 
 
 Template contains the static part of the html page. Template tags allow you to inject html content dynamically. Django apps will produce this dynamic content.
 
@@ -172,4 +172,11 @@ Now let's use the template tags to count the number of page visits
 After implementing exercises 1 and 2, your pages should look similar to the below.<br><br>
 ![Exercises 1 & 2 combined](exercises-1-2.png)
 
-## Step 8: Adding static files
+## Step 8: Adding static files (images, css, js)
+
+You may want to include images, css or java script files to the project. These are static files and goes into the folder **static**. Follow the instructions in https://docs.djangoproject.com/en/4.0/howto/static-files/ given under Configuring Static Files. Add an image.
+
+Similarly add style.css file.
+
+
+
