@@ -4,7 +4,7 @@ Aum Amma
 
 Please ensure python3 and pip are installed, if not already installed.
 
-## Installing Django
+## Step 0: Installing Django
 
 To install on Windows, go to https://docs.djangoproject.com/en/4.0/howto/windows/
 - Open Command prompt
@@ -30,7 +30,7 @@ To install on Windows, go to https://docs.djangoproject.com/en/4.0/howto/windows
 - Verify you Django installation
   > django-admin --version <br>
 
-## Creating a new project
+## Step 1: Creating a new project
 
 - Start a new project
   > django-admin startproject first_project <br>
@@ -50,7 +50,7 @@ To install on Windows, go to https://docs.djangoproject.com/en/4.0/howto/windows
   * Open the browser
   * Type the url http://127.0.0.1:8000/
 
-## Creating a Django Application
+## Step 2: Creating a Django Application
 
 A Django application is a part of your web application which does a particular functionality. A django app can be reused by plugging into another django project.
 
@@ -78,7 +78,7 @@ A Django application is a part of your web application which does a particular f
   * Type the url http://127.0.0.1:8000/ 
 * Stop the server
 
-## Creating HelloWorld code
+## Step 3: HelloWorld application (HttpResponse)
 
 * Open **views.py** in the first_app folder
 * Add the following code below the existing code and save
@@ -103,7 +103,7 @@ urlpatterns = [
 ]
 ```
 
-## Template and Template tags
+## Step 4: Using Template (render) 
 
 Template contains the static part of the html page. Template tags allow you to inject html content dynamically. Django apps will produce this dynamic content.
 
@@ -114,7 +114,7 @@ Template contains the static part of the html page. Template tags allow you to i
   1. import os  - Include this in the beginning     # to be added at the top 
   2. TEMPLATE_DIR = os.path.join(BASE_DIR, "templates")  # to be added after BASE_DIR
   3. 'DIRS': [TEMPLATE_DIR]   # to be inserted inside TEMPLATES under 'DIRS' key 
-* Create **index.html** inside the  <project dir>/templates directory
+* Create **index.html** inside the  first_project/templates directory
   * first_project/templates/index.html
 * In **views.py**, instead of return HttpResponse(), use render function
   * return render(request, 'index.html')
@@ -123,7 +123,7 @@ Template contains the static part of the html page. Template tags allow you to i
 * Open the browser and navigate to https://127.0.0.1:8000
   * The page should be displayed
 
-## Injecting code using template tags
+## Step 5: Template tags (Injecting content into html)
 Let's introduce a variable **inject_var** in **index.html** and inject its value through **views.py**.
   
 * In **index.html**
@@ -153,9 +153,9 @@ def index(request) :
     return render(request,'index.html',context=my_dict)
 ```
 
-## Exercise 1: Counting the number of page visits
+##  Step 6: An Exercise to Count the number of page visits
   
-Now let's use the template tags to count the number of page visits.
+Now let's use the template tags to count the number of page visits
   
 * In **views.py**, define a global variable 'clicked' and initialize it to 0.
 * Inside the index() function, increment 'clicked'.
@@ -163,7 +163,7 @@ Now let's use the template tags to count the number of page visits.
   
 * Run the server and check out its working. Everytime you refresh the page, the clicked count will be incremented.
 
-## Exercise 2: Add a new page
+## Step 7: An Exercise to Add a new page
 
 * Add a help page (help.html)
 * Provide a hyperlink in index.html which when clicked will take you to help.html
@@ -171,3 +171,5 @@ Now let's use the template tags to count the number of page visits.
 
 After implementing exercises 1 and 2, your pages should look similar to the below.<br><br>
 ![Exercises 1 & 2 combined](exercises-1-2.png)
+
+## Step 8: Adding static files
