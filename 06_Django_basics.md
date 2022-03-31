@@ -184,7 +184,7 @@ A sample page with an image and style can look like this. Note that you can use 
 ## Step 9: Template tags for 'if' and 'for loop'.
 
 Refer to the documentation on how to apply template tags for 'if' and 'for' loop. Implement them with suitable examples.
-1. Define a string variable 'name' in view.py. Add the logic if 'name' has a value, you should display 'Hello &langle;name&rangle;'. For instance, if name was set to 'Amrita', you should display 'Hello Amrita'.
+1. Define a string variable 'name' in view.py. Add the logic if 'name' has a value, you should display 'Hello &langle;name&rangle;'. For instance, if name was set to 'Amrita', you should display 'Hello Amrita'. If no value set for 'name' display 'Hello world'.
 2. Define a list of fruits in views.py. Add the logic to loop through the list, and print each fruit in a single line. For example, if fruits = [mango, banana, apple, guava], then it should display
 Fruits
   * mango
