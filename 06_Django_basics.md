@@ -177,7 +177,7 @@ After implementing exercises 1 and 2, your pages should look similar to the belo
 You may want to include images, css or java script files to the project. These are static files and goes into the folder **static**. Follow the instructions in https://docs.djangoproject.com/en/4.0/howto/static-files/ given under Configuring Static Files. Add an image.
 
 Similarly add style.css file. A sample page with an image and style can look like this.
-![Exercise_3 & 4_combined](exercises-3-4.png)
+![Exercise_3 & 4_combined](exercise-3-4.png)
 
 ## Step 9: Template tags for 'if' and 'for loop'.
 
