@@ -176,12 +176,21 @@ After implementing exercises 1 and 2, your pages should look similar to the belo
 
 You may want to include images, css or java script files to the project. These are static files and goes into the folder **static**. Follow the instructions in https://docs.djangoproject.com/en/4.0/howto/static-files/ given under Configuring Static Files. Add an image.
 
-Similarly add style.css file. A sample page with an image and style can look like this.
+Similarly add style.css file. 
+
+A sample page with an image and style can look like this. Note that you can use whatever image you have (not necessarily Amrita logo). Also, you can specify any kind of styling in your css file. This exercise is just for you to explore and add static files to the page.
 ![Exercise_3 & 4_combined](exercise-3-4.png)
 
 ## Step 9: Template tags for 'if' and 'for loop'.
 
-Refer to the documentation on how to apply template tags for 'if' and 'for' loop. Implement them.
+Refer to the documentation on how to apply template tags for 'if' and 'for' loop. Implement them with suitable examples.
+1. Define a string variable 'name' in view.py. Add the logic if 'name' has a value, you should display 'Hello &langle;name&rangle;'. For instance, if name was set to 'Amrita', you should display 'Hello Amrita'.
+2. Define a list of fruits in views.py. Add the logic to loop through the list, and print each fruit in a single line. For example, if fruits = [mango, banana, apple, guava], then it should display
+Fruits
+  * mango
+  * banana
+  * apple
+  * guava
 
 
 
