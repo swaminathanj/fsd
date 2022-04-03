@@ -173,8 +173,14 @@ This topic focuses on Java Script to manipulate the DOM. Essentially how to grab
 * [w3schools](https://www.w3schools.com/js/js_htmldom.asp)
 
 ## jQuery
-* [Practice examples](05_jQuery.md)
-* [jQuery releases](https://releases.jquery.com)
-* [jQuery APIs](https://api.jquery.com)
-* [w3schools](https://www.w3schools.com/jquery/default.asp)
-* [A good video tutorial from Edureka](https://youtu.be/2OMzGhlIZpg)
+This topic focuses on jQuery library. It is a library written in JavaScript to simplify programming. Essentially, what would take several lines of code to be accomplished with plain JavaScript coding, can be achieved with fewer lines of jQuery. It includes functions to manipulate DOM, apply CSS effects, event handling and apply effects and animations.
+
+* Check [Practice examples](05_jQuery.md) to try what was covered in the class.
+* The CDN link to include jQuery can be found at [jQuery releases](https://releases.jquery.com).
+* For documentation refer to [jQuery APIs](https://api.jquery.com)
+* As always, [w3schools](https://www.w3schools.com/jquery/default.asp) is a good place to try and learn.
+* A good video tutorial by Edureka on jQuery can be found at [Edureka](https://youtu.be/2OMzGhlIZpg)
+
+## Django basics
+* [Practice_examples](06_Django_basics.md)
+* 
