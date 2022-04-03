@@ -176,13 +176,14 @@ This topic focuses on Java Script to manipulate the DOM. Essentially how to grab
 This topic focuses on jQuery library. It is a library written in JavaScript to simplify programming. Essentially, what would take several lines of code to be accomplished with plain JavaScript coding, can be achieved with fewer lines of jQuery. It includes functions to manipulate DOM, apply CSS effects, event handling and apply effects and animations.
 
 * Check [Practice examples](05_jQuery.md) to try what was covered in the class.
-* The CDN link to include jQuery can be found at [jQuery releases](https://releases.jquery.com).
-* For documentation refer to [jQuery APIs](https://api.jquery.com)
+* The CDN link to include jQuery can be found at https://releases.jquery.com.
+* For complete documentation on jQuery APIs, check https://api.jquery.com.
 * As always, [w3schools](https://www.w3schools.com/jquery/default.asp) is a good place to try and learn.
-* A good video tutorial by Edureka on jQuery can be found at [Edureka](https://youtu.be/2OMzGhlIZpg)
+* A good video tutorial by Edureka on jQuery can be found at https://youtu.be/2OMzGhlIZpg.
 
 ## Django basics
-This topic covers installation of django, the virtual environment, starting a new django project, creating an app, developing a Hello World example, creating template, injecting content to html page using template tags, adding static files such as images and css to the app.
+This topic covers setting up the virtual environment, installing django, starting a new django project, creating an app, developing a Hello World example,  template introduction, injecting content to html page using template tags, adding static files such as images and css to the app.
 
 * Check [Practice_examples](06_Django_basics.md) to try what was covered in the class.
-* 
+* The complete documentation on Django can be found at https://docs.djangoproject.com/en/4.0/.
+* A good learning resource can be found at https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction.
