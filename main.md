@@ -199,3 +199,6 @@ This topic covers basics of SQLite - installation, creating tables, inserting re
 
 ## SQLite with Python (1 hour)
 This topic provides a basic introduction to working with SQLite from Python.
+
+* Refer to https://www.tutorialspoint.com/sqlite/sqlite_python.htm for hands-on examples. 
+* Try them out to get familiar with using Python and SQLite.
