@@ -2,7 +2,7 @@ Aum Amriteswaryai Namah
 
 # Full Stack Development
 
-## HTML - Hyper Text Markup Language
+## HTML - Hyper Text Markup Language (2 hours)
 
 * <details><summary>Introduction</summary>
   - World Wide Web <br />
@@ -135,7 +135,7 @@ Aum Amriteswaryai Namah
   - Please get familiar with the basic HTML constructs from https://github.com/swaminathanj/fsd/blob/main/01_HTML.md
   - Prepare a profile page for yourself - as attractively and creatively as possible - using the constructs learnt. Submit the HTML page.
 
-## CSS
+## CSS (1 hour)
 * Why CSS?
 * Syntax
 * Including CSS styles
@@ -147,7 +147,7 @@ Aum Amriteswaryai Namah
 * Resources
 * Assignment
 
-## Bootstrap
+## Bootstrap (1 hour)
 This topic introduces how to develop nice web pages using Bootstrap framework in a quick manner which would otherwise take . The key point to note is that the programmer should focus on getting familiar with Bootstrap through examples from getbootstrap and then use it to speedup website development.
 
 ### Topics
@@ -164,7 +164,7 @@ This topic introduces how to develop nice web pages using Bootstrap framework in
 * [w3schools](https://www.w3schools.com/bootstrap5/index.php)
 
 
-## Java Script and DOM
+## Java Script and DOM (2 hours)
 This topic focuses on Java Script to manipulate the DOM. Essentially how to grab the elements, how to modify the elements and content, how to add event listeners to the elements and trigger an action when the event happens, how to add new elements. 
 
 ### Resources
@@ -172,7 +172,7 @@ This topic focuses on Java Script to manipulate the DOM. Essentially how to grab
 * [A good blog with many examples](https://www.toolsqa.com/javascript/dom-in-javascript/)
 * [w3schools](https://www.w3schools.com/js/js_htmldom.asp)
 
-## jQuery
+## jQuery (2 hours)
 This topic focuses on jQuery library. It is a library written in JavaScript to simplify programming. Essentially, what would take several lines of code to be accomplished with plain JavaScript coding, can be achieved with fewer lines of jQuery. It includes functions to manipulate DOM, apply CSS effects, event handling and apply effects and animations.
 
 * Check [Practice examples](05_jQuery.md) to try what was covered in the class.
@@ -181,9 +181,21 @@ This topic focuses on jQuery library. It is a library written in JavaScript to s
 * As always, [w3schools](https://www.w3schools.com/jquery/default.asp) is a good place to try and learn.
 * A good video tutorial by Edureka on jQuery can be found at https://youtu.be/2OMzGhlIZpg.
 
-## Django basics
+## Django basics (2 hours)
 This topic covers setting up the virtual environment, installing django, starting a new django project, creating an app, developing a Hello World example,  template introduction, injecting content to html page using template tags, adding static files such as images and css to the app.
 
 * Check [Practice_examples](06_Django_basics.md) to try what was covered in the class.
 * The complete documentation on Django can be found at https://docs.djangoproject.com/en/4.0/.
 * A good learning resource can be found at https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction.
+
+## SQLite basics (1 hour)
+This topic covers basics of SQLite - installation, creating tables, inserting records, querying the database. We will also see how to connect to SQLite from Python and perform the SQL operations.
+
+* Check [Practice examples](07_SQLite.md) to try what was covered in the class.
+* SQLite can be downloaded from https://sqlite.org/download.html.
+* A quick reference to SQL syntax can be found at https://www.sqlitetutorial.net/sqlite-cheat-sheet/.
+* A quick tutorial with examples can be found at https://www.thegeekstuff.com/2012/09/sqlite-command-examples/.
+* A little more elaborate and excellent tutorial can be found at https://www.guru99.com/sqlite-tutorial.html. 
+
+## SQLite with Python (1 hour)
+This topic provides a basic introduction to working with SQLite from Python.
