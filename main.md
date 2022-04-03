@@ -182,5 +182,7 @@ This topic focuses on jQuery library. It is a library written in JavaScript to s
 * A good video tutorial by Edureka on jQuery can be found at [Edureka](https://youtu.be/2OMzGhlIZpg)
 
 ## Django basics
-* [Practice_examples](06_Django_basics.md)
+This topic covers installation of django, the virtual environment, starting a new django project, creating an app, developing a Hello World example, creating template, injecting content to html page using template tags, adding static files such as images and css to the app.
+
+* Check [Practice_examples](06_Django_basics.md) to try what was covered in the class.
 * 
