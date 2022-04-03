@@ -197,8 +197,11 @@ This topic covers basics of SQLite - installation, creating tables, inserting re
 * A quick tutorial with examples can be found at https://www.thegeekstuff.com/2012/09/sqlite-command-examples/.
 * A little more elaborate and excellent tutorial can be found at https://www.guru99.com/sqlite-tutorial.html. 
 
-## SQLite with Python (1 hour)
+## Python with SQLite (1 hour)
 This topic provides a basic introduction to working with SQLite from Python.
 
 * Refer to https://www.tutorialspoint.com/sqlite/sqlite_python.htm for hands-on examples. 
 * Try them out to get familiar with using Python and SQLite.
+
+## Django with SQLite
+
