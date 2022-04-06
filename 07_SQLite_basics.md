@@ -30,3 +30,7 @@ sqlite> .tables
 Students
 sqlite>
 ```
+
+You can delete or rename a table by using DROP and ALTER commands. You can try this at leisure. The syntax for both is given below.
+* DROP &langle; table_name &rangle; ;
+* ALTER &langle; old_name &rangle RENAME TO &langle; new_name &rangle ;
