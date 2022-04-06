@@ -69,3 +69,26 @@ sqlite> INSERT INTO Students (Id, Name, Degree, DoB) VALUES (1, 'Swapna', 'M.Tec
 Runtime error: UNIQUE constraint failed: Students.Id (19)
 ```
 
+## 4. Retrieve values from Table
+
+You can use SELECT command to retrieve values from the table.
+
+### a. Retrieve values of all fields from table
+```
+sqlite> SELECT * FROM Students;
+1|Amit|M.Tech|2000-09-15
+2|Ashok|M.Tech|2000-06-13
+11|Seema|B.Tech|
+12|George||
+13|Kamal||2002-05-17
+```
+
+### b. Retrieve values of selected fields from table
+```
+sqlite> SELECT Name, DoB FROM Students;
+Amit|2000-09-15
+Ashok|2000-06-13
+Seema|
+George|
+Kamal|2002-05-17
+```
