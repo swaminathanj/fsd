@@ -37,16 +37,34 @@ You can delete or rename a table by using DROP and ALTER commands. You can try t
 
 Use .tables to check for the changed effect.
 
-## Insert Values into Table
+NOTE: There are more data types in SQL which you can explore at leisure.
 
+## 3. Insert Values into Table
+The following SQL commands demonstrates different INSERT examples.
+
+### a. You can specify the field names and provide the values in that order
 ```
 sqlite> INSERT INTO Students (Id, Name, Degree, DoB) VALUES (1, 'Amit', 'M.Tech', '2000-09-15');
+```
+
+### b. You don't need to specify fields if values are in the same order as fields
+```
 sqlite> INSERT INTO Students VALUES (2, 'Ashok', 'M.Tech', '2000-06-13');
+```
+### c. Values to optional fields need not be given
+```
 sqlite> INSERT INTO Students (Id, Name, Degree) VALUES (11, 'Seema', 'B.Tech');
 sqlite> INSERT INTO Students (Id, Name, DoB) VALUES (13, 'Kamal', '2002-05-17');
 sqlite> INSERT INTO Students (Id, Name) VALUES (12, 'George');
+```
+### d. Missing value for compulsory fields leads to insertion error
+```
 sqlite> INSERT INTO Students (Id, Degree, DoB) VALUES (7, 'M.Tech', '2000-09-15');
 Runtime error: NOT NULL constraint failed: Students.Name (19)
+```
+
+### e. Duplicate primary key values leads to insertion error
+```
 sqlite> INSERT INTO Students (Id, Name, Degree, DoB) VALUES (1, 'Swapna', 'M.Tech', '2000-03-22');
 Runtime error: UNIQUE constraint failed: Students.Id (19)
 ```
