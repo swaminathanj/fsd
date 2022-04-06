@@ -32,5 +32,22 @@ sqlite>
 ```
 
 You can delete or rename a table by using DROP and ALTER commands. You can try this at leisure. The syntax for both is given below.
-* DROP &langle; table_name &rangle; ;
-* ALTER &langle; old_name &rangle RENAME TO &langle; new_name &rangle ;
+* DROP &langle;table_name&rangle; ;
+* ALTER &langle;old_name&rangle RENAME TO &langle;new_name&rangle ;
+
+Use .tables to check for the changed effect.
+
+## Insert Values into Table
+
+```
+sqlite> INSERT INTO Students (Id, Name, Degree, DoB) VALUES (1, 'Amit', 'M.Tech', '2000-09-15');
+sqlite> INSERT INTO Students VALUES (2, 'Ashok', 'M.Tech', '2000-06-13');
+sqlite> INSERT INTO Students (Id, Name, Degree) VALUES (11, 'Seema', 'B.Tech');
+sqlite> INSERT INTO Students (Id, Name, DoB) VALUES (13, 'Kamal', '2002-05-17');
+sqlite> INSERT INTO Students (Id, Name) VALUES (12, 'George');
+sqlite> INSERT INTO Students (Id, Degree, DoB) VALUES (7, 'M.Tech', '2000-09-15');
+Runtime error: NOT NULL constraint failed: Students.Name (19)
+sqlite> INSERT INTO Students (Id, Name, Degree, DoB) VALUES (1, 'Swapna', 'M.Tech', '2000-03-22');
+Runtime error: UNIQUE constraint failed: Students.Id (19)
+```
+
