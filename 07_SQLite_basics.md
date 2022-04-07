@@ -158,7 +158,6 @@ sqlite> UPDATE Students SET Degree = 'B.Tech' WHERE Name = 'Kamal';
 Now check if the values are really updated.
 ```
 sqlite> SELECT * FROM Students;
-sqlite> SELECT * FROM Students;
 1|Amit|M.Tech|2000-09-15
 2|Ashok|M.Tech|2000-06-13
 11|Seema|B.Tech|2002-11-23
