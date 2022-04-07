@@ -102,6 +102,12 @@ sqlite> SELECT * FROM Students WHERE Id > 5;
 13|Kamal||2002-05-17
 ```
 
+This is the case of no value matching the condition
+```
+sqlite> SELECT * FROM Students WHERE iD = 5;
+sqlite>
+```
+
 ## d. Retrieve values based on similarity
 The LIKE is used in conjuction with _ for single wildcard char or % for any number of wildcard chars.
 
