@@ -206,3 +206,4 @@ This topic provides a basic introduction to working with SQLite from Python.
 
 ## Django with SQLite
 
+* Check out this tutorial for working with SQLite from DjNFO. https://techvidvan.com/tutorials/django-database-connectivity/
