@@ -60,7 +60,7 @@ conn = sqlite3.connect('test.db')
 
 cursor = conn.execute("SELECT id, name, address, salary from COMPANY")
 for row in cursor:
-   print( "Id = ", row[0], " | Name = ", row[1], " | DoB = ", row[2], " | SALARY = ", row[3] )
+   print( "Id = ", row[0], " | Name = ", row[1], " | DoB = ", row[2], " | Degree = ", row[3] )
    # print( row )  # Comment out above and uncomment this, check the output
    
 conn.close()
