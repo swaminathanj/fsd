@@ -55,9 +55,9 @@ conn.close()
 * Write a program which will read the input from the user and insert values into the table. Add at least 6 more rows.
   * Input format: 10 Jaydeep 2001-11-23 M.C.A
 * Improvise the program to check if the input entered is in correct. Examples of incorrect input.
-  * 11 Krishna M.Tech 2000-05-09   # Degree and DoB are out of order
-  * -5 Gopi B.Tech 2002-12-29   # Roll number is the negative
-  * 20 abcdefghijklmnopqrstuvwxyz0123456789 B.Tech 2003-05-11  # Name has more than 30 chars
+  * 11 Krishna M.Tech 2000-05-09   (Degree and DoB are out of order)
+  * -5 Gopi B.Tech 2002-12-29   (Roll number is the negative)
+  * 20 abcdefghijklmnopqrstuvwxyz0123456789 B.Tech 2003-05-11  (Name has more than 30 chars)
 
 ## 4. Retrieve from table
 
@@ -77,3 +77,21 @@ conn.close()
 ### Exercises
 * Count the number of rows in the table.
 * Count the number of rows who enrolled to M.Tech degree.
+
+## 5. Update table
+
+```python
+import sqlite3
+
+conn = sqlite3.connect('test.db')
+
+conn.execute("UPDATE Students SET Degree = 'B.E.' where Degree = 'B.Tech'")
+conn.commit()
+print("Total number of rows updated :", conn.total_changes)
+
+cursor = conn.execute("SELECT Id, Name, DoB, Degree FROM Students WHERE Degree = 'B.E.'")
+for row in cursor:
+   print(row)
+
+conn.close()
+```
