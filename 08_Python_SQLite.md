@@ -85,7 +85,7 @@ import sqlite3
 
 conn = sqlite3.connect('test.db')
 
-conn.execute("UPDATE Students SET Degree = 'B.E.' where Degree = 'B.Tech'")
+conn.execute("UPDATE Students SET Degree = 'B.E.' WHERE Degree = 'B.Tech'")
 conn.commit()
 print("Total number of rows updated :", conn.total_changes)
 
@@ -95,3 +95,22 @@ for row in cursor:
 
 conn.close()
 ```
+
+## 6. Delete from table
+
+```python
+import sqlite3
+
+conn = sqlite3.connect('test.db')
+
+conn.execute("DELETE FROM Students WHERE Id = 4")
+conn.commit()
+print("Total number of rows updated :", conn.total_changes)
+
+cursor = conn.execute("SELECT Id, Name, DoB, Degree FROM Students WHERE Degree = 'B.E.'")
+for row in cursor:
+   print(row)
+
+conn.close()
+```
+
