@@ -138,7 +138,7 @@ sqlite> SELECT * FROM Students WHERE Id > 1 AND DoB LIKE '2002%';
 13|Kamal||2002-05-17
 ```
 
-## Updating values
+## 5. Updating values in table
 
 Before updating lets check the table values first.
 ```
@@ -164,3 +164,22 @@ sqlite> SELECT * FROM Students;
 12|George|MCA|2001-04-30
 13|Kamal|B.Tech|2002-05-17
 ```
+
+## 6. Delete values from table
+
+First delete.
+```
+sqlite> DELETE FROM Students WHERE Name like 'K%';
+```
+Then check.
+sqlite> SELECT * FROM Students;
+1|Amit|M.Tech|2000-09-15
+2|Ashok|M.Tech|2000-06-13
+11|Seema|B.Tech|2002-11-23
+12|George|MCA|2001-04-30
+```
+Note:
+* If the WHERE condition matches multiple values, all of them will get deleted.
+* DELETE FROM Students will remove all the values of Students.
+* DROP Students will delete the table itself.
+
