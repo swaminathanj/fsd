@@ -134,8 +134,34 @@ sqlite> SELECT * FROM Students WHERE Id > 1 AND Id < 12;
 2|Ashok|M.Tech|2000-06-13
 11|Seema|B.Tech|
 
-sqlite> SELECT * FROM Students WHERE Id > 1 AND DoB LIKE '2002%'
-   ...> ;
+sqlite> SELECT * FROM Students WHERE Id > 1 AND DoB LIKE '2002%';
 13|Kamal||2002-05-17
 ```
 
+## Updating values
+
+Before updating lets check the table values first.
+```
+sqlite> SELECT * FROM Students;
+1|Amit|M.Tech|2000-09-15
+2|Ashok|M.Tech|2000-06-13
+11|Seema|B.Tech|
+12|George||
+13|Kamal||2002-05-17
+```
+Let's update the values.
+```
+sqlite> UPDATE Students SET DoB = '2002-11-23' WHERE Id = 11;
+sqlite> UPDATE Students SET Degree = 'MCA', DoB = '2001-04-30' WHERE Id = 12;
+sqlite> UPDATE Students SET Degree = 'B.Tech' WHERE Name = 'Kamal';
+```
+Now check if the values are really updated.
+```
+sqlite> SELECT * FROM Students;
+sqlite> SELECT * FROM Students;
+1|Amit|M.Tech|2000-09-15
+2|Ashok|M.Tech|2000-06-13
+11|Seema|B.Tech|2002-11-23
+12|George|MCA|2001-04-30
+13|Kamal|B.Tech|2002-05-17
+```
