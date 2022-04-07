@@ -1,5 +1,17 @@
 # SQLite Basics
 
+## 0. Installing SQLite
+
+- Go to https://www.sqlite.org/download.html.
+- Download the appropriate archive depending on the platform.
+- Decompress the archive to an appropriate folder.
+- Set the PATH enviornment variable to this folder.
+- Open Terminal and run sqlite3 --version at the prompt.
+```
+sqlite3 --version
+3.38.2 2022-03-26 13:51:10 d33c709cc0af66bc5b6dc6216eba9f1f0b40960b9ae83694c986fbf4c1d6f08f
+```
+
 ## 1. Create Database
 Create a database (test.db) and start the SQLite session.
 
