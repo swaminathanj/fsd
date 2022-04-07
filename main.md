@@ -193,9 +193,9 @@ This topic covers basics of SQLite - installation, creating tables, inserting re
 
 * Check [Practice examples](07_SQLite.md) to try what was covered in the class.
 * SQLite can be downloaded from https://sqlite.org/download.html.
-* A quick reference to SQL syntax can be found at https://www.sqlitetutorial.net/sqlite-cheat-sheet/.
 * A quick tutorial with examples can be found at https://www.thegeekstuff.com/2012/09/sqlite-command-examples/.
 * A little more elaborate and excellent tutorial can be found at https://www.guru99.com/sqlite-tutorial.html. 
+* A quick reference to SQL syntax can be found at https://www.sqlitetutorial.net/sqlite-cheat-sheet/.
 
 ## Python with SQLite (1 hour)
 This topic provides a basic introduction to working with SQLite from Python.
