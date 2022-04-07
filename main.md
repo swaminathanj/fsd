@@ -191,7 +191,7 @@ This topic covers setting up the virtual environment, installing django, startin
 ## SQLite basics (1 hour)
 This topic covers basics of SQLite - installation, creating tables, inserting records, querying the database. We will also see how to connect to SQLite from Python and perform the SQL operations.
 
-* Check [Practice examples](07_SQLite.md) to try what was covered in the class.
+* Check [Practice examples](07_SQLite_basics.md) to try what was covered in the class.
 * SQLite can be downloaded from https://sqlite.org/download.html.
 * A quick tutorial with examples can be found at https://www.thegeekstuff.com/2012/09/sqlite-command-examples/.
 * A little more elaborate and excellent tutorial can be found at https://www.guru99.com/sqlite-tutorial.html. 
@@ -200,6 +200,7 @@ This topic covers basics of SQLite - installation, creating tables, inserting re
 ## Python with SQLite (1 hour)
 This topic provides a basic introduction to working with SQLite from Python.
 
+* Check [Practice examples](08_Python_SQLite.md) to try what was covered in the class.
 * Refer to https://www.tutorialspoint.com/sqlite/sqlite_python.htm for hands-on examples. 
 * Try them out to get familiar with using Python and SQLite.
 
