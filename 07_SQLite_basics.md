@@ -172,6 +172,7 @@ First delete.
 sqlite> DELETE FROM Students WHERE Name like 'K%';
 ```
 Then check.
+```
 sqlite> SELECT * FROM Students;
 1|Amit|M.Tech|2000-09-15
 2|Ashok|M.Tech|2000-06-13
