@@ -105,11 +105,11 @@ conn = sqlite3.connect('test.db')
 
 conn.execute("DELETE FROM Students WHERE Id = 4")
 conn.commit()
-print("Total number of rows updated :", conn.total_changes)
+print("Total number of rows deleted :", conn.total_changes)
 
-cursor = conn.execute("SELECT Id, Name, DoB, Degree FROM Students WHERE Degree = 'B.E.'")
+cursor = conn.execute("SELECT * FROM Students")
 for row in cursor:
-   print(row)
+   print(row[0], row[1])
 
 conn.close()
 ```
