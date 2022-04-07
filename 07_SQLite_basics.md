@@ -196,3 +196,10 @@ Note:
 * DELETE FROM Students will remove all the values of Students.
 * DROP Students will delete the table itself.
 
+## Further Steps
+
+Refer to the following resources, skim through them, try a few examples and get familiar. You should have a working knowledge with SQLite.
+
+* A quick tutorial with examples can be found at https://www.thegeekstuff.com/2012/09/sqlite-command-examples/.
+* A little more elaborate and excellent tutorial can be found at https://www.guru99.com/sqlite-tutorial.html.
+* You can try and learn with existing databases at https://www.w3schools.com/sql/default.asp
