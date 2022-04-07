@@ -92,3 +92,44 @@ Seema|
 George|
 Kamal|2002-05-17
 ```
+
+## c. Retrieve values based on condition
+
+```
+sqlite> SELECT * FROM Students WHERE Id > 5;
+11|Seema|B.Tech|
+12|George||
+13|Kamal||2002-05-17
+```
+
+## d. Retrieve values based on similarity
+The LIKE is used in conjuction with _ for single wildcard char or % for any number of wildcard chars.
+
+```
+sqlite> SELECT * FROM Students WHERE Degree LIKE '%Tech';
+1|Amit|M.Tech|2000-09-15
+2|Ashok|M.Tech|2000-06-13
+11|Seema|B.Tech|
+
+sqlite> SELECT * FROM Students WHERE Degree like '_.Tech';
+1|Amit|M.Tech|2000-09-15
+2|Ashok|M.Tech|2000-06-13
+11|Seema|B.Tech|
+
+sqlite> SELECT * FROM Students WHERE DoB like '2000%';
+1|Amit|M.Tech|2000-09-15
+2|Ashok|M.Tech|2000-06-13
+```
+
+### e. Retrieving values with multiple conditions
+
+```
+sqlite> SELECT * FROM Students WHERE Id > 1 AND Id < 12;
+2|Ashok|M.Tech|2000-06-13
+11|Seema|B.Tech|
+
+sqlite> SELECT * FROM Students WHERE Id > 1 AND DoB LIKE '2002%'
+   ...> ;
+13|Kamal||2002-05-17
+```
+
