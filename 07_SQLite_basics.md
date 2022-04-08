@@ -196,6 +196,11 @@ Note:
 * DELETE FROM Students will remove all the values of Students.
 * DROP Students will delete the table itself.
 
+## 7. Foreign key
+
+Foreign key is a concept that relates two tables. A primary key in Table-1, if it is part of Table-2, it is referred to as foreign key. Foreign key places constraint on what values are permitted in Table-2. An example below.
+
+
 ## Further Steps
 
 Refer to the following resources, skim through them, try a few examples and get familiar. You should have a working knowledge with SQLite.
