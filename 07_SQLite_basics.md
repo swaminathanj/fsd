@@ -198,7 +198,7 @@ Note:
 
 ## 7. Foreign key
 
-Foreign key is a concept that relates two tables. A primary key in Table-1, if it is part of Table-2, it is referred to as foreign key. Foreign key places constraint on what values are permitted in Table-2. An example below.
+Foreign key is a concept that relates two tables. A primary key in Table-1, if it is part of Table-2, it is referred to as foreign key. Foreign key places constraint on what values are permitted in Table-2. An example below from DZone below.
 
 ![Example from DZone](https://dz2cdn1.dzone.com/storage/temp/13098161-foreign-key-2.png)
 
