@@ -174,19 +174,17 @@ After implementing exercises 1 and 2, your pages should look similar to the belo
 
 ## Step 8: Adding static files (images, css, js)
 
-You may want to include images, css or java script files to the project. These are static files and goes into the folder **static**. Follow the instructions in https://docs.djangoproject.com/en/4.0/howto/static-files/ given under Configuring Static Files. Add an image.
-
-Similarly add style.css file. 
+You may want to include images, css or java script files to the project. These are static files and goes into the folder **static**. Follow the instructions below to add an image and a css file. You can also check out the instructions in https://docs.djangoproject.com/en/4.0/howto/static-files/ given under Configuring Static Files. 
 
 1. Create a new folder under top level first_project by name 'static'.
-2. Place your static files images, css and js files inside the 'static' folder.
+2. Place your static files - logo.png, style.css inside the 'static' folder.
 3. In the urls.py, create a variable STATIC_DIR which points to the static folder - under BASE_DIR and TEMPLATE_DIR.
 ```
 BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATE_DIR = os.path.join(BASE_DIR, "templates")
 STATIC_DIR = os.path.join(BASE_DIR, "static")
 ```
-4. Move further down settings.py and add the varialbe STATICFILES_DIRS below STATIC_URL variable.
+4. Move further down settings.py and add the variable STATICFILES_DIRS below STATIC_URL variable.
 ```
 STATIC_URL = 'static/'
 
@@ -195,7 +193,7 @@ STATICFILES_DIRS = [
     '/var/www/static/',
 ]
 ```
-5. In the index.html, set the relative path by loading the 'static'. This is done by including the following statement immediately after the first line !DOCTYPE html.
+5. In the index.html, set the relative path by loading 'static'. This is done by including the following statement immediately after the first line !DOCTYPE html.
 ```
 <!DOCTYPE html>
 {% load static %}
@@ -207,7 +205,7 @@ STATICFILES_DIRS = [
 <link rel="stylesheet" type='text/css' href="{% static 'style.css' %}">
 ```
 
-A sample page with an image and style can look like this. Note that you can use whatever image you have (not necessarily Amrita logo). Also, you can specify any kind of styling in your css file. This exercise is just for you to explore and add static files to the page.
+A sample page with the image (logo) and style (css) can look like this. Note that you can use whatever image you have (not necessarily Amrita logo). Also, you can specify any kind of styling in your css file.
 ![Exercise_3 & 4_combined](exercise-3-4.png)
 
 ## Step 9: Template tags for 'if' and 'for loop'.
