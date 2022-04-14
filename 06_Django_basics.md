@@ -178,6 +178,35 @@ You may want to include images, css or java script files to the project. These a
 
 Similarly add style.css file. 
 
+1. Create a new folder under top level first_project by name 'static'.
+2. Place your static files images, css and js files inside the 'static' folder.
+3. In the urls.py, create a variable STATIC_DIR which points to the static folder - under BASE_DIR and TEMPLATE_DIR.
+```
+BASE_DIR = Path(__file__).resolve().parent.parent
+TEMPLATE_DIR = os.path.join(BASE_DIR, "templates")
+STATIC_DIR = os.path.join(BASE_DIR, "static")
+```
+4. Move further down settings.py and add the varialbe STATICFILES_DIRS below STATIC_URL variable.
+```
+STATIC_URL = 'static/'
+
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+    '/var/www/static/',
+]
+```
+5. In the index.html, set the relative path by loading the 'static'. This is done by including the following statement immediately after the first line !DOCTYPE html.
+```
+<!DOCTYPE html>
+{% load static %}
+```
+6. Make the following changes to include the static files at the appropriate location.
+```
+<img src="{% static 'first_app/logo.jpg' %}" alt="Amrita Logo">
+
+<link rel="stylesheet" type='text/css' href="{% static 'style.css' %}">
+```
+
 A sample page with an image and style can look like this. Note that you can use whatever image you have (not necessarily Amrita logo). Also, you can specify any kind of styling in your css file. This exercise is just for you to explore and add static files to the page.
 ![Exercise_3 & 4_combined](exercise-3-4.png)
 
