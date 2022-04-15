@@ -58,3 +58,9 @@ class Student(models.Model):
     dob = models.DateTimeField('date of birth')
     degree = models.ForeignKey(Degree, on_delete=models.CASCADE)
 ```
+
+Now apply the migration as follows.
+```
+python manage.py makemigrations first.py
+python manage.py migrate
+```
