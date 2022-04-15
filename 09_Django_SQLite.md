@@ -34,13 +34,14 @@ Models are created by extending models.Model class in the models.py file.
 ```python
 from django.db import models
 
+class Degree(models.Model):
+    title = models.CharField(max_length=20)
+    branch = models.CharField(max_length=50)
+
 class Student(models.Model):
-    question_text = models.CharField(max_length=200)
-    pub_date = models.DateTimeField('date published')
-
-
-class Course(models.Model):
-    question = models.ForeignKey(Question, on_delete=models.CASCADE)
-    choice_text = models.CharField(max_length=200)
-    votes = models.IntegerField(default=0)
+    roll_number = models.CharField(max_length=20)
+    name = models.CharField(max_length=50)
+    year = models.IntegerField(default=1)
+    dob = models.DateTimeField('date of birth')
+    degree = models.ForeignKey(Degree, on_delete=models.CASCADE)
 ```
