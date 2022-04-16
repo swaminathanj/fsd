@@ -56,6 +56,6 @@ Now apply the migration as follows. The first command creates migrations for the
 
 At this point you can check if Degree and Student tables are created in the database. Check this by invoking sqlite at the top-level first_project folder and listing the tables.
 ```
-sqlite3 db.sqlite3
+(myenv) CMD> sqlite3 db.sqlite3
 > .tables
 ```
