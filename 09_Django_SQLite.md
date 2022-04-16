@@ -17,14 +17,14 @@ DATABASES = {
 
 Before you create models, perform a migration in case there are unapplied migrations. To know if you have unapplied migrations, activate the virtual environment, navigate to project folder (first_project) and run the server. You will know if there are any unapplied migrations.
 ```
-(myenv) PS CMD> python manage.py first_project
+(myenv) CMD> python manage.py first_project
 You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
 Run 'python manage.py migrate' to apply them.
 ```
 
 First apply migration as follows.
 ```
-python manage.py migrate
+(myenv) CMD> python manage.py migrate
 ```
 
 ## Step 1: Creating Models
@@ -59,3 +59,35 @@ At this point you can check if Degree and Student tables are created in the data
 (myenv) CMD> sqlite3 db.sqlite3
 > .tables
 ```
+
+## Step 2: Inserting values to models
+
+**NOTE**: In this module, we will show how to perform model operations from Django Shell. In the next module, we will introduce Forms and show how to receive value from the user at front-end and insert into the model. At a later stage, we will show how to receive user uploaded file, parse them and insert the values.
+
+1. Open the Django shell. It is basically a Python shell with Django environment.
+```
+(myenv) CMD> python manage.py shell
+```
+
+2. Import the models we migrated, namely Degree and Student.
+```python
+>>> from first_app.models import Degree, Student
+```
+
+3. Insert values into Degree and save.
+```python
+>>> d1 = Degree(title='M.Tech', branch='CS AI & ML')
+>>> d1.save()
+>>> d2 = Degree(title='M.Tech', branch='CSN')
+>>> d2.save()
+>>> d3 = Degree(title='M.Tech', branch='AI')
+>>> d3.save()
+>>> d4 = Degree(title='M.Tech', branch='WNA')
+>>> d4.save()
+```
+
+4. Similarly, insert value to Student and save. Note that you cannot add Student with degree other than those added to Degree.
+
+## Step 3: Retreiving values from model
+
+
