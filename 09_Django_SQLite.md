@@ -17,20 +17,9 @@ DATABASES = {
 
 Before you create models, perform a migration in case there are unapplied migrations. To know if you have unapplied migrations, activate the virtual environment, navigate to project folder (first_project) and run the server. You will know if there are any unapplied migrations.
 ```
-(myenv) PS C:\Swaminathan\Academics\2022 Jan FSD\django\first_project> python manage.py first_project
-System check identified some issues:
-
-WARNINGS:
-?: (staticfiles.W004) The directory '/var/www/static/' in the STATICFILES_DIRS setting does not exist.
-
-System check identified 1 issue (0 silenced).
-
+(myenv) PS CMD> python manage.py first_project
 You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
 Run 'python manage.py migrate' to apply them.
-April 15, 2022 - 19:31:50
-Django version 4.0.4, using settings 'first_project.settings'
-Starting development server at http://127.0.0.1:8000/
-Quit the server with CTRL-BREAK.
 ```
 
 First apply migration as follows.
@@ -59,8 +48,14 @@ class Student(models.Model):
     degree = models.ForeignKey(Degree, on_delete=models.CASCADE)
 ```
 
-Now apply the migration as follows.
+Now apply the migration as follows. The first command creates migrations for the models or changes to the models. The second command applies them to the database. 
 ```
-python manage.py makemigrations first.py
-python manage.py migrate
+(myenv) CMD> python manage.py makemigrations first_app
+(myenv) CMD> python manage.py migrate
+```
+
+At this point you can check if Degree and Student tables are created in the database. Check this by invoking sqlite at the top-level first_project folder and listing the tables.
+```
+sqlite3 db.sqlite3
+> .tables
 ```
