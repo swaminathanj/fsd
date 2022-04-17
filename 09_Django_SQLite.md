@@ -89,32 +89,51 @@ At this point you can check if Degree and Student tables are created in the data
 4. Similarly, insert value to Student and save. Note that you cannot add Student with degree other than those added to Degree.
 
 ## Step 3: Retreiving values from model
+Retrieval methods return a QuerySet that matches the specified fields given as parameters to the methods.
 
-1. To retrieve all values use &lt;model&rt;.objects.all(). Define  _ _ str _ _ method in the model to print in a desirable value.
+1. To retrieve QuerySet of all values, use &lt;model&rt;.objects.all(). Define  _ _ str _ _ method in the model to print in a desirable value.
 ```python
 >>> Degree.objects.all()
 ```
-2. To retrieve value matching a particular field, use filter method.
+2.To retrieve a specific value(s) from a model.
+```python
+>>>  Degree.objects.get(id=1)
+```
+3.  To retrieve subset of QuerySet the match the lookup parameters, use filter method.
 ```python
 >>> Degree.objects.filter(id=3)  # retrieves 3rd value of the table
 >>> Degree.objects.filter(title='M.Tech')  # retrieves all values with title M.Tech
 >>> Degree.objects.filter(branch__startswith='CS')  #retrieves all values with branch starting with CS)
 ```
-3. Retrieve can also be done using get method
+4. To retrieve a subset of QuerySet that don't match the lookup parameters, use excluded method.
 ```python
->>> Degree.objects.get(id=1)
+>>> Degree.objects.exclude(id=3)  # retrieves 3rd value of the table
+>>> Degree.objects.exclude(title='M.Tech')  # retrieves all values with title M.Tech
+>>> Degree.objects.exclude(branch__startswith='CS')  #retrieves all values with branch starting with CS
 ```
-4. To retrieve a specific field
+5. You can use both fiter and exclude to extract a subset of QuerySet.
+```python
+>>> q = Course.objects.filter(headline__startswith="M.")
+>>> q = q.exclude(branch__icontains="WNA")
+```
+7. To retrieve a specific field
 ```python
 >>> d = Degree.objects.get(id=1)
 >>> d.title
 ```
+**Most used retrieval methods**: all(), get(), filter() and exclude().
 
-## Step 4: Update values of model
+Refer to https://docs.djangoproject.com/en/4.0/ref/models/querysets/#queryset-api for complete QuerySet API reference.
 
-1. To change the title of a model
+## Step 4: Update model values
+
+1. To change the value of a field, title of a model
 ```python
 >>> d = Degree.objects.get(id=1)
 >>> d.title = 'M.E.'
 >>> d
 ```
+
+## Step 5: Delete values from model
+
+1. 
