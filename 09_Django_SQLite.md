@@ -168,6 +168,6 @@ There are plenty of methods to retrieve different kinds of data from models. Ref
 
 2. To delete the value of a foreign key field, 
 
-## Adding methods to model
+## Step 7: Adding methods to model
 
 Apart from defining the fields and _ _ str _ _ method, you can define additional methods to compute some special functionality.
