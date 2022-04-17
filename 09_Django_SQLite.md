@@ -113,9 +113,9 @@ Retrieval methods return a QuerySet that matches the specified fields given as p
 ```
 4. To retrieve a subset of QuerySet that don't match the lookup parameters, use excluded method.
 ```python
->>> Degree.objects.exclude(id=3)  # retrieves 3rd value of the table
->>> Degree.objects.exclude(title='M.Tech')  # retrieves all values with title M.Tech
->>> Degree.objects.exclude(branch__startswith='CS')  #retrieves all values with branch starting with CS
+>>> Degree.objects.exclude(id=3)  # retrieves other than 3rd value of the table
+>>> Degree.objects.exclude(title='M.Tech')  # retrieves all values with title not equal to M.Tech
+>>> Degree.objects.exclude(branch__startswith='CS')  # retrieves all values with branch not starting with CS
 ```
 5. You can use both fiter and exclude to extract a subset of QuerySet.
 ```python
@@ -151,8 +151,17 @@ There are plenty of methods to retrieve different kinds of data from models. Ref
 >>> d.title = 'M.E.'
 >>> d
 ```
-2. To update a foreign key field, 
+2. To update the value of a foreign key field, 
 
 ## Step 5: Delete values from model
 
-1. To delete
+1. To delete a value from a model, use delete method
+```python
+>>> d = Degree.objects.get(branch='WNA')
+>>> d.delete()
+>>> Degree.objects.all()
+```
+
+2. To delete the value of a foreign key field, 
+
+
