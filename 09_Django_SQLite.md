@@ -90,4 +90,31 @@ At this point you can check if Degree and Student tables are created in the data
 
 ## Step 3: Retreiving values from model
 
+1. To retrieve all values use &lt;model&rt;.objects.all(). Define  _ _ str _ _ method in the model to print in a desirable value.
+```python
+>>> Degree.objects.all()
+```
+2. To retrieve value matching a particular field, use filter method.
+```python
+>>> Degree.objects.filter(id=3)  # retrieves 3rd value of the table
+>>> Degree.objects.filter(title='M.Tech')  # retrieves all values with title M.Tech
+>>> Degree.objects.filter(branch__startswith='CS')  #retrieves all values with branch starting with CS)
+```
+3. Retrieve can also be done using get method
+```python
+>>> Degree.objects.get(id=1)
+```
+4. To retrieve a specific field
+```python
+>>> d = Degree.objects.get(id=1)
+>>> d.title
+```
 
+## Step 4: Update values of model
+
+1. To change the title of a model
+```python
+>>> d = Degree.objects.get(id=1)
+>>> d.title = 'M.E.'
+>>> d
+```
