@@ -170,4 +170,9 @@ There are plenty of methods to retrieve different kinds of data from models. Ref
 
 ## Step 7: Adding methods to model
 
-Apart from defining the fields and _ _ str _ _ method, you can define additional methods to compute some special functionality.
+Apart from the fields and _ _ str _ _ method, there are other methods which can be used. 
+* _ _ eq _ _ for checking the equality
+* _ _ hash _ _ 
+* _ _ get_absolute_url _ _
+
+You can also define additional methods to perform special computations. 
