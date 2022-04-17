@@ -54,6 +54,10 @@ class Student(models.Model):
         return (self.roll_number, self.name, self.degree)
 ```
 
+For complete list of Django model fields, check https://www.webforefront.com/django/modeldatatypesandvalidation.html.
+
+## Step 2: Applying migrations to the database
+
 Now apply the migration as follows. The first command creates migrations for the models or changes to the models. The second command applies them to the database. 
 ```
 (myenv) CMD> python manage.py makemigrations first_app
@@ -66,7 +70,7 @@ At this point you can check if Degree and Student tables are created in the data
 > .tables
 ```
 
-## Step 2: Inserting values to models
+## Step 3: Inserting values to models
 
 **NOTE**: In this module, we will show how to perform model operations from Django Shell. In the next module, we will introduce Forms and show how to receive value from the user at front-end and insert into the model. At a later stage, we will show how to receive user uploaded file, parse them and insert the values.
 
@@ -94,7 +98,7 @@ At this point you can check if Degree and Student tables are created in the data
 
 4. Similarly, insert value to Student and save. Note that you cannot add Student with degree other than those added to Degree.
 
-## Step 3: Retreiving values from model
+## Step 4: Retreiving values from model
 Retrieval methods return a QuerySet that matches the specified fields given as parameters to the methods.
 
 1. To retrieve QuerySet of all values, use &lt;model&rt;.objects.all(). Define  _ _ str _ _ method in the model to print in a desirable value.
@@ -143,7 +147,7 @@ Retrieval methods return a QuerySet that matches the specified fields given as p
 
 There are plenty of methods to retrieve different kinds of data from models. Refer to https://docs.djangoproject.com/en/4.0/ref/models/querysets/#queryset-api for complete QuerySet API reference.
 
-## Step 4: Update model values
+## Step 5: Update model values
 
 1. To change the value of a field, title of a model
 ```python
@@ -153,7 +157,7 @@ There are plenty of methods to retrieve different kinds of data from models. Ref
 ```
 2. To update the value of a foreign key field, 
 
-## Step 5: Delete values from model
+## Step 6: Delete values from model
 
 1. To delete a value from a model, use delete method
 ```python
@@ -164,4 +168,6 @@ There are plenty of methods to retrieve different kinds of data from models. Ref
 
 2. To delete the value of a foreign key field, 
 
+## Adding methods to model
 
+Apart from defining the fields and _ _ str _ _ method, you can define additional methods to compute some special functionality.
