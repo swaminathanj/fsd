@@ -101,7 +101,7 @@ At this point you can check if Degree and Student tables are created in the data
 ## Step 4: Retreiving values from model
 Retrieval methods return a QuerySet that matches the specified fields given as parameters to the methods.
 
-1. To retrieve QuerySet of all values, use &lt;model&rt;.objects.all(). Define  _ _ str _ _ method in the model to print in a desirable value.
+1. To retrieve QuerySet of all values, use &lt;model&rt;.objects.all(). Define  _ _ str _ _ method in the model to print in a desirable manner.
 ```python
 >>> Degree.objects.all()
 ```
