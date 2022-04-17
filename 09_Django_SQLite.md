@@ -39,6 +39,9 @@ from django.db import models
 class Degree(models.Model):
     title = models.CharField(max_length=20)
     branch = models.CharField(max_length=50)
+    
+    def __str__(self):
+        return (self.title, self.branch)
 
 class Student(models.Model):
     roll_number = models.CharField(max_length=20)
@@ -46,6 +49,9 @@ class Student(models.Model):
     year = models.IntegerField(default=1)
     dob = models.DateTimeField('date of birth')
     degree = models.ForeignKey(Degree, on_delete=models.CASCADE)
+    
+    def __str__(self):
+        return (self.roll_number, self.name, self.degree)
 ```
 
 Now apply the migration as follows. The first command creates migrations for the models or changes to the models. The second command applies them to the database. 
@@ -116,14 +122,26 @@ Retrieval methods return a QuerySet that matches the specified fields given as p
 >>> q = Course.objects.filter(headline__startswith="M.")
 >>> q = q.exclude(branch__icontains="WNA")
 ```
-7. To retrieve a specific field
+6. To retrieve values of a given range from the QuerySet, specify the range.
+```python
+>>> q = Degree.objects.all()
+>>> q[1:3]
+>>> q[:5]
+>>> q.[1:]
+```
+7. To reverse the values returned, use reverse() method.
+```python
+>>> q = Degree.objects.all()
+>>> q.reverse()
+```
+8. To retrieve a specific field, specify the field name.
 ```python
 >>> d = Degree.objects.get(id=1)
 >>> d.title
 ```
 **Most used retrieval methods**: all(), get(), filter() and exclude().
 
-Refer to https://docs.djangoproject.com/en/4.0/ref/models/querysets/#queryset-api for complete QuerySet API reference.
+There are plenty of methods to retrieve different kinds of data from models. Refer to https://docs.djangoproject.com/en/4.0/ref/models/querysets/#queryset-api for complete QuerySet API reference.
 
 ## Step 4: Update model values
 
@@ -133,7 +151,8 @@ Refer to https://docs.djangoproject.com/en/4.0/ref/models/querysets/#queryset-ap
 >>> d.title = 'M.E.'
 >>> d
 ```
+2. To update a foreign key field, 
 
 ## Step 5: Delete values from model
 
-1. 
+1. To delete
