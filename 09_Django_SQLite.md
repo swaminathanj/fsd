@@ -171,8 +171,8 @@ There are plenty of methods to retrieve different kinds of data from models. Ref
 ## Step 7: Adding methods to model
 
 Apart from the fields and _ _ str _ _ method, there are other methods which can be used. 
-* _ _ eq _ _ for checking the equality
-* _ _ hash _ _ 
+* _ _ eq _ _ for checking the equality based on primary key
+* _ _ hash _ _ to compute hashcode based on primary key
 * _ _ get_absolute_url _ _
 
 You can also define additional methods to perform special computations. 
