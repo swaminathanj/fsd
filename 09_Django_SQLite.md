@@ -69,7 +69,7 @@ At this point you can check if Degree and Student tables are created in the data
 (myenv) CMD> sqlite3 db.sqlite3
 > .tables
 ```
-You will see *first_app_degree* and *first_app_student*.
+You will see *first_app_degree* and *first_app_student* in the list.
 
 ## Step 3: Inserting values to models
 
