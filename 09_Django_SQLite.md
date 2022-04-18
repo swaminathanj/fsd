@@ -123,10 +123,13 @@ Retrieval methods return a QuerySet that matches the specified fields given as p
 1. To retrieve QuerySet of all values, use &lt;model&rt;.objects.all(). Define  _ _ str _ _ method in the model to print in a desirable manner.
 ```python
 >>> Degree.objects.all()
+>>> Student.objects.all()
 ```
 2.To retrieve a specific value(s) from a model.
 ```python
->>>  Degree.objects.get(id=1)
+>>> Degree.objects.get(id=1)
+>>> deg = Degree.objects.get(branch='CSN')
+>>> Student.objects.get(degree=deg)
 ```
 3.  To retrieve subset of QuerySet the match the lookup parameters, use filter method.
 ```python
