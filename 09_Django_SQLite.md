@@ -47,7 +47,7 @@ class Student(models.Model):
     roll_number = models.CharField(max_length=20)
     name = models.CharField(max_length=50)
     year = models.IntegerField(default=1)
-    dob = models.DateTimeField('date of birth')
+    dob = models.DateField('date of birth')
     degree = models.ForeignKey(Degree, on_delete=models.CASCADE)
     
     def __str__(self):
@@ -98,6 +98,24 @@ You will see *first_app_degree* and *first_app_student*.
 ```
 
 4. Similarly, insert value to Student and save. Note that you cannot add Student with degree other than those added to Degree.
+```
+>>> s1 = Student(degree=d1, roll_number='AM.EN.P2AML21001', name='Akshay', year=1, dob='2000-12-28')
+>>> s1.save()
+>>> s2 = Student(degree=d1, roll_number='AM.EN.P2AML21002', name='Amit', year=1, dob='2000-07-16')
+>>> s2.save()
+>>> s3 = Student(degree=d1, roll_number='AM.EN.P2AML21003', name='Arya', year=1, dob='2000-03-20')
+>>> s3.save()
+>>> s4 = Student(degree=d1, roll_number='AM.EN.P2AML21004', name='Bhanu', year=1, dob='2000-11-09')
+>>> s4.save()
+>>> s5 = Student(degree=d2, roll_number='AM.EN.P2CSN21001', name='Ananya', year=1, dob='2000-12-28')
+>>> s5.save()
+>>> s6 = Student(degree=d2, roll_number='AM.EN.P2CSN21003', name='Amit', year=1, dob='2000-05-18')
+>>> s6.save()
+>>> s7 = Student(degree=d2, roll_number='AM.EN.P2CSN21004', name='Arya', year=1, dob='2001-01-21')
+>>> s7.save()
+>>> s8 = Student(degree=d2, roll_number='AM.EN.P2CSN21005', name='Bhanu', year=1, dob='1999-02-29')
+>>> s8.save()
+```
 
 ## Step 4: Retreiving values from model
 Retrieval methods return a QuerySet that matches the specified fields given as parameters to the methods.
