@@ -156,6 +156,9 @@ There are plenty of methods to retrieve different kinds of data from models. Ref
 >>> d
 ```
 2. To update the value of a foreign key field, 
+```python
+# To be added
+```
 
 ## Step 6: Delete values from model
 
@@ -167,6 +170,9 @@ There are plenty of methods to retrieve different kinds of data from models. Ref
 ```
 
 2. To delete the value of a foreign key field, 
+```python
+# To be added
+```
 
 ## Step 7: Adding methods to model
 
