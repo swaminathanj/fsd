@@ -152,7 +152,7 @@ There are plenty of methods to retrieve different kinds of data from models. Ref
 1. To change the value of a field, title of a model
 ```python
 >>> d = Degree.objects.get(id=1)
->>> d.title = 'M.E.'
+>>> d.title = 'M.S.'
 >>> d
 ```
 2. To update the value of a foreign key field, 
