@@ -107,13 +107,13 @@ You will see *first_app_degree* and *first_app_student* in the list.
 >>> s3.save()
 >>> s4 = Student(degree=d1, roll_number='AM.EN.P2AML21004', name='Bhanu', year=1, dob='2000-11-09')
 >>> s4.save()
->>> s5 = Student(degree=d2, roll_number='AM.EN.P2CSN21001', name='Ananya', year=1, dob='2000-12-28')
+>>> s5 = Student(degree=d2, roll_number='AM.EN.P2CSN21001', name='Albert', year=1, dob='2000-12-28')
 >>> s5.save()
->>> s6 = Student(degree=d2, roll_number='AM.EN.P2CSN21003', name='Amit', year=1, dob='2000-05-18')
+>>> s6 = Student(degree=d2, roll_number='AM.EN.P2CSN21003', name='Ananya', year=1, dob='2000-05-18')
 >>> s6.save()
->>> s7 = Student(degree=d2, roll_number='AM.EN.P2CSN21004', name='Arya', year=1, dob='2001-01-21')
+>>> s7 = Student(degree=d2, roll_number='AM.EN.P2CSN21004', name='Binu', year=1, dob='2001-01-21')
 >>> s7.save()
->>> s8 = Student(degree=d2, roll_number='AM.EN.P2CSN21005', name='Bhanu', year=1, dob='1999-02-29')
+>>> s8 = Student(degree=d2, roll_number='AM.EN.P2CSN21005', name='Deepa', year=1, dob='1999-02-29')
 >>> s8.save()
 ```
 
