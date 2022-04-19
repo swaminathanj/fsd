@@ -204,8 +204,11 @@ This topic provides a basic introduction to working with SQLite from Python.
 * Refer to https://www.tutorialspoint.com/sqlite/sqlite_python.htm for hands-on examples. 
 * Try them out to get familiar with using Python and SQLite.
 
-## Django with SQLite
+## Django, Models and SQLite
 
 * Check [Practice examples](https://github.com/swaminathanj/fsd/blob/main/09_Django_SQLite.md) to try what was covered in the class.
 * Check out this tutorial for working with SQLite from Django: https://techvidvan.com/tutorials/django-database-connectivity/
 * Another tutorial from https://www.techwithtim.net/tutorials/django/sqlite3-database/. Watch the video tutorial in the page.
+
+## Django Forms
+
