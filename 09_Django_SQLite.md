@@ -196,7 +196,48 @@ There are plenty of methods to retrieve different kinds of data from models. Ref
 # To be added
 ```
 
-## Step 7: Adding methods to model
+## Step 7: Reading table values and displaying in html
+
+Now that we have added some entries into the database from shell, let's read them and display in the html.
+
+1. In views.py, first import the tables.
+```python
+from first_app.models import Degree, Student
+```
+
+2. Down below under index function, retrieve the QuerySet from the database table and store it in a variable.
+```python
+degree_values = Degree.objects.all()
+```
+
+Now all the values of the Degree table is in the python variable degree_values. 
+3. Add degree_values to the dictionary.
+```python
+my_dict = {
+        ...,
+        ...,
+        ...,
+        'degree_rows' : degree_values,
+    }
+```
+Note: degree_values is the name of the variable in views.py. This is assigned to 'degree_rows' which will be used in index.html.
+
+4. In index.html create a &lt;table&rt; entry. In a for loop, add the &lt;tr&rt; entries and under each &lt;tr&rt; entry, add &lt;td&rt; entries for every field.
+```html
+<h3>Degrees offered</h3>
+    <table border="1">
+      {% for r in degree_rows %}
+        <tr>
+          <td>{{ r.title }}</td>
+          <td>{{ r.branch }}</td>
+        </tr>
+      {% endfor %}
+    </table>
+```
+
+5. Run the server and refresh the page.
+
+## Step 8: Adding methods to model
 
 Apart from the fields and _ _ str _ _ method, there are other methods which can be used. 
 * _ _ eq _ _ for checking the equality based on primary key
