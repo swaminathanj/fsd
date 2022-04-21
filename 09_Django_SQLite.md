@@ -167,7 +167,7 @@ Retrieval methods return a QuerySet that matches the specified fields given as p
 ```
 **Most used retrieval methods**: all(), get(), filter() and exclude().
 
-There are plenty of methods to retrieve different kinds of data from models. Refer to https://docs.djangoproject.com/en/4.0/ref/models/querysets/#queryset-api for complete QuerySet API reference.
+There are plenty of methods to retrieve data from models in a variety of ways. Refer to https://docs.djangoproject.com/en/4.0/ref/models/querysets/#queryset-api for complete QuerySet API reference.
 
 ## Step 5: Update model values
 
