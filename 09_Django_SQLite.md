@@ -225,6 +225,7 @@ Note: degree_values is the name of the variable in views.py. This is assigned to
 4. In index.html create a &lt;table&rt; entry. In a for loop, add the &lt;tr&rt; entries and under each &lt;tr&rt; entry, add &lt;td&rt; entries for every field.
 ```html
 <h3>Degrees offered</h3>
+
     <table border="1">
       {% for r in degree_rows %}
         <tr>
@@ -236,6 +237,7 @@ Note: degree_values is the name of the variable in views.py. This is assigned to
 ```
 
 5. Run the server and refresh the page.
+6. Similarly, read and display Student table. 
 
 ## Step 8: Adding methods to model
 
@@ -244,4 +246,4 @@ Apart from the fields and _ _ str _ _ method, there are other methods which can 
 * _ _ hash _ _ to compute hashcode based on primary key
 * _ _ get_absolute_url _ _
 
-You can also define additional methods to perform special computations. 
+You can also define additional methods to perform special computations.
