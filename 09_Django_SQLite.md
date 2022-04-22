@@ -222,7 +222,7 @@ my_dict = {
 ```
 Note: degree_values is the name of the variable in views.py. This is assigned to 'degree_rows' which will be used in index.html.
 
-4. In index.html create a &lt;table&rt; entry. In a for loop, add the &lt;tr&rt; entries and under each &lt;tr&rt; entry, add &lt;td&rt; entries for every field.
+4. In index.html create a &lt;table&rt; entry. In a for loop, add the &lt;tr&gt; entries and under each &lt;tr&gt; entry, add &lt;td&gt; entries for every field.
 ```html
 <h3>Degrees offered</h3>
 
