@@ -218,3 +218,4 @@ This topic provides a basic introduction to working with SQLite from Python.
 
 ## Advanced concepts (Template inheritance, Database Administration, Class based Views)
 
+## Conclusion
