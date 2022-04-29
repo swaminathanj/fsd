@@ -206,13 +206,19 @@ This topic provides a basic introduction to working with SQLite from Python.
 
 ## Django Models and SQLite (2 hours)
 
-* Check [Class Notes](https://github.com/swaminathanj/fsd/blob/main/09_Django_SQLite.md) to try what was covered in the class.
+* Check [Class Notes](09_Django_SQLite.md) to try what was covered in the class.
 * Check out this tutorial for working with SQLite from Django: https://techvidvan.com/tutorials/django-database-connectivity/
 * Another tutorial from https://www.techwithtim.net/tutorials/django/sqlite3-database/. Watch the video tutorial in the page.
 
 ## Django Forms and File upload
 
+* Check [Class Notes](10_Django_Forms.md) to try what was covered in the class.
+* 
+
 ## Building RESTful APIs
+
+* Check [Class Notes]() to try what was covered in the class.
+* A tutorial on building RESTful API for To-Do list app using Django: https://blog.logrocket.com/django-rest-framework-create-api/
 
 ## Deployment
 
