@@ -3,8 +3,24 @@
 
 ## 1. HTML Forms
 
-```html
+Here is a basic HTML form with one text field, a password text field,
 
+```html
+<label>Label</label>
+<input type="text">
+<input type="password">
+<select> </select>
+<select>
+  <option>Value 1</option>
+  <option>Value 2</option>
+</select>
+<br />
+<input type="radio">
+<label>option 1</label>
+<input type="checkbox">
+<label>option 1</label>
+<input type="submit">
+<input type="button">
 ```
 
 ## 2. What is special about Django Form
