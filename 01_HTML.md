@@ -287,19 +287,46 @@ These tags are used within &lt;body&gt; section. They need additional work towar
   - The **&lt;progress&gt;** tag with **value** and **max** attributes
 
 ```html
-<label>Label</label>
-<input type="text">
-<input type="password">
-<button>Button</button>
-<select> </select>
-<select>
-  <option>Value 1</option>
-  <option>Value 2</option>
-</select>
-<br />
-<input type="radio">
-<label>option 1</label>
-<input type="checkbox">
-<label>option 1</label>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>An example of HTML Form</title>
+  </head>
+  <body>
+    <form>
+      <label>Username</label>
+      <input type="text"><br>
+
+      <label>Password</label>
+      <input type="password"> <br>
+
+      <label>Age</label>
+      <select>
+        <option>0 - 18 years</option>
+        <option>18 - 40 years</option>
+        <option>41 - 65 years</option>
+        <option>65+ years</option>    
+      </select> <br>
+
+      <label for="birthday">Date of Birth</label>
+      <input type="date"> <br>
+
+      <label>Gender</label>
+      <input type="radio" name="gender">
+      <label>Male</label>
+      <input type="radio" name="gender">
+      <label>Female</label> <br>
+
+      <label>Interests</label>
+      <input type="checkbox">
+      <label>Sports</label>
+      <input type="checkbox">
+      <label>Music</label>
+      <input type="checkbox">
+      <label>Travel</label>
+    </form>
+  </body>
+</html>
 ```
 
