@@ -10,9 +10,10 @@ Here is a basic HTML form with one text field, a password text field,
 <html>
   <head>
     <meta charset="utf-8">
-    <title>An example of HTML Form</title>
+    <title>Sample Form</title>
   </head>
   <body>
+  	<h1>A Sample HTML Form</h1>
     <form>
       <label>Username</label>
       <input type="text"><br>
