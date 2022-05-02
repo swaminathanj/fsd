@@ -14,7 +14,7 @@ Here is a basic HTML form with one text field, a password text field,
   </head>
   <body>
   	<h1>A Sample HTML Form</h1>
-    <form>
+    <form action="#" method="post">
       <label>Username</label>
       <input type="text"><br>
 
@@ -26,7 +26,7 @@ Here is a basic HTML form with one text field, a password text field,
         <option>0 - 18 years</option>
         <option>18 - 40 years</option>
         <option>41 - 65 years</option>
-        <option>65+ years</option>    
+        <option>65+ years</option>
       </select> <br>
 
       <label for="birthday">Date of Birth</label>
@@ -44,13 +44,15 @@ Here is a basic HTML form with one text field, a password text field,
       <input type="checkbox">
       <label>Music</label>
       <input type="checkbox">
-      <label>Travel</label>
-      
-      <input type="submit">
+      <label>Travel</label><br>
+
+      <input type="submit" value="Submit">
     </form>
   </body>
 </html>
 ```
+
+For an elaborate overview of HTML forms, please visit https://www.w3schools.com/html/html_forms.asp.
 
 ## 2. What is special about Django Form
 
