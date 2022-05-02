@@ -3,7 +3,7 @@
 
 ## 1. HTML Forms
 
-Here is a basic HTML form with one text field, a password text field,
+Here is a basic HTML form with one text field, a password text field, a drop-down field with few options, a date field, radiobuttons, checkboxes, a file field and a submit button.
 
 ```html
 <!DOCTYPE html>
@@ -46,6 +46,8 @@ Here is a basic HTML form with one text field, a password text field,
       <input type="checkbox">
       <label>Travel</label><br>
 
+      <input type="file"> <br>
+
       <input type="submit" value="Submit">
     </form>
   </body>
@@ -54,7 +56,13 @@ Here is a basic HTML form with one text field, a password text field,
 
 For an elaborate overview of HTML forms, please visit https://www.w3schools.com/html/html_forms.asp.
 
-## 2. What is special about Django Form
+Once you fill this form and press the Submit button, an action has to happen. The action is defined by the backend. This is where Django comes in.
+
+## 2. What is special about Django Form?
+
+Django also provides its way of creating the form and its fields. This has some advantages over the form created by HTML syntax. Constraints and checks on the input can be added and Django warns the user if they are not satisfied. This saves us from writing additional code to do the checks.
+
+Now we will see how to create Django form and also how to grab the form values at the backend and process them. 
 
 ## 3. Creating Django Form
 
