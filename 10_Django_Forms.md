@@ -45,6 +45,8 @@ Here is a basic HTML form with one text field, a password text field,
       <label>Music</label>
       <input type="checkbox">
       <label>Travel</label>
+      
+      <input type="submit">
     </form>
   </body>
 </html>
