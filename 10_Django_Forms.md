@@ -3,7 +3,7 @@
 
 ## 1. HTML Forms
 
-Here is a basic HTML form with one text field, a password text field, a drop-down field with few options, a date field, radiobuttons, checkboxes, a file field and a submit button.
+Here is a basic HTML form with one text field, a password text field, a drop-down field with few options, a date field, radiobuttons, checkboxes, a file field, a reset button and a submit button.
 
 ```html
 <!DOCTYPE html>
@@ -47,7 +47,8 @@ Here is a basic HTML form with one text field, a password text field, a drop-dow
       <label>Travel</label><br>
 
       <input type="file"> <br>
-
+      
+      <input type="reset">
       <input type="submit" value="Submit">
     </form>
   </body>
