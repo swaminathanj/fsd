@@ -66,6 +66,15 @@ Django also provides its way of creating the form and its fields. This has some 
 Now we will see how to create Django form and also how to grab the form values at the backend and process them. 
 
 ## 3. Creating Django Form
+Let's create a form that corresponds to the database tables that we created in the models namely, *Degree* and *Student*. The idea is that the user keys in the values which can be written to the database.
+
+All Django Forms extend the class forms.Form class. The form fields are created using the Django Forms API. 
+
+### Create forms.py inside the app folder (first_app)
+
+### Create a class for Degree (DegreeForm)
+
+### 
 
 ## 4. Storing the Form data to the database
 
