@@ -86,7 +86,7 @@ This eventually creates the following HTML code.
 <label for="degree">Degree: </label>
 <input id="degree" type="text" name="degree" maxlength="20" required>
 <label for="branch">Branch: </label>
-<input id="branch" type="text" name="debracngree" maxlength="50" required>
+<input id="branch" type="text" name="branch" maxlength="50" required>
 ```
 
 ## 4. Storing the Form data to the database
