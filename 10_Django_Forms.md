@@ -70,11 +70,16 @@ Let's create a form that corresponds to the database tables that we created in t
 
 All Django Forms extend the class forms.Form class. The form fields are created using the Django Forms API. 
 
-### Create forms.py inside the app folder (first_app)
+a. Create forms.py inside the app folder (first_app)
+b. Import forms from django
+c. Create a class for Degree (DegreeForm)
+```python
+from  django import forms
 
-### Create a class for Degree (DegreeForm)
-
-### 
+class DegreeForm(forms.Form) :
+  degree = forms.CharField(label='Degree', max_length=10)
+  branch = forms.CharField(label='Branch', max_length=30)
+```
 
 ## 4. Storing the Form data to the database
 
