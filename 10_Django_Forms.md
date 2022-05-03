@@ -77,8 +77,16 @@ c. Create a class for Degree (DegreeForm)
 from  django import forms
 
 class DegreeForm(forms.Form) :
-  degree = forms.CharField(label='Degree', max_length=10)
-  branch = forms.CharField(label='Branch', max_length=30)
+  degree = forms.CharField(label='Degree', max_length=20)
+  branch = forms.CharField(label='Branch', max_length=50)
+```
+
+This eventually creates the following HTML code.
+```html
+<label for="degree">Degree: </label>
+<input id="degree" type="text" name="degree" maxlength="20" required>
+<label for="branch">Branch: </label>
+<input id="branch" type="text" name="debracngree" maxlength="50" required>
 ```
 
 ## 4. Storing the Form data to the database
