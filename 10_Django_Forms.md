@@ -88,6 +88,45 @@ This eventually creates the following HTML code.
 <label for="branch">Branch: </label>
 <input id="branch" type="text" name="branch" maxlength="50" required>
 ```
+Note: This does not provide &lt;form&gt; tags. This has to provided by us in the html file in templates folder.
+
+d. Define a method in views.py to instantiate the form
+```python
+from django.http import HttpResponseRedirect
+from django.shortcuts import render
+
+from .forms import DegreeForm
+
+def get_degree(request):
+    # if this is a POST request we need to process the form data
+    if request.method == 'POST':
+        # create a form instance and populate it with data from the request:
+        form = DegreeForm(request.POST)
+        # check whether it's valid:
+        if form.is_valid():
+            # process the data in form.cleaned_data as required
+            degree = form.cleaned_data['degree']
+            branch = form.cleaned_data['branch']
+            # Add the logic to write to the database
+            
+            # redirect to a new URL:
+            return HttpResponseRedirect('/thanks/')
+
+    # if a GET (or any other method) we'll create a blank form
+    else:
+        form = DegreeForm()
+
+    return render(request, 'degree.html', {'form': form})
+```
+e. Let's now create degree.html in template folder
+```html
+<form action="/degree/" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit">
+</form>
+```
+f. Add degree.html to urls.py
 
 ## 4. Storing the Form data to the database
 
