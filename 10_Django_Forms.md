@@ -81,7 +81,10 @@ Let's create a form that corresponds to the database tables that we created in t
 3. Define a function in views.py which 
   - Instantiates the form
   - Retrieves the user typed values from the request
-  - Perform an action - copying to database or process the values or redirect to another page
+  - Perform one or more actions
+    - process the values and/or 
+    - inserting to database and/or 
+    - redirect to another page
   - Add form to the context for HttpResponse
 
 ```
