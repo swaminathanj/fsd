@@ -155,19 +155,19 @@ Square brackets hold arrays.
 ```json
 {
   "degree" :  [
-                { "title" : "M.Tech", "branch" : "CS AI & ML" },
-                { "title" : "M.Tech", "branch" : "AI" },
-                { "title" : "M.Tech", "branch" : "CSN" },
-                { "title" : "M.Tech", "branch" : "WNA" },
-                { "title" : "M.Tech", "branch" : "VLSI" }
-              ]
+    { "title" : "M.Tech", "branch" : "CS AI & ML" },
+    { "title" : "M.Tech", "branch" : "AI" },
+    { "title" : "M.Tech", "branch" : "CSN" },
+    { "title" : "M.Tech", "branch" : "WNA" },
+    { "title" : "M.Tech", "branch" : "VLSI" }
+  ]
 }
 ```
   
-## 5. Python and JSON
+## 5. Load, parse JSON file in Python
   
 
-## 6. File upload
+## 6. File upload in Django
 
 We will show how to upload a JSON file, retrieve the values and update the models in bulk manner.
 
