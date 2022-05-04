@@ -139,7 +139,7 @@ urlpatterns = [
   - Easy for machines to parse and generate
 - JSON data can be easily converted to JavaScript objects
 - Nearly every language has libraries to work with JSON file
-- File type: .json
+- File type: <filename>.json
 
 ### Examples
 
@@ -159,12 +159,15 @@ Square brackets hold arrays.
                 { "title" : "M.Tech", "branch" : "AI" },
                 { "title" : "M.Tech", "branch" : "CSN" },
                 { "title" : "M.Tech", "branch" : "WNA" },
-                { "title" : "M.Tech", "branch" : "VLSI" },
+                { "title" : "M.Tech", "branch" : "VLSI" }
               ]
 }
 ```
+  
+## 5. Python and JSON
+  
 
-## 5. File upload
+## 6. File upload
 
 We will show how to upload a JSON file, retrieve the values and update the models in bulk manner.
 
