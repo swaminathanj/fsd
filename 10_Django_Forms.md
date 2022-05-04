@@ -115,28 +115,13 @@ def get_degree(request):
     return render(request, 'degree.html', {'form': form})
 ```
 
-
-<table>
-  <tr>
-    <td>
-    &lt;form action="/degree/" method="post"&gt;
-      {% csrf_token %}
-        {{ form }}
-      &lt;input type="submit" value="Submit"&gt;
-    &lt;/form&gt;
-    </td>
-    <td>
-       ```python
-      
-      ```
-    </td>
-    <td>
-       ```python
-      
-      ```
-    </td>
-  </tr> 
-</table>
+```python
+urlpatterns = [
+    path('', views.index, name='index'),
+    path('admin/', admin.site.urls),
+    path('degree/', views.get_degree,  name='degree'),
+]
+```
 
 All Django Forms extend the class forms.Form class. The form fields are created using the Django Forms API. 
 
