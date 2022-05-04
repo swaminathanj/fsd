@@ -98,7 +98,7 @@ Let's create a form that corresponds to the database tables that we created in t
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
 
-from .forms import DegreeForm                   # Import the DegreeForm that we defined
+from .forms import DegreeForm                   # Relative import from our forms.py using .forms
 
 def get_degree(request):    
   if request.method == 'POST':                  # if this is a POST request we need to process the form data
@@ -108,7 +108,7 @@ def get_degree(request):
       branch = form.cleaned_data['branch']
                                                 # write to the database
       
-      return HttpResponseRedirect('/degree/')   # redirect to a new URL: return HttpResponseRedirect('/thanks/')
+      return HttpResponseRedirect('/degree/')   # redirect to a degree page or to new URL: return HttpResponseRedirect('/thanks/')
   else:                                         # if a GET (or any other method) we'll create a blank form
     form = DegreeForm()
 
