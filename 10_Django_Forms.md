@@ -82,6 +82,14 @@ Let's create a form that corresponds to the database tables that we created in t
   - Perform an action - copying to database or process the values or redirect to another page
   - Add form to the context for HttpResponse
 
+```
+<form action="/degree/" method="post">
+  {% csrf_token %}
+    {{ form }}
+  <input type="submit" value="Submit">
+</form>
+```
+
 <table>
   <tr>
     <td>
