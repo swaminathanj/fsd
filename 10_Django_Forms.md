@@ -85,13 +85,11 @@ Let's create a form that corresponds to the database tables that we created in t
 <table>
   <tr>
     <td>
-       ```html
-    <form action="/degree/" method="post">
+    &lt;form action="/degree/" method="post"&gt;
       {% csrf_token %}
         {{ form }}
-      <input type="submit" value="Submit">
-    </form>
-      ```
+      &lt;input type="submit" value="Submit"&gt;
+    &lt;/form&gt;
     </td>
     <td>
        ```python
