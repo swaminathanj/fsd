@@ -86,7 +86,11 @@ Let's create a form that corresponds to the database tables that we created in t
   <tr>
     <td>
        ```html
-      
+    <form action="/degree/" method="post">
+      {% csrf_token %}
+        {{ form }}
+      <input type="submit" value="Submit">
+    </form>
       ```
     </td>
     <td>
