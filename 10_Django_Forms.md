@@ -55,18 +55,32 @@ Here is a basic HTML form with one text field, a password text field, a drop-dow
 </html>
 ```
 
-For an elaborate overview of HTML forms, please visit https://www.w3schools.com/html/html_forms.asp.
+For an elaborate overview of HTML forms and hands-on examples, please visit https://www.w3schools.com/html/html_forms.asp.
 
 Once you fill this form and press the Submit button, an action has to happen. The action is defined by the backend. This is where Django comes in.
 
 ## 2. What is special about Django Form?
 
-Django also provides its way of creating the form and its fields. This has some advantages over the form created by HTML syntax. Constraints and checks on the input can be added and Django warns the user if they are not satisfied. This saves us from writing additional code to do the checks.
+Django provides its way of creating the form and its fields. Note that Django forms code will eventually be translated into HTML. There are some advantages over the form created by Django instead of using HTML syntax. Constraints and checks on the input can be added and Django automatically creates the necessary code to  perform them. This saves us from writing additional code to do the checks if we were to write the code in HTML.
 
 Now we will see how to create Django form and also how to grab the form values at the backend and process them. 
 
 ## 3. Creating Django Form
-Let's create a form that corresponds to the database tables that we created in the models namely, *Degree* and *Student*. The idea is that the user keys in the values which can be written to the database.
+Let's create a form that corresponds to the database tables that we created in the models namely, *Degree* and *Student*. The idea is that the user loads the form page, keys in the values and submits. The values are transferred over the network and reaches backend. Django processes the request, retrieves these values and then  writes to the database. The high level steps involved are as follows:
+
+a. Create a form template in a html page with placeholder for 'form' variable. 
+  - The 'form' variable contains the form fields defined in forms.py
+  - The 'form' variable will be injected from views.py
+  - Note that the name of html page can be anything but it has to be specified in urls.py
+  - The html page must be in "templates" folder
+b. Define the form in forms.py under the app folder (first_app).
+  - It extends forms.Form class
+  - Create the necessary fields
+c. Define a function in views.py which 
+  - Instantiates the form
+  - Retrieves the user typed values from the request
+  - Perform an action - copying to database or process the values or redirect to another page
+  - Add form to the context for HttpResponse
 
 All Django Forms extend the class forms.Form class. The form fields are created using the Django Forms API. 
 
