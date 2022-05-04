@@ -107,10 +107,10 @@ def get_degree(request):
       title = form.cleaned_data['title']        # process the data in form.cleaned_data as required
       branch = form.cleaned_data['branch']
                                                 # write to the database
-            
-      return HttpResponseRedirect('/thanks/')   # redirect to a new URL:
-    else:                                       # if a GET (or any other method) we'll create a blank form
-        form = DegreeForm()
+      
+      return HttpResponseRedirect('/degree/')   # redirect to a new URL: return HttpResponseRedirect('/thanks/')
+  else:                                         # if a GET (or any other method) we'll create a blank form
+    form = DegreeForm()
 
     return render(request, 'degree.html', {'form': form})
 ```
