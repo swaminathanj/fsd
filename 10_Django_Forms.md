@@ -166,7 +166,8 @@ Square brackets hold arrays.
   
 ## 5. Load, parse JSON file in Python
   
-
+https://www.geeksforgeeks.org/read-write-and-parse-json-using-python/
+  
 ## 6. File upload in Django
 
 We will show how to upload a JSON file, retrieve the values and update the models in bulk manner.
@@ -179,3 +180,5 @@ We will show how to upload a JSON file, retrieve the values and update the model
 
 ```
 
+https://stackoverflow.com/questions/54899239/how-can-i-process-json-file-and-display-some-data-in-form-of-charts-in-django
+  
