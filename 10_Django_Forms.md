@@ -83,11 +83,13 @@ Let's create a form that corresponds to the database tables that we created in t
   - Add form to the context for HttpResponse
 
 ```
-<form action="/degree/" method="post">
+          1. degree.html                                     2. forms.py
+          
+<form action="/degree/" method="post">           from django import forms
   {% csrf_token %}
-    {{ form }}
-  <input type="submit" value="Submit">
-</form>
+    {{ form }}                                   class DegreeForm(forms.Form) :
+  <input type="submit" value="Submit">             degree = forms.CharField(label='Degree', max_length=20)
+</form>                                            branch = forms.CharField(label='Branch', max_length=50)
 ```
 
 <table>
@@ -118,7 +120,7 @@ a. Create forms.py inside the app folder (first_app)
 b. Import forms from django
 c. Create a class for Degree (DegreeForm)
 ```python
-from  django import forms
+from django import forms
 
 class DegreeForm(forms.Form) :
   degree = forms.CharField(label='Degree', max_length=20)
