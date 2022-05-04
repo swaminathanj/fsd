@@ -82,6 +82,26 @@ Let's create a form that corresponds to the database tables that we created in t
   - Perform an action - copying to database or process the values or redirect to another page
   - Add form to the context for HttpResponse
 
+<table>
+  <tr>
+    <td>
+       ```html
+      
+      ```
+    </td>
+    <td>
+       ```python
+      
+      ```
+    </td>
+    <td>
+       ```python
+      
+      ```
+    </td>
+  </tr> 
+</table>
+
 All Django Forms extend the class forms.Form class. The form fields are created using the Django Forms API. 
 
 a. Create forms.py inside the app folder (first_app)
