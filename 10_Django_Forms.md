@@ -68,15 +68,15 @@ Now we will see how to create Django form and also how to grab the form values a
 ## 3. Creating Django Form
 Let's create a form that corresponds to the database tables that we created in the models namely, *Degree* and *Student*. The idea is that the user loads the form page, keys in the values and submits. The values are transferred over the network and reaches backend. Django processes the request, retrieves these values and then  writes to the database. The high level steps involved are as follows:
 
-a. Create a form template in a html page with placeholder for 'form' variable. 
+1. Create a form template in a html page with placeholder for 'form' variable. 
   - The 'form' variable contains the form fields defined in forms.py
   - The 'form' variable will be injected from views.py
   - Note that the name of html page can be anything but it has to be specified in urls.py
   - The html page must be in "templates" folder
-b. Define the form in forms.py under the app folder (first_app).
+2. Define the form in forms.py under the app folder (first_app).
   - It extends forms.Form class
   - Create the necessary fields
-c. Define a function in views.py which 
+3. Define a function in views.py which 
   - Instantiates the form
   - Retrieves the user typed values from the request
   - Perform an action - copying to database or process the values or redirect to another page
