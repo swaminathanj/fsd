@@ -92,6 +92,30 @@ Let's create a form that corresponds to the database tables that we created in t
 </form>                                            branch = forms.CharField(label='Branch', max_length=50)
 ```
 
+```python
+3. views.py
+
+from django.http import HttpResponseRedirect
+from django.shortcuts import render
+
+from .forms import DegreeForm                   # Import the DegreeForm that we defined
+
+def get_degree(request):    
+  if request.method == 'POST':                  # if this is a POST request we need to process the form data
+    form = DegreeForm(request.POST)             # create a form instance and populate it with data from the request:
+    if form.is_valid():                         # check whether it's valid:
+      degree = form.cleaned_data['degree']      # process the data in form.cleaned_data as required
+      branch = form.cleaned_data['branch']
+                                                # write to the database
+            
+      return HttpResponseRedirect('/thanks/')   # redirect to a new URL:
+    else:                                       # if a GET (or any other method) we'll create a blank form
+        form = DegreeForm()
+
+    return render(request, 'degree.html', {'form': form})
+```
+
+
 <table>
   <tr>
     <td>
