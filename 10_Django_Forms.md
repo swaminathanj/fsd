@@ -61,7 +61,7 @@ For an elaborate overview of HTML forms and hands-on examples, please visit http
 
 Once you fill this form and press the Submit button, an action has to happen. The action is defined by the backend. This is where Django comes in.
 
-## 2. What is special about Django Form?
+## 2. What is special about Django Forms?
 
 Django provides its way of creating the form and its fields. Note that Django forms code will eventually be translated into HTML. There are some advantages over the form created by Django instead of using HTML syntax. Constraints and checks on the input can be added and Django automatically creates the necessary code to  perform them. This saves us from writing additional code to do the checks if we were to write the code in HTML.
 
@@ -87,7 +87,7 @@ Let's create a form that corresponds to the database tables that we created in t
     - redirect to another page
   - Add form to the context for HttpResponse
 
-```
+```html
 1. degree.html                                   2. forms.py
           
 <form action="/degree/" method="post">           from django import forms
@@ -130,8 +130,14 @@ urlpatterns = [
 ]
 ```
 
-## 4. Storing the Form data to the database
+## 4. File upload
 
-## 5. Retrieve from database and display in Form
+We will show how to upload a JSON file, retrieve the values and update the models in bulk manner.
 
-## 6. File upload
+1. In the DegreeForm add another form with File Upload field.
+2. In forms.py, define another class and add file upload field.
+3. In views.py, retrieve the JSON file, parse it, in a loop get each entry and update the Degree Model.
+
+```
+
+```
