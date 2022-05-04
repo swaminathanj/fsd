@@ -130,14 +130,49 @@ urlpatterns = [
 ]
 ```
 
-## 4. File upload
+## 4. JSON
+
+- Stands for JavaScript Object Notation
+- Language independent, text-based, open data interchange format
+- Advantages
+  - Easy for humans to read and write
+  - Easy for machines to parse and generate
+- JSON data can be easily converted to JavaScript objects
+- Nearly every language has libraries to work with JSON file
+- File type: .json
+
+### Examples
+
+```json
+{                          /* Curly braces hold objects */
+  "title" : "M.Tech",      /* Data is stored in name-value pairs. */
+  "branch" : "CSN"         /* Data is separated by commas */
+}
+```
+
+Square brackets hold arrays.
+
+```json
+{
+  "degree" :  [
+                { "title" : "M.Tech", "branch" : "CS AI & ML" },
+                { "title" : "M.Tech", "branch" : "AI" },
+                { "title" : "M.Tech", "branch" : "CSN" },
+                { "title" : "M.Tech", "branch" : "WNA" },
+                { "title" : "M.Tech", "branch" : "VLSI" },
+              ]
+}
+```
+
+## 5. File upload
 
 We will show how to upload a JSON file, retrieve the values and update the models in bulk manner.
 
-1. In the DegreeForm add another form with File Upload field.
+1. In degree.html, add one more form below with a submit button.
 2. In forms.py, define another class and add file upload field.
 3. In views.py, retrieve the JSON file, parse it, in a loop get each entry and update the Degree Model.
 
 ```
 
 ```
+
