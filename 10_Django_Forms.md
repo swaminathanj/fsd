@@ -83,7 +83,7 @@ Let's create a form that corresponds to the database tables that we created in t
   - Add form to the context for HttpResponse
 
 ```
-          1. degree.html                                     2. forms.py
+1. degree.html                                   2. forms.py
           
 <form action="/degree/" method="post">           from django import forms
   {% csrf_token %}
