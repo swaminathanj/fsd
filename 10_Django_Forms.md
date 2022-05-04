@@ -1,6 +1,8 @@
 
 # Django Forms
 
+This builds on the previous topic of Django Models. We will create Forms corresponding to the table created in the last class and update the database. That way, one full cycle of request-process-store-response cycle will be complete.
+
 ## 1. HTML Forms
 
 Here is a basic HTML form with one text field, a password text field, a drop-down field with few options, a date field, radiobuttons, checkboxes, a file field, a reset button and a submit button.
@@ -104,9 +106,11 @@ def get_degree(request):
   if request.method == 'POST':                  # if this is a POST request we need to process the form data
     form = DegreeForm(request.POST)             # create a form instance and populate it with data from the request:
     if form.is_valid():                         # check whether it's valid:
-      title = form.cleaned_data['title']        # process the data in form.cleaned_data as required
+      title = form.cleaned_data['title']        # retrieve the data in form.cleaned_data as required
       branch = form.cleaned_data['branch']
-                                                # write to the database
+      
+      d = Degree(title=title, branch=branch)    # write to the database
+      d.save()
       
       return HttpResponseRedirect('/degree/')   # redirect to a degree page or to new URL: return HttpResponseRedirect('/thanks/')
   else:                                         # if a GET (or any other method) we'll create a blank form
