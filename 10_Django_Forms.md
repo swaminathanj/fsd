@@ -178,7 +178,7 @@ We will show how to upload a JSON file, retrieve the values and update the model
 ...
 ...
 class FileUploadForm(forms.Form) :
-    degree_file = forms.FileUploadForm(label='Select a JSON file', help_text='max. 2 mb')
+    degree_file = forms.FileField(label='Select a JSON file', help_text='max. 2 mb')
 ```
 
 3. In views.py, retrieve the JSON file, parse it, in a loop get each entry and update the Degree Model.
