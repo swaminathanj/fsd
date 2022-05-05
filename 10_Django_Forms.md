@@ -130,6 +130,12 @@ urlpatterns = [
 ]
 ```
 
+4. Start the server
+CMD> python manage.py runserver
+5. Go to http://127.0.0.1:8000/. Check the existing contents of Degree model.
+6. Go to http://127.0.0.1:8000/degree and key in the Degree data - title and branch and press Submit button.
+7. Go back to http://127.0.0.1:8000/ to check if the entry has really been added to the model.
+
 ## 4. JSON
 
 - Stands for JavaScript Object Notation
@@ -180,7 +186,7 @@ for deg in data['degree']:                # Looping through the values
     print(deg['title'], deg['branch'])
 f.close()                                 # Closing file
 ```
-https://www.geeksforgeeks.org/read-write-and-parse-json-using-python/
+Reference: https://www.geeksforgeeks.org/read-write-and-parse-json-using-python/
   
 ## 6. File upload in Django
 
@@ -256,4 +262,11 @@ def get_degree(request):
     form = DegreeForm()
     return render(request, 'degree.html', {'form': form })
 ```
-  
+
+4. Start the server
+CMD> python manage.py runserver
+5. Go to http://127.0.0.1:8000/. Check the existing contents of Degree model.
+6. Go to http://127.0.0.1:8000/degree and upload degree.json and press Submit button.
+7. Go back to http://127.0.0.1:8000/ to check if the entry has really been added to the model.
+
+Note: Try to troubleshoot, google around to sort out issues. Troubleshooting is as much important as coding.
