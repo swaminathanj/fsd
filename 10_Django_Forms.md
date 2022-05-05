@@ -172,7 +172,7 @@ https://www.geeksforgeeks.org/read-write-and-parse-json-using-python/
 
 We will show how to upload a JSON file, retrieve the values and update the models in bulk manner.
 
-1. In degree.html, add one more form below with a submit button.
+1. In degree.html, add enctype attribute to the &lt;fomr&gt; tag. i.e. enctype="multipart/form-data"
 ```html
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -182,32 +182,36 @@ We will show how to upload a JSON file, retrieve the values and update the model
   </head>
   <body>
     <h2>Degree Form</h2>
-    <form action="/degree/" method="post">
+    <form action="/degree/" method="post" enctype="multipart/form-data">
       {% csrf_token %}
         {{ form }}
-        <br><br>
-        {{ file_form }}
         <br><br>
       <input type="submit" value="Submit">
     </form>
   </body>
 </html>
 ```
-2. In forms.py, define another class and add file upload field.
+2. In forms.py, add FileField to the DegreeForm. It is added to the end of DegreeForm.
 ```python
-...
-...
-class FileUploadForm(forms.Form) :
-    degree_file = forms.FileField(label='Select a JSON file', help_text='max. 2 mb')
+from django import forms
+
+class DegreeForm(forms.Form) :
+    title = forms.CharField(label='Title', max_length=20)
+    branch = forms.CharField(label='Branch', max_length=50)
+    file = forms.FileField(label='Select a JSON file', help_text='(max. 2 mb)')
 ```
 
 3. In views.py, retrieve the JSON file, parse it, in a loop get each entry and update the Degree Model.
+  - import json
+  - Include request.FILES as a parameter to DegreeForm
+  - 
 ```python
 from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from first_app.models import Degree, Student
 
-from .forms import DegreeForm, FileUploadForm
+from .forms import DegreeForm
+import json
 
 def get_degree(request):
   if request.method == 'POST':                  # if this is a POST request we need to process the form data
@@ -221,8 +225,9 @@ def get_degree(request):
       d.save()
 
       # Retrieve the json file and process here
-      f = open('data.json',)             # open the json files - get file handle
-      data = json.load(f)                # get json object as a dictionary
+      f = request.FILES['file']          # open the json files - get file handle
+      data = json.load(f)
+      #print(data['degree'])                # get json object as a dictionary
       for deg in data['degree']:         # iterate through the degree list
         t = deg['title']                 # get the title of each item in the list
         b = deg['branch']                # get the branch of each item in the list
@@ -230,11 +235,8 @@ def get_degree(request):
         dl.save()                        # save
 
       return HttpResponseRedirect('/degree/')   # redirect to a new URL:
-  else:                                       # if a GET (or any other method) we'll create a blank form
+  else:                                   # if a GET (or any other method) we'll create a blank form
     form = DegreeForm()
-    file = FileUploadForm()
-    return render(request, 'degree.html', {'form': form, 'file_form' : file })
+    return render(request, 'degree.html', {'form': form })
 ```
-
-Reference: https://stackoverflow.com/questions/54899239/how-can-i-process-json-file-and-display-some-data-in-form-of-charts-in-django
   
