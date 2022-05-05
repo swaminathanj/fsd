@@ -267,6 +267,6 @@ def get_degree(request):
 CMD> python manage.py runserver
 5. Go to http://127.0.0.1:8000/. Check the existing contents of Degree model.
 6. Go to http://127.0.0.1:8000/degree and upload degree.json and press Submit button.
-7. Go back to http://127.0.0.1:8000/ to check if the entry has really been added to the model.
+7. Go back to http://127.0.0.1:8000/ to check if all entries have really been added to the model.
 
 Note: Try to troubleshoot, google around to sort out issues. Troubleshooting is as much important as coding.
