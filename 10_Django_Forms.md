@@ -169,14 +169,24 @@ Square brackets hold arrays.
 ```
   
 ## 5. Load, parse JSON file in Python
-  
+
+We will use the above degree.json to demonstrate the loading, parsing and printing of values. It assumes that the python code and json file are in the same folder.
+```python
+import json   
+
+f = open('degree.json',)                  # Opening JSON file
+data = json.load(f)                       # Loading the file as dictionary
+for deg in data['degree']:                # Looping through the values
+    print(deg['title'], deg['branch'])
+f.close()                                 # Closing file
+```
 https://www.geeksforgeeks.org/read-write-and-parse-json-using-python/
   
 ## 6. File upload in Django
 
-We will show how to upload a JSON file, retrieve the values and update the models in bulk manner.
+We will show how to upload a JSON file, retrieve the handle of json file, load it, retrieve the values and update the models in a loop.
 
-1. In degree.html, add enctype attribute to the &lt;fomr&gt; tag. i.e. enctype="multipart/form-data"
+1. In degree.html, add enctype attribute to the &lt;form&gt; tag. i.e. **enctype="multipart/form-data"**
 ```html
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -195,7 +205,7 @@ We will show how to upload a JSON file, retrieve the values and update the model
   </body>
 </html>
 ```
-2. In forms.py, add FileField to the DegreeForm. It is added to the end of DegreeForm.
+2. In forms.py, **add FileField entry** to the DegreeForm.
 ```python
 from django import forms
 
@@ -207,8 +217,12 @@ class DegreeForm(forms.Form) :
 
 3. In views.py, retrieve the JSON file, parse it, in a loop get each entry and update the Degree Model.
   - import json
-  - Include request.FILES as a parameter to DegreeForm
-  - 
+  - Include request.FILES as a parameter while creating DegreeForm instance
+  - Get the file handle of the uploaded json file
+  - Load the file to retrieve the contents as objects
+  - Loop through the list and retrieve each entry
+  - Insert the entries into the model
+  
 ```python
 from django.shortcuts import render
 from django.http import HttpResponseRedirect
@@ -231,7 +245,6 @@ def get_degree(request):
       # Retrieve the json file and process here
       f = request.FILES['file']          # open the json files - get file handle
       data = json.load(f)
-      #print(data['degree'])                # get json object as a dictionary
       for deg in data['degree']:         # iterate through the degree list
         t = deg['title']                 # get the title of each item in the list
         b = deg['branch']                # get the branch of each item in the list
