@@ -139,7 +139,7 @@ urlpatterns = [
   - Easy for machines to parse and generate
 - JSON data can be easily converted to JavaScript objects
 - Nearly every language has libraries to work with JSON file
-- File type: <filename>.json
+- File type: &lt;filename&gt;.json
 
 ### Examples
 
@@ -202,7 +202,39 @@ class FileUploadForm(forms.Form) :
 ```
 
 3. In views.py, retrieve the JSON file, parse it, in a loop get each entry and update the Degree Model.
+```python
+from django.shortcuts import render
+from django.http import HttpResponseRedirect
+from first_app.models import Degree, Student
 
+from .forms import DegreeForm, FileUploadForm
 
-https://stackoverflow.com/questions/54899239/how-can-i-process-json-file-and-display-some-data-in-form-of-charts-in-django
+def get_degree(request):
+  if request.method == 'POST':                  # if this is a POST request we need to process the form data
+    form = DegreeForm(request.POST, request.FILES)   # create a form instance and populate it with data from the request:
+    if form.is_valid():                         # check whether it's valid:
+      title = form.cleaned_data['title']        # process the data in form.cleaned_data as required
+      branch = form.cleaned_data['branch']
+      print(title, branch)
+
+      d = Degree(title=title, branch=branch)    # write to the database
+      d.save()
+
+      # Retrieve the json file and process here
+      f = open('data.json',)             # open the json files - get file handle
+      data = json.load(f)                # get json object as a dictionary
+      for deg in data['degree']:         # iterate through the degree list
+        t = deg['title']                 # get the title of each item in the list
+        b = deg['branch']                # get the branch of each item in the list
+        dl = Degree(title=t, branch=b)   # Create a Degree model instance
+        dl.save()                        # save
+
+      return HttpResponseRedirect('/degree/')   # redirect to a new URL:
+  else:                                       # if a GET (or any other method) we'll create a blank form
+    form = DegreeForm()
+    file = FileUploadForm()
+    return render(request, 'degree.html', {'form': form, 'file_form' : file })
+```
+
+Reference: https://stackoverflow.com/questions/54899239/how-can-i-process-json-file-and-display-some-data-in-form-of-charts-in-django
   
