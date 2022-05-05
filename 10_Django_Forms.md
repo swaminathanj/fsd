@@ -173,6 +173,26 @@ https://www.geeksforgeeks.org/read-write-and-parse-json-using-python/
 We will show how to upload a JSON file, retrieve the values and update the models in bulk manner.
 
 1. In degree.html, add one more form below with a submit button.
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Degree Form</title>
+  </head>
+  <body>
+    <h2>Degree Form</h2>
+    <form action="/degree/" method="post">
+      {% csrf_token %}
+        {{ form }}
+        <br><br>
+        {{ file_form }}
+        <br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
+```
 2. In forms.py, define another class and add file upload field.
 ```python
 ...
