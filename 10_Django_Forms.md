@@ -174,11 +174,15 @@ We will show how to upload a JSON file, retrieve the values and update the model
 
 1. In degree.html, add one more form below with a submit button.
 2. In forms.py, define another class and add file upload field.
+```python
+...
+...
+class FileUploadForm(forms.Form) :
+    degree_file = forms.FileUploadForm(label='Select a JSON file', help_text='max. 2 mb')
+```
+
 3. In views.py, retrieve the JSON file, parse it, in a loop get each entry and update the Degree Model.
 
-```
-
-```
 
 https://stackoverflow.com/questions/54899239/how-can-i-process-json-file-and-display-some-data-in-form-of-charts-in-django
   
