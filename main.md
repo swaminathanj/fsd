@@ -221,13 +221,16 @@ This topic provides a basic introduction to working with SQLite from Python.
 
 * An Employee managing app example based on class based views. 
   * https://dev.to/codeitmichael/make-a-simple-employee-managing-app-in-django-with-class-based-views-with-login-logout-4fk7 
-* A tutorial on building RESTful API for To-Do list app using Django: https://blog.logrocket.com/django-rest-framework-create-api/
+* Building RESTful API for To-Do list app using Django. 
+  * https://blog.logrocket.com/django-rest-framework-create-api/
 
-## Advanced concepts (Template inheritance, Database Administration, Class based Views)
+## More features
 
-* Class Based Views
-  * https://dev.to/codeitmichael/make-a-simple-employee-managing-app-in-django-with-class-based-views-with-login-logout-4fk7
-* 
+* Template inheritance
+* Database Administration
+* Class based views
+* Botcatcher for Forms
+* Return JSON response in Django (https://dev.to/brian101co/how-to-return-a-json-response-in-django-gen)
 
 ## Deployment
 
