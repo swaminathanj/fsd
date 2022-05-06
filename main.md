@@ -214,6 +214,7 @@ This topic provides a basic introduction to working with SQLite from Python.
 
 * Check [Class Notes](10_Django_Forms.md) to try what was covered in the class.
 * Check out the tutorial on Django Forms at https://docs.djangoproject.com/en/4.0/topics/forms/.
+* A very good tutorial on Forms can be found at https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Forms.
 * Check out https://www.w3schools.com/js/js_json_intro.asp for a good overview of JSON.
 * Check out https://www.w3schools.com/python/python_json.asp for a quick tutorial on working with JSON from Python.
 
@@ -229,8 +230,8 @@ This topic provides a basic introduction to working with SQLite from Python.
 * Database Administration (https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Admin_site)
 * Botcatcher for Forms
 * Return JSON response in Django (https://dev.to/brian101co/how-to-return-a-json-response-in-django-gen)
-* Connecting to MySQL
-* Connecting to MongoDB
+* Connecting to MySQL (https://www.javatpoint.com/how-to-connect-mysql-to-django)
+* Connecting to MongoDB (htt)ps://www.mongodb.com/compatibility/mongodb-and-django)
 
 ## Deployment (1 hour)
 
