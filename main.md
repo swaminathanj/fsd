@@ -210,18 +210,26 @@ This topic provides a basic introduction to working with SQLite from Python.
 * Check out this tutorial for working with SQLite from Django: https://techvidvan.com/tutorials/django-database-connectivity/
 * Another tutorial from https://www.techwithtim.net/tutorials/django/sqlite3-database/. Watch the video tutorial in the page.
 
-## Django Forms and File upload
+## Django Forms and File upload (2 hours)
 
 * Check [Class Notes](10_Django_Forms.md) to try what was covered in the class.
-* 
+* Check out the tutorial on Django Forms at https://docs.djangoproject.com/en/4.0/topics/forms/.
+* Check out https://www.w3schools.com/js/js_json_intro.asp for a good overview of JSON.
+* Check out https://www.w3schools.com/python/python_json.asp for a quick tutorial on working with JSON from Python.
 
-## Building RESTful APIs
+## Building RESTful APIs (1 hour)
 
-* Check [Class Notes]() to try what was covered in the class.
+* An Employee managing app example based on class based views. 
+  * https://dev.to/codeitmichael/make-a-simple-employee-managing-app-in-django-with-class-based-views-with-login-logout-4fk7 
 * A tutorial on building RESTful API for To-Do list app using Django: https://blog.logrocket.com/django-rest-framework-create-api/
+
+## Advanced concepts (Template inheritance, Database Administration, Class based Views)
+
+* Class Based Views
+  * https://dev.to/codeitmichael/make-a-simple-employee-managing-app-in-django-with-class-based-views-with-login-logout-4fk7
+* 
 
 ## Deployment
 
-## Advanced concepts (Template inheritance, Database Administration, Class based Views)
 
 ## Conclusion
