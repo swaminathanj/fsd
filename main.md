@@ -127,7 +127,7 @@ This topic provides a basic introduction to working with SQLite from Python.
 
 ## A Blogging site in Django
 
-Follow any one of the below and build a blogging website in Django
+Follow any one of the below and build a blogging website in Django. Customize the website by your own ideas.
 
 1. https://djangocentral.com/building-a-blog-application-with-django/
 2. https://data-flair.training/blogs/django-blog-application-project/
