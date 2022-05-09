@@ -26,16 +26,17 @@ Aum Amriteswaryai Namah
   - [Block tags](https://softcodeon.com/tutorials/10-alternatives-to-the-div-html-tag.htm)
 
 ## CSS (1 hour)
-* Why CSS?
-* Syntax
-* Including CSS styles
-* Selectors
-* Specificity
-* Fonts
-* Box model
 * [Class Notes](02_CSS.md)
+* Topics covered
+  * Why CSS?
+  * Syntax
+  * Including CSS styles
+  * Selectors
+  * Specificity
+  * Fonts
+  * Box model
 * Resources
-* Assignment
+  * Assignment
 
 ## Bootstrap (1 hour)
 This topic introduces how to develop nice web pages using Bootstrap framework in a quick manner which would otherwise take . The key point to note is that the programmer should focus on getting familiar with Bootstrap through examples from getbootstrap and then use it to speedup website development.
@@ -123,6 +124,13 @@ This topic provides a basic introduction to working with SQLite from Python.
 * Return JSON response in Django (https://dev.to/brian101co/how-to-return-a-json-response-in-django-gen)
 * Connecting to MySQL (https://www.javatpoint.com/how-to-connect-mysql-to-django)
 * Connecting to MongoDB (htt)ps://www.mongodb.com/compatibility/mongodb-and-django)
+
+## A Blogging site in Django
+
+Follow any one of the below and build a blogging website in Django
+
+1. https://djangocentral.com/building-a-blog-application-with-django/
+2. https://data-flair.training/blogs/django-blog-application-project/
 
 ## Deployment (1 hour)
 
