@@ -36,7 +36,8 @@ Aum Amriteswaryai Namah
   * Fonts
   * Box model
 * Resources
-  * Assignment
+  * https://www.w3schools.com/w3css/defaulT.asp
+  * https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 
 ## Bootstrap (1 hour)
 This topic introduces how to develop nice web pages using Bootstrap framework in a quick manner which would otherwise take . The key point to note is that the programmer should focus on getting familiar with Bootstrap through examples from getbootstrap and then use it to speedup website development.
