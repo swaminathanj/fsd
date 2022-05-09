@@ -118,6 +118,7 @@ This topic provides a basic introduction to working with SQLite from Python.
 ## More features (3 hours)
 
 * Class based views (https://dev.to/codeitmichael/make-a-simple-employee-managing-app-in-django-with-class-based-views-with-login-logout-4fk7)
+* Regular expressions in Django URLs (https://www.codingforentrepreneurs.com/blog/common-regular-expressions-for-django-urls/)
 * Template inheritance (https://docs.djangoproject.com/en/4.0/ref/templates/language/#template-inheritance-1)
 * Database Administration (https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Admin_site)
 * HiddenField in Forms
