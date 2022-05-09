@@ -220,6 +220,7 @@ This topic provides a basic introduction to working with SQLite from Python.
 
 ## Building RESTful APIs (1 hour)
 
+* For a good overview of RESTful APIs, https://restfulapi.net/http-methods/
 * Building RESTful API for To-Do list app using Django. 
   * https://blog.logrocket.com/django-rest-framework-create-api/
 
