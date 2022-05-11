@@ -122,6 +122,7 @@ This topic provides a basic introduction to working with SQLite from Python.
 * Regular expressions in Django URLs (https://www.codingforentrepreneurs.com/blog/common-regular-expressions-for-django-urls/)
 * Template inheritance (https://docs.djangoproject.com/en/4.0/ref/templates/language/#template-inheritance-1)
 * Database Administration (https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Admin_site)
+* Testing Django App (https://docs.djangoproject.com/en/4.0/topics/testing/)
 * HiddenField in Forms
 * Return JSON response in Django (https://dev.to/brian101co/how-to-return-a-json-response-in-django-gen)
 * Connecting to MySQL (https://www.javatpoint.com/how-to-connect-mysql-to-django)
