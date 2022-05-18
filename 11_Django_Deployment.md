@@ -20,4 +20,4 @@ The instructions to deploy in www.pythonanywhere.com is provided below.
 
 ### Setting the path to virtual environment
 
-![Setting the path to virtual environment](files-1.png)
+![Setting the path to virtual environment](deploy/files-1.png)
