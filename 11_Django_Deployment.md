@@ -29,7 +29,7 @@ Note that, this is a linux box and you need a different command to create the vi
 ### 3. Creating a new Web app using manual configuration
 Don't use Django. Use manual configuration.
 
-![Use manual configuration](manual.png)
+![Use manual configuration](deploy/manual.png)
 
 ### 4. Modifying the wsgi.py with project path and add to environment settings
 This is the most important file from the deployment standpoint.
