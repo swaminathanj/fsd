@@ -10,4 +10,6 @@ The instructions to deploy in www.pythonanywhere.com is provided below.
 
 ![](deploy/0.png)
 
-![](deploy/1.png)
+![Setting the path to project source code](deploy/1.png)
+
+![Modifying the wsgi.py with project path and environment settings](deploy/wsgi.png)
