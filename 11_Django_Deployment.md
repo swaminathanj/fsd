@@ -7,3 +7,5 @@ The instructions to deploy in www.pythonanywhere.com is provided below.
 ## Clone your code from GitHub to pythonanywhere
 
 ## 
+
+![](0.png)
