@@ -137,6 +137,7 @@ Follow any one of the below and build a blogging website in Django. Customize th
 2. https://data-flair.training/blogs/django-blog-application-project/
 
 ## Deployment (1 hour)
-
+* Check [Class Notes](11_Django_Deployment.md) for instructions to deploy in www.pythonanywhere.com.
+* You may have to do some troubleshooting beyond the instructions provided in order to make it work.
 
 ## Conclusion
