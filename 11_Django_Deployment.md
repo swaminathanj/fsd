@@ -8,4 +8,4 @@ The instructions to deploy in www.pythonanywhere.com is provided below.
 
 ## 
 
-![](0.png)
+![](deploy/0.png)
