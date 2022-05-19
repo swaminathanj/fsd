@@ -4,7 +4,7 @@ The instructions to deploy in www.pythonanywhere.com is provided below.
 
 ## Pre-deployment Steps 
 * Move your code to GitHub repository
-  * Create a repository in Github
+  * Create a **public repository** in Github (let's say my-repo)
   * Note the name and the path to &lt;my-repo&gt;.git
   * Drag and drop you project folder into the repository
   * Commit
@@ -16,6 +16,7 @@ The instructions to deploy in www.pythonanywhere.com is provided below.
 ```
 git clone https://github.com/<myusername>/<my-repo>.git
 ```  
+
 ## Deployment Steps
 
 ### 0. Getting started with deployment process 
