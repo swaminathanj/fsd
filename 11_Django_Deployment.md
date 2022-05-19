@@ -44,3 +44,18 @@ This is the most important file from the deployment standpoint.
 There are 2 static folder paths to setup. The first one is static admin inside virtual environment folder. The second one is the static folder in the project. Make sure the paths are correct and spelt right. 
 
 ![Setup the static folder](deploy/3.png)
+
+### 6. Changes to settings.py
+Make the following changes to settings.py. (i) Set DEBUG to False as your app is in production stage now and being launched. (ii) Include your host name in the ALLOWED_HOSTS list (within single quotes). So far, it has been localhost and hence no host needed to be added.
+
+- Navigate to inner level project folder (first_project/first_project in this case)
+![Navigate to inner level project folder](deploy/files-2.png)
+
+- Open settings.py and make the aforementioned changes
+![Changes to settings.py](deploy/settings.png)
+
+### 7. Explore other options mentioned in the Web app page
+
+Security options, disabling and deleting the Web app.
+![Setup the static folder](deploy/4.png)
+
