@@ -33,7 +33,8 @@ Here is how you can navigate to the virtual environment.
 ![](deploy/files-1.png)
 
 Note that, this is a linux box and you need a different command to create the virtual environment.
-> mkvirtualenv --python=/usr/bin/python3.8 mysite-virtualenv
+> mkvirtualenv --python=/usr/bin/python3.8 mysite-virtualenv<br>
+> pip install django
 
 ### 2. Creating a new Web app using manual configuration
 Don't use Django. Use manual configuration.
