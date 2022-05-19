@@ -39,3 +39,8 @@ Navigate in the bash prompt to confirm the exact location.
 This is the most important file from the deployment standpoint.
 
 ![Modifying the wsgi.py with project path and environment settings](deploy/wsgi.png)
+
+### 5. Setup the static folder path
+There are 2 static folder paths to setup. The first one is static admin inside virtual environment folder. The second one is the static folder in the project. Make sure the paths are correct and spelt right. 
+
+![Setup the static folder]
