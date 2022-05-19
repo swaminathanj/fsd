@@ -6,7 +6,10 @@ The instructions to deploy in www.pythonanywhere.com is provided below.
 
 ## Clone your code from GitHub to pythonanywhere
 
-## 
+## Deployment Steps
+
+### 0. Getting started with deployment process 
+The important pages: Web, Files, Consoles. The link to deployment page. The Reload button to refresh the changed settings.
 
 ![](deploy/0.png)
 
