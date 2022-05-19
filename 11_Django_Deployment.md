@@ -13,12 +13,8 @@ The important pages: Web, Files, Consoles. The link to deployment page. The Relo
 
 ![](deploy/0.png)
 
-### 1. Setting the path to project source code
-Navigate in the bash prompt to confirm the exact location.
 
-![Setting the path to project source code](deploy/1.png)
-
-### 2. Setting the path to virtual environment
+### 1. Setting the path to virtual environment
 Navigate in the bash prompt to confirm the exact location.
 
 ![Setting the path to virtual environment](deploy/2.png)
@@ -29,10 +25,15 @@ Here is how you can navigate to the virtual environment.
 Note that, this is a linux box and you need a different command to create the virtual environment.
 > mkvirtualenv --python=/usr/bin/python3.8 mysite-virtualenv
 
-### 3. Creating a new Web app using manual configuration
+### 2. Creating a new Web app using manual configuration
 Don't use Django. Use manual configuration.
 
 ![Use manual configuration](deploy/manual.png)
+
+### 3. Setting the path to project source code
+Navigate in the bash prompt to confirm the exact location.
+
+![Setting the path to project source code](deploy/1.png)
 
 ### 4. Modifying the wsgi.py with project path and add to environment settings
 This is the most important file from the deployment standpoint.
