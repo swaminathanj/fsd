@@ -9,10 +9,10 @@ The instructions to deploy in www.pythonanywhere.com is provided below.
   * Drag and drop you project folder into the repository
   * Commit
 
-## Clone your code from GitHub to pythonanywhere
-* Login to pythonanywhere
-* Go to BASH command shell
-* Execute the GitHub command to clone 
+* Clone your code from GitHub to pythonanywhere
+  * Login to pythonanywhere
+  * Go to BASH command shell
+  * Execute the GitHub command to clone 
 ```
 git clone https://github.com/<myusername>/<your-project>.git
 ```  
