@@ -136,7 +136,7 @@ Follow any one of the below and build a blogging website in Django. Customize th
 1. https://djangocentral.com/building-a-blog-application-with-django/
 2. https://data-flair.training/blogs/django-blog-application-project/
 
-## Deployment (1 hour)
+## Deployment (2 hours)
 
 * Create a GitHub repository and drag-n-drop your Django project code to the repository
 * Follow the instructions in https://help.pythonanywhere.com/pages/DeployExistingDjangoProject/ to deploy your working Django project.
