@@ -138,6 +138,7 @@ Follow any one of the below and build a blogging website in Django. Customize th
 
 ## Deployment (2 hours)
 
+* [Class Notes](01_Deployment.md)
 * Create a GitHub repository and drag-n-drop your Django project code to the repository
 * Follow the instructions in https://help.pythonanywhere.com/pages/DeployExistingDjangoProject/ to deploy your working Django project.
   * Clone the repository from GitHub to PythonAnywhere
