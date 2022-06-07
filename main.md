@@ -2,7 +2,7 @@ Aum Amriteswaryai Namah
 
 # Full Stack Development
 
-## Introduction
+## Introduction (1 hour)
 * World Wide Web
 * Web 1.0, Web 2.0, Web 3.0
 * Model View Controller (MVC) architecture
@@ -15,7 +15,7 @@ Aum Amriteswaryai Namah
   - Atom / VS Code / SublimeText
   - w3schools / codepen
   
-## HTML - Hyper Text Markup Language (2 hours)
+## HTML - Hyper Text Markup Language (1 hour)
 
 * [Class Notes](01_HTML.md)
 * Resources
