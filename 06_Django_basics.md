@@ -190,7 +190,6 @@ STATIC_URL = 'static/'
 
 STATICFILES_DIRS = [
     BASE_DIR / "static",
-    '/var/www/static/',
 ]
 ```
 5. In the index.html, set the relative path by loading 'static'. This is done by including the following statement immediately after the first line !DOCTYPE html.
