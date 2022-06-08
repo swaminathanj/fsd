@@ -41,7 +41,7 @@ class Degree(models.Model):
     branch = models.CharField(max_length=50)
     
     def __str__(self):
-        return (self.title, self.branch)
+        return self.title + self.branch
 
 class Student(models.Model):
     roll_number = models.CharField(max_length=20)
@@ -51,7 +51,7 @@ class Student(models.Model):
     degree = models.ForeignKey(Degree, on_delete=models.CASCADE)
     
     def __str__(self):
-        return (self.roll_number, self.name, self.degree)
+        return self.roll_number + self.name + self.degree
 ```
 
 For complete list of Django model fields, check https://www.webforefront.com/django/modeldatatypesandvalidation.html.
