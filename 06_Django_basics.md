@@ -180,7 +180,7 @@ You may want to include images, css or java script files to the project. These a
 
 1. Create a new folder under top level first_project by name 'static'.
 2. Place your static files - logo.png, style.css inside the 'static' folder.
-3. In the urls.py, create a variable STATIC_DIR which points to the static folder - under BASE_DIR and TEMPLATE_DIR.
+3. In the **settings.py**, create a variable STATIC_DIR which points to the static folder - under BASE_DIR and TEMPLATE_DIR.
 ```
 BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATE_DIR = os.path.join(BASE_DIR, "templates")
