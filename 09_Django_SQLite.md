@@ -17,7 +17,7 @@ DATABASES = {
 
 Before you create models, perform a migration in case there are unapplied migrations. To know if you have unapplied migrations, activate the virtual environment, navigate to project folder (first_project) and run the server. You will know if there are any unapplied migrations.
 ```
-(myenv) CMD> python manage.py first_project
+(myenv) CMD> python manage.py runserver
 You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
 Run 'python manage.py migrate' to apply them.
 ```
