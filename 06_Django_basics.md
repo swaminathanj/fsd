@@ -201,7 +201,7 @@ STATICFILES_DIRS = [
 ```
 6. Make the following changes to include the static files at the appropriate location.
 ```
-<img src="{% static 'first_app/logo.jpg' %}" alt="Amrita Logo">
+<img src="{% static 'logo.jpg' %}" alt="Amrita Logo">
 
 <link rel="stylesheet" type='text/css' href="{% static 'style.css' %}">
 ```
