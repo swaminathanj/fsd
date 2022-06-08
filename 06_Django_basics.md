@@ -21,6 +21,8 @@ To install on Windows, go to https://docs.djangoproject.com/en/4.0/howto/windows
   * Lib/
   * pyveng.cfg
   * Scripts
+- Come back to the previous folder
+  > cd .. <br>
 - Activate the virtual environment
   > myenv\Scripts\activate <br>
 - Once activated, the venv name should show up in the prompt. i.e. (myenv) 
