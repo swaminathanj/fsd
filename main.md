@@ -8,7 +8,7 @@ Aum Amriteswaryai Namah
 * Model View Controller (MVC) architecture
 * What will be covered
   - Front End: HTML, CSS, JavaScript
-  - Front End frameworks: jQuery, Bootstrap
+  - Front End frameworks: <del>jQuery,</del> Bootstrap, React.js
   - Back End framework: Django
   - Database: SQLite3
 * Choice of Editor
