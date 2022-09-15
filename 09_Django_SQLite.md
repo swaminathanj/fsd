@@ -51,6 +51,7 @@ class Student(models.Model):
     degree = models.ForeignKey(Degree, on_delete=models.CASCADE)
     
     def __str__(self):
+        d = self.degree
         return self.roll_number + self.name  + d.title + d. branch #+ self.degree
 ```
 
