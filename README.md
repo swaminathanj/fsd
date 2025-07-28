@@ -3,4 +3,4 @@
 **Front end**: HTML, CSS, JavaScript, BootStrap
 **Back end**: Django
 
-Start with [HTML](01_HTML.md)
+Go to [Course Page](main.md)
