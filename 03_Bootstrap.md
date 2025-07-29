@@ -1,4 +1,5 @@
 # Bootstrap
+## Bootstrap
 
 * A front-end framework for developing **mobile-first** for websites. 
   - You code goes inside the framework, referred to as inversion of control. Unlike library where you bring the library code into yours.
